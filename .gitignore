@@ -1,2 +1,22 @@
+# Dependencies
 node_modules
-node_modules
+
+# Nuxt build artifacts
+.nuxt
+.output
+dist
+
+# Local configuration
+.claude
+.env
+.env.*
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode
+.idea
+*.sublime-*
