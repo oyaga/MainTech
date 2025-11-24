@@ -12,7 +12,7 @@
     </video>
 
     <!-- Dark Overlay -->
-    <div class="absolute inset-0 bg-black opacity-50"></div>
+    <div class="absolute inset-0 bg-black opacity-20"></div>
 
 
 
