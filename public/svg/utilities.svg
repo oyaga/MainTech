@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Torre de energia/infraestrutura -->
+  <path d="M4 21h16" stroke="currentColor" stroke-width="2"/>
+
+  <!-- Torre principal -->
+  <path d="M12 3v18" stroke="currentColor" stroke-width="2"/>
+  <path d="M8 7h8" stroke="currentColor" stroke-width="2"/>
+  <path d="M7 11h10" stroke="currentColor" stroke-width="2"/>
+  <path d="M6 15h12" stroke="currentColor" stroke-width="2"/>
+
+  <!-- Linhas de conexão -->
+  <line x1="8" y1="7" x2="6" y2="5" stroke="currentColor" stroke-width="1.5"/>
+  <line x1="16" y1="7" x2="18" y2="5" stroke="currentColor" stroke-width="1.5"/>
+
+  <!-- Isoladores -->
+  <circle cx="6" cy="11" r="1" fill="currentColor"/>
+  <circle cx="18" cy="11" r="1" fill="currentColor"/>
+  <circle cx="6" cy="15" r="1" fill="currentColor"/>
+  <circle cx="18" cy="15" r="1" fill="currentColor"/>
+
+  <!-- Símbolo de energia elétrica -->
+  <path d="M10 3l-1.5 3h3l-1.5 3" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.6"/>
+</svg>
