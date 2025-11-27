@@ -8,18 +8,18 @@
         </div>
         <div class="flex flex-col gap-4 md:order-last">
           <div class="inline-block bg-[#FFB300] text-white text-sm font-light tracking-wider rounded-full px-6 py-1 self-start">
-            A Maintech Solutions
+            Maintech Solutions
           </div>
           <h2 class="text-5xl font-bold">
-            Num mundo de variáveis, a precisão não é uma opção. É a única resposta.
+            In a world of variables, precision is not an option. It's the only answer.
           </h2>
           <p class="text-lg font-light">
-            A Maintech Solutions nasceu em 2022 com um propósito claro: oferecer uma nova abordagem ao comissionamento industrial. Vimos a necessidade de um parceiro que combinasse décadas de experiência técnica com a agilidade de uma estrutura moderna e flexível. Em vez de burocracia, oferecemos comunicação direta. Em vez de demoras, tomamos decisões rápidas.
+            Maintech Solutions was born in 2022 with a clear purpose: to offer a new approach to industrial commissioning. We saw the need for a partner that combined decades of technical experience with the agility of a modern and flexible structure. Instead of bureaucracy, we offer direct communication. Instead of delays, we make quick decisions.
             <br/><br/>
-            A nossa força está em integrar perfeitamente a gestão com a execução no terreno, resultando em menos falhas e maior eficiência. Somos os especialistas que o acompanham em cada passo, garantindo que a sua visão se concretiza sem sobressaltos.
+            Our strength lies in seamlessly integrating management with field execution, resulting in fewer failures and greater efficiency. We are the experts who accompany you every step of the way, ensuring your vision materializes without setbacks.
           </p>
           <a href="/about-us" class="bg-[#FFB300] text-white text-sm font-light tracking-wider rounded-full px-8 py-3 self-start flex items-center gap-2">
-            Descubra mais
+            Discover more
             <svg xmlns="http://www.w3.org/2000/svg" width="6" height="11" viewBox="0 0 6 11" fill="none">
               <path d="M1 1L5 5.5L1 10" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>

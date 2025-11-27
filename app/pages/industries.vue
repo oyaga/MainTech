@@ -1,13 +1,13 @@
 <script setup lang="ts">
 useSeoMeta({
-  title: 'Indústrias - Engenharia de Precisão | Maintech Solutions',
-  ogTitle: 'Indústrias - Engenharia de Precisão | Maintech Solutions',
-  description: 'Engenharia de precisão para as indústrias mais exigentes. Soluções operacionais com máxima segurança e fiabilidade para diversos setores.',
-  ogDescription: 'Engenharia de precisão para as indústrias mais exigentes. Soluções operacionais com máxima segurança e fiabilidade para diversos setores.',
+  title: 'Industries - Precision Engineering | Maintech Solutions',
+  ogTitle: 'Industries - Precision Engineering | Maintech Solutions',
+  description: 'Precision engineering for the most demanding industries. Operational solutions with maximum safety and reliability for various sectors.',
+  ogDescription: 'Precision engineering for the most demanding industries. Operational solutions with maximum safety and reliability for various sectors.',
   ogImage: '/imagens/open-graph.webp',
   twitterCard: 'summary_large_image',
-  twitterTitle: 'Indústrias - Engenharia de Precisão | Maintech Solutions',
-  twitterDescription: 'Engenharia de precisão para as indústrias mais exigentes. Soluções operacionais com máxima segurança e fiabilidade para diversos setores.',
+  twitterTitle: 'Industries - Precision Engineering | Maintech Solutions',
+  twitterDescription: 'Precision engineering for the most demanding industries. Operational solutions with maximum safety and reliability for various sectors.',
   twitterImage: '/imagens/open-graph.webp',
 })
 </script>

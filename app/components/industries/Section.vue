@@ -49,7 +49,7 @@
           >
             <div class="inline-flex">
               <span class="bg-[#ffb300] text-white px-8 py-2 rounded-full text-[15px] font-light tracking-[0.3px]">
-                A Maintech Solutions
+                Maintech Solutions
               </span>
             </div>
             <h2 class="text-4xl sm:text-5xl font-bold tracking-[1px]">{{ industry.title }}</h2>
@@ -70,64 +70,64 @@ const sectionRef = ref(null)
 const industries = ref([
   {
     id: 'energia',
-    title: 'Energia',
-    description: 'Somos especialistas no comissionamento de centrais de ciclo combinado e outras unidades de produção de energia. O nosso processo rigoroso de testes e ativação controlada garante arranques rápidos, seguros e otimizados, maximizando a sua capacidade de resposta às exigências do mercado energético.',
+    title: 'Energy',
+    description: 'We are experts in the commissioning of combined cycle plants and other power generation units. Our rigorous testing and controlled activation process ensures fast, safe, and optimized startups, maximizing your ability to respond to energy market demands.',
     image: '/imagens/industries/energia.webp',
-    alt: 'Energia',
+    alt: 'Energy',
     order: 'default',
     isVisible: false
   },
   {
     id: 'quimico-petroquimico',
-    title: 'Químico e Petroquímico',
-    description: 'Temos um profundo conhecimento em comissionamento de Sistemas Instrumentados de Segurança (SIS) e instrumentação para áreas classificadas. Asseguramos que cada malha de controlo e sistema de segurança da sua planta esteja perfeitamente calibrado e validado, garantindo a proteção das suas pessoas e dos seus ativos.',
+    title: 'Chemical and Petrochemical',
+    description: 'We have deep knowledge in the commissioning of Safety Instrumented Systems (SIS) and instrumentation for hazardous areas. We ensure that every control loop and safety system in your plant is perfectly calibrated and validated, ensuring the protection of your people and assets.',
     image: '/imagens/industries/quimico-e-pretroquimico.webp',
-    alt: 'Químico e Petroquímico',
+    alt: 'Chemical and Petrochemical',
     order: 'reversed',
     isVisible: false
   },
   {
     id: 'hidrogenio',
-    title: 'Hidrogénio',
-    description: 'Estamos na vanguarda da transição energética, com experiência na instrumentação precisa que a economia do hidrogénio exige. Desde a produção até ao armazenamento, comissionamos os seus sistemas para garantir um manuseamento seguro, medições exatas e uma operação fiável.',
+    title: 'Hydrogen',
+    description: 'We are at the forefront of the energy transition, with experience in the precise instrumentation that the hydrogen economy demands. From production to storage, we commission your systems to ensure safe handling, accurate measurements, and reliable operation.',
     image: '/imagens/industries/hidrogenio.webp',
-    alt: 'Hidrogénio',
+    alt: 'Hydrogen',
     order: 'default',
     isVisible: false
   },
   {
     id: 'armazenamento-terminais',
-    title: 'Armazenamento e Terminais de Granéis Líquidos',
-    description: 'A nossa experiência abrange desde a calibração de sistemas de medição de fluxo e nível até ao comissionamento de sistemas de automação de terminais (TAS). Garantimos que as suas operações de armazenamento e transferência sejam precisas, seguras e eficientes.',
+    title: 'Storage and Liquid Bulk Terminals',
+    description: 'Our expertise ranges from the calibration of flow and level measurement systems to the commissioning of terminal automation systems (TAS). We ensure your storage and transfer operations are precise, safe, and efficient.',
     image: '/imagens/industries/armazenamento-e-terminais.webp',
-    alt: 'Armazenamento e Terminais de Granéis Líquidos',
+    alt: 'Storage and Liquid Bulk Terminals',
     order: 'reversed',
     isVisible: false
   },
   {
     id: 'gases-industriais',
-    title: 'Gases Industriais',
-    description: 'Realizamos a verificação e comissionamento meticulosos de toda a cadeia de instrumentação, desde sensores de pureza a válvulas de controlo, assegurando que a sua produção e distribuição de gases industriais opere sem falhas e com a máxima segurança.',
+    title: 'Industrial Gases',
+    description: 'We perform meticulous verification and commissioning of the entire instrumentation chain, from purity sensors to control valves, ensuring your industrial gas production and distribution operates flawlessly and with maximum safety.',
     image: '/imagens/industries/gases-industriais.webp',
-    alt: 'Gases Industriais',
+    alt: 'Industrial Gases',
     order: 'default',
     isVisible: false
   },
   {
     id: 'automovel',
-    title: 'Automóvel',
-    description: 'Comissionamos os sistemas de "utilities" e a infraestrutura de controlo que são a espinha dorsal da sua fábrica. Asseguramos que a energia e os fluidos cheguem aos seus robôs e linhas de montagem com a fiabilidade necessária para evitar paragens de produção dispendiosas.',
+    title: 'Automotive',
+    description: 'We commission the utility systems and control infrastructure that are the backbone of your factory. We ensure energy and fluids reach your robots and assembly lines with the reliability needed to avoid costly production stoppages.',
     image: '/imagens/industries/automovel.webp',
-    alt: 'Automóvel',
+    alt: 'Automotive',
     order: 'reversed',
     isVisible: false
   },
   {
     id: 'utilities-infraestruturas',
-    title: 'Utilities e Infraestruturas',
-    description: 'Somos especialistas no comissionamento de sistemas de proteção e controlo em subestações de média e alta tensão. Garantimos que os seus sistemas respondam corretamente a qualquer evento na rede, protegendo os seus ativos e assegurando a continuidade do fornecimento de energia.',
+    title: 'Utilities and Infrastructure',
+    description: 'We are specialists in the commissioning of protection and control systems in medium and high voltage substations. We ensure your systems respond correctly to any grid event, protecting your assets and ensuring power supply continuity.',
     image: '/imagens/industries/utilities-e-infraestruturas.webp',
-    alt: 'Utilities e Infraestruturas',
+    alt: 'Utilities and Infrastructure',
     order: 'default',
     isVisible: false
   }

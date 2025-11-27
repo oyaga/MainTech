@@ -1,13 +1,13 @@
 <script setup lang="ts">
 useSeoMeta({
-  title: 'Sobre Nós - Engenharia de Precisão | Maintech Solutions',
-  ogTitle: 'Sobre Nós - Engenharia de Precisão | Maintech Solutions',
-  description: 'Engenharia de precisão para visões ambiciosas. Construímos a base técnica do seu projeto com soluções de comissionamento robustas e confiáveis.',
-  ogDescription: 'Engenharia de precisão para visões ambiciosas. Construímos a base técnica do seu projeto com soluções de comissionamento robustas e confiáveis.',
+  title: 'About Us - Precision Engineering | Maintech Solutions',
+  ogTitle: 'About Us - Precision Engineering | Maintech Solutions',
+  description: 'Precision engineering for ambitious visions. We build the technical foundation of your project with robust and reliable commissioning solutions.',
+  ogDescription: 'Precision engineering for ambitious visions. We build the technical foundation of your project with robust and reliable commissioning solutions.',
   ogImage: '/imagens/open-graph.webp',
   twitterCard: 'summary_large_image',
-  twitterTitle: 'Sobre Nós - Engenharia de Precisão | Maintech Solutions',
-  twitterDescription: 'Engenharia de precisão para visões ambiciosas. Construímos a base técnica do seu projeto com soluções de comissionamento robustas e confiáveis.',
+  twitterTitle: 'About Us - Precision Engineering | Maintech Solutions',
+  twitterDescription: 'Precision engineering for ambitious visions. We build the technical foundation of your project with robust and reliable commissioning solutions.',
   twitterImage: '/imagens/open-graph.webp',
 })
 </script>

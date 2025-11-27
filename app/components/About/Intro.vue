@@ -8,15 +8,15 @@
         </div>
         <div class="flex flex-col gap-[30px]">
           <div class="inline-block bg-[#FFB300] text-white text-sm font-medium tracking-wider rounded-full px-5 py-2 self-start">
-            Quem somos
+            Who we are
           </div>
           <h2 class="text-3xl font-medium tracking-wider">
-            Da complexidade à eficiência: entregamos resultados impecáveis
+            From complexity to efficiency: we deliver flawless results
           </h2>
           <p class="text-lg font-light">
-            A Maintech Solutions & Engineering nasceu para transformar complexidade em eficiência. Fundada em 2022, surgiu com a missão de oferecer soluções inovadoras e seguras em comissionamento, instrumentação e automação industrial.
+            Maintech Solutions & Engineering was born to transform complexity into efficiency. Founded in 2022, it emerged with the mission to offer innovative and safe solutions in commissioning, instrumentation, and industrial automation.
             <br/><br/>
-            Hoje, atuamos em toda a região do Benelux e da Península Ibérica, levando excelência técnica, inovação e um compromisso inabalável com a segurança e a confiabilidade de cada projeto.
+            Today, we operate throughout the Benelux region and the Iberian Peninsula, bringing technical excellence, innovation, and an unwavering commitment to the safety and reliability of every project.
           </p>
         </div>
       </div>

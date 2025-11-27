@@ -1,10 +1,10 @@
 <template>
   <section ref="sectionRef" class="bg-[#1A1201] text-white py-20">
     <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
-      <h2 class="text-5xl font-light mb-6">Dominamos os setores mais exigentes da indústria.</h2>
+      <h2 class="text-5xl font-light mb-6">We master the most demanding industrial sectors.</h2>
       <p class="text-xl font-medium mb-12 max-w-4xl mx-auto">
-        A nossa agilidade e conhecimento técnico foram testados e aprovados nos ambientes industriais mais exigentes.
-        Atuamos com confiança e especialização em toda a região do Benelux e na Península Ibérica, nos seguintes setores.
+        Our agility and technical knowledge have been tested and approved in the most demanding industrial environments.
+        We operate with confidence and expertise throughout the Benelux region and the Iberian Peninsula, in the following sectors.
       </p>
 
       <!-- Carousel Container -->
@@ -15,9 +15,9 @@
             class="flex transition-transform duration-700 ease-in-out"
             :style="{ transform: `translateX(-${currentSlide * 100}%)` }"
           >
-            <!-- Slide 1: Primeira página de cards -->
+            <!-- Slide 1: First page of cards -->
             <div class="min-w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-2">
-              <!-- Card 1: Energia -->
+              <!-- Card 1: Energy -->
               <div
                 class="relative bg-gradient-to-br from-[#0D0A05] to-[#1A1201] rounded-2xl p-6 flex flex-col gap-5 border border-[#2A2318] overflow-hidden transition-all duration-500 hover:border-[#FFB300] hover:shadow-2xl hover:shadow-[#FFB300]/20 hover:-translate-y-2 group opacity-0 translate-y-8"
                 :class="{ 'opacity-100 translate-y-0': isVisible }"
@@ -31,46 +31,46 @@
                     <div class="w-2 h-2 bg-[#00FF00] rounded-full"></div>
                     <div class="absolute inset-0 w-2 h-2 bg-[#00FF00] rounded-full animate-ping opacity-75"></div>
                   </div>
-                  <span class="text-[#00FF00] text-xs font-bold tracking-wider">DISPONÍVEL</span>
+                  <span class="text-[#00FF00] text-xs font-bold tracking-wider">AVAILABLE</span>
                 </div>
 
                 <div class="w-16 h-16 bg-[#2A2318] rounded-2xl flex items-center justify-center p-3 transition-all duration-300 group-hover:bg-[#FFB300] group-hover:scale-110 group-hover:rotate-3 z-10">
-                  <img src="/svg/energy.svg" alt="Energia" class="w-full h-full object-contain brightness-0 invert transition-transform duration-300 group-hover:scale-110">
+                  <img src="/svg/energy.svg" alt="Energy" class="w-full h-full object-contain brightness-0 invert transition-transform duration-300 group-hover:scale-110">
                 </div>
 
-                <h3 class="text-3xl font-bold tracking-tight z-10 transition-colors duration-300 group-hover:text-[#FFB300]">ENERGIA</h3>
+                <h3 class="text-3xl font-bold tracking-tight z-10 transition-colors duration-300 group-hover:text-[#FFB300]">ENERGY</h3>
 
                 <p class="text-gray-400 text-sm leading-relaxed z-10 transition-colors duration-300 group-hover:text-gray-300">
-                  Comissionamento e start-up de usinas CCGT garantindo confiabilidade e operação segura.
+                  Commissioning and start-up of CCGT plants ensuring reliability and safe operation.
                 </p>
 
                 <ul class="space-y-2 text-sm z-10">
                   <li class="flex items-start gap-2 transition-transform duration-300 group-hover:translate-x-1">
                     <span class="text-[#FFB300] mt-1">•</span>
-                    <span>Usinas CCGT</span>
+                    <span>CCGT Plants</span>
                   </li>
                   <li class="flex items-start gap-2 transition-transform duration-300 group-hover:translate-x-1" style="transition-delay: 50ms">
                     <span class="text-[#FFB300] mt-1">•</span>
-                    <span>Confiabilidade</span>
+                    <span>Reliability</span>
                   </li>
                   <li class="flex items-start gap-2 transition-transform duration-300 group-hover:translate-x-1" style="transition-delay: 100ms">
                     <span class="text-[#FFB300] mt-1">•</span>
-                    <span>Operação Segura</span>
+                    <span>Safe Operation</span>
                   </li>
                 </ul>
 
                 <div class="flex flex-wrap gap-2 z-10">
-                  <span class="px-4 py-1 border border-[#FFB300] text-[#FFB300] rounded-full text-xs font-semibold tracking-wider transition-all duration-300 hover:bg-[#FFB300] hover:text-[#1A1201]">COMISSIONAMENTO</span>
+                  <span class="px-4 py-1 border border-[#FFB300] text-[#FFB300] rounded-full text-xs font-semibold tracking-wider transition-all duration-300 hover:bg-[#FFB300] hover:text-[#1A1201]">COMMISSIONING</span>
                   <span class="px-4 py-1 border border-[#FFB300] text-[#FFB300] rounded-full text-xs font-semibold tracking-wider transition-all duration-300 hover:bg-[#FFB300] hover:text-[#1A1201]">START-UP</span>
                 </div>
 
                 <div class="mt-auto pt-4 border-t border-[#2A2318] z-10 transition-colors duration-300 group-hover:border-[#FFB300]/30">
-                  <p class="text-[#FFB300] text-xs font-bold mb-1">IDEAL PARA:</p>
-                  <p class="text-gray-400 text-xs italic transition-colors duration-300 group-hover:text-gray-300">Empresas do setor energético</p>
+                  <p class="text-[#FFB300] text-xs font-bold mb-1">IDEAL FOR:</p>
+                  <p class="text-gray-400 text-xs italic transition-colors duration-300 group-hover:text-gray-300">Energy sector companies</p>
                 </div>
               </div>
 
-              <!-- Card 2: Químico e Petroquímico -->
+              <!-- Card 2: Chemical & Petrochemical -->
               <div
                 class="relative bg-gradient-to-br from-[#0D0A05] to-[#1A1201] rounded-2xl p-6 flex flex-col gap-5 border border-[#2A2318] overflow-hidden transition-all duration-500 hover:border-[#FFB300] hover:shadow-2xl hover:shadow-[#FFB300]/20 hover:-translate-y-2 group opacity-0 translate-y-8"
                 :class="{ 'opacity-100 translate-y-0': isVisible }"
@@ -85,23 +85,23 @@
                     <div class="w-2 h-2 bg-[#00FF00] rounded-full"></div>
                     <div class="absolute inset-0 w-2 h-2 bg-[#00FF00] rounded-full animate-ping opacity-75"></div>
                   </div>
-                  <span class="text-[#00FF00] text-xs font-bold tracking-wider">DISPONÍVEL</span>
+                  <span class="text-[#00FF00] text-xs font-bold tracking-wider">AVAILABLE</span>
                 </div>
 
                 <div class="w-16 h-16 bg-[#2A2318] rounded-2xl flex items-center justify-center p-3 transition-all duration-300 group-hover:bg-[#FFB300] group-hover:scale-110 group-hover:rotate-3 z-10">
-                  <img src="/svg/chemicals.svg" alt="Químico" class="w-full h-full object-contain brightness-0 invert transition-transform duration-300 group-hover:scale-110">
+                  <img src="/svg/chemicals.svg" alt="Chemical" class="w-full h-full object-contain brightness-0 invert transition-transform duration-300 group-hover:scale-110">
                 </div>
 
-                <h3 class="text-2xl font-bold tracking-tight z-10 transition-colors duration-300 group-hover:text-[#FFB300]">QUÍMICO & PETROQUÍMICO</h3>
+                <h3 class="text-2xl font-bold tracking-tight z-10 transition-colors duration-300 group-hover:text-[#FFB300]">CHEMICAL & PETROCHEMICAL</h3>
 
                 <p class="text-gray-400 text-sm leading-relaxed z-10 transition-colors duration-300 group-hover:text-gray-300">
-                  Calibração e loop check em unidades químicas, com foco em conformidade e rastreabilidade.
+                  Calibration and loop check in chemical units, focusing on compliance and traceability.
                 </p>
 
                 <ul class="space-y-2 text-sm z-10">
                   <li class="flex items-start gap-2 transition-transform duration-300 group-hover:translate-x-1">
                     <span class="text-[#FFB300] mt-1">•</span>
-                    <span>Calibração</span>
+                    <span>Calibration</span>
                   </li>
                   <li class="flex items-start gap-2 transition-transform duration-300 group-hover:translate-x-1" style="transition-delay: 50ms">
                     <span class="text-[#FFB300] mt-1">•</span>
@@ -109,22 +109,22 @@
                   </li>
                   <li class="flex items-start gap-2 transition-transform duration-300 group-hover:translate-x-1" style="transition-delay: 100ms">
                     <span class="text-[#FFB300] mt-1">•</span>
-                    <span>Conformidade</span>
+                    <span>Compliance</span>
                   </li>
                 </ul>
 
                 <div class="flex flex-wrap gap-2 z-10">
-                  <span class="px-4 py-1 border border-[#FFB300] text-[#FFB300] rounded-full text-xs font-semibold tracking-wider transition-all duration-300 hover:bg-[#FFB300] hover:text-[#1A1201]">QUÍMICA</span>
-                  <span class="px-4 py-1 border border-[#FFB300] text-[#FFB300] rounded-full text-xs font-semibold tracking-wider transition-all duration-300 hover:bg-[#FFB300] hover:text-[#1A1201]">PETROQUÍMICA</span>
+                  <span class="px-4 py-1 border border-[#FFB300] text-[#FFB300] rounded-full text-xs font-semibold tracking-wider transition-all duration-300 hover:bg-[#FFB300] hover:text-[#1A1201]">CHEMICAL</span>
+                  <span class="px-4 py-1 border border-[#FFB300] text-[#FFB300] rounded-full text-xs font-semibold tracking-wider transition-all duration-300 hover:bg-[#FFB300] hover:text-[#1A1201]">PETROCHEMICAL</span>
                 </div>
 
                 <div class="mt-auto pt-4 border-t border-[#2A2318] z-10 transition-colors duration-300 group-hover:border-[#FFB300]/30">
-                  <p class="text-[#FFB300] text-xs font-bold mb-1">IDEAL PARA:</p>
-                  <p class="text-gray-400 text-xs italic transition-colors duration-300 group-hover:text-gray-300">Indústrias químicas e petroquímicas</p>
+                  <p class="text-[#FFB300] text-xs font-bold mb-1">IDEAL FOR:</p>
+                  <p class="text-gray-400 text-xs italic transition-colors duration-300 group-hover:text-gray-300">Chemical and petrochemical industries</p>
                 </div>
               </div>
 
-              <!-- Card 3: Hidrogénio -->
+              <!-- Card 3: Hydrogen -->
               <div
                 class="relative bg-gradient-to-br from-[#0D0A05] to-[#1A1201] rounded-2xl p-6 flex flex-col gap-5 border border-[#2A2318] overflow-hidden transition-all duration-500 hover:border-[#FFB300] hover:shadow-2xl hover:shadow-[#FFB300]/20 hover:-translate-y-2 group opacity-0 translate-y-8"
                 :class="{ 'opacity-100 translate-y-0': isVisible }"
@@ -139,50 +139,50 @@
                     <div class="w-2 h-2 bg-[#00FF00] rounded-full"></div>
                     <div class="absolute inset-0 w-2 h-2 bg-[#00FF00] rounded-full animate-ping opacity-75"></div>
                   </div>
-                  <span class="text-[#00FF00] text-xs font-bold tracking-wider">DISPONÍVEL</span>
+                  <span class="text-[#00FF00] text-xs font-bold tracking-wider">AVAILABLE</span>
                 </div>
 
                 <div class="w-16 h-16 bg-[#2A2318] rounded-2xl flex items-center justify-center p-3 transition-all duration-300 group-hover:bg-[#FFB300] group-hover:scale-110 group-hover:rotate-3 z-10">
-                  <img src="/svg/hydrogen.svg" alt="Hidrogénio" class="w-full h-full object-contain brightness-0 invert transition-transform duration-300 group-hover:scale-110">
+                  <img src="/svg/hydrogen.svg" alt="Hydrogen" class="w-full h-full object-contain brightness-0 invert transition-transform duration-300 group-hover:scale-110">
                 </div>
 
-                <h3 class="text-3xl font-bold tracking-tight z-10 transition-colors duration-300 group-hover:text-[#FFB300]">HIDROGÉNIO</h3>
+                <h3 class="text-3xl font-bold tracking-tight z-10 transition-colors duration-300 group-hover:text-[#FFB300]">HYDROGEN</h3>
 
                 <p class="text-gray-400 text-sm leading-relaxed z-10 transition-colors duration-300 group-hover:text-gray-300">
-                  Soluções especializadas em projetos de produção, armazenamento e distribuição de hidrogénio verde.
+                  Specialized solutions in green hydrogen production, storage, and distribution projects.
                 </p>
 
                 <ul class="space-y-2 text-sm z-10">
                   <li class="flex items-start gap-2 transition-transform duration-300 group-hover:translate-x-1">
                     <span class="text-[#FFB300] mt-1">•</span>
-                    <span>Hidrogénio Verde</span>
+                    <span>Green Hydrogen</span>
                   </li>
                   <li class="flex items-start gap-2 transition-transform duration-300 group-hover:translate-x-1" style="transition-delay: 50ms">
                     <span class="text-[#FFB300] mt-1">•</span>
-                    <span>Produção & Armazenamento</span>
+                    <span>Production & Storage</span>
                   </li>
                   <li class="flex items-start gap-2 transition-transform duration-300 group-hover:translate-x-1" style="transition-delay: 100ms">
                     <span class="text-[#FFB300] mt-1">•</span>
-                    <span>Tecnologia Limpa</span>
+                    <span>Clean Technology</span>
                   </li>
                 </ul>
 
                 <div class="flex flex-wrap gap-2 z-10">
-                  <span class="px-4 py-1 border border-[#FFB300] text-[#FFB300] rounded-full text-xs font-semibold tracking-wider transition-all duration-300 hover:bg-[#FFB300] hover:text-[#1A1201]">H2 VERDE</span>
-                  <span class="px-4 py-1 border border-[#FFB300] text-[#FFB300] rounded-full text-xs font-semibold tracking-wider transition-all duration-300 hover:bg-[#FFB300] hover:text-[#1A1201]">ENERGIA LIMPA</span>
+                  <span class="px-4 py-1 border border-[#FFB300] text-[#FFB300] rounded-full text-xs font-semibold tracking-wider transition-all duration-300 hover:bg-[#FFB300] hover:text-[#1A1201]">GREEN H2</span>
+                  <span class="px-4 py-1 border border-[#FFB300] text-[#FFB300] rounded-full text-xs font-semibold tracking-wider transition-all duration-300 hover:bg-[#FFB300] hover:text-[#1A1201]">CLEAN ENERGY</span>
                 </div>
 
                 <div class="mt-auto pt-4 border-t border-[#2A2318] z-10 transition-colors duration-300 group-hover:border-[#FFB300]/30">
-                  <p class="text-[#FFB300] text-xs font-bold mb-1">IDEAL PARA:</p>
-                  <p class="text-gray-400 text-xs italic transition-colors duration-300 group-hover:text-gray-300">Projetos de energia renovável</p>
+                  <p class="text-[#FFB300] text-xs font-bold mb-1">IDEAL FOR:</p>
+                  <p class="text-gray-400 text-xs italic transition-colors duration-300 group-hover:text-gray-300">Renewable energy projects</p>
                 </div>
               </div>
 
             </div>
 
-            <!-- Slide 2: Segunda página de cards -->
+            <!-- Slide 2: Second page of cards -->
             <div class="min-w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-2">
-              <!-- Card 4: Armazenamento e Terminais -->
+              <!-- Card 4: Storage & Terminals -->
               <div
                 class="relative bg-gradient-to-br from-[#0D0A05] to-[#1A1201] rounded-2xl p-6 flex flex-col gap-5 border border-[#2A2318] overflow-hidden transition-all duration-500 hover:border-[#FFB300] hover:shadow-2xl hover:shadow-[#FFB300]/20 hover:-translate-y-2 group"
               >
@@ -195,45 +195,45 @@
                     <div class="w-2 h-2 bg-[#00FF00] rounded-full"></div>
                     <div class="absolute inset-0 w-2 h-2 bg-[#00FF00] rounded-full animate-ping opacity-75"></div>
                   </div>
-                  <span class="text-[#00FF00] text-xs font-bold tracking-wider">DISPONÍVEL</span>
+                  <span class="text-[#00FF00] text-xs font-bold tracking-wider">AVAILABLE</span>
                 </div>
 
                 <div class="w-16 h-16 bg-[#2A2318] rounded-2xl flex items-center justify-center p-3 transition-all duration-300 group-hover:bg-[#FFB300] group-hover:scale-110 group-hover:rotate-3 z-10">
-                  <img src="/svg/Storage.svg" alt="Armazenamento" class="w-full h-full object-contain brightness-0 invert transition-transform duration-300 group-hover:scale-110">
+                  <img src="/svg/Storage.svg" alt="Storage" class="w-full h-full object-contain brightness-0 invert transition-transform duration-300 group-hover:scale-110">
                 </div>
 
-                <h3 class="text-xl font-bold tracking-tight z-10 transition-colors duration-300 group-hover:text-[#FFB300]">ARMAZENAMENTO & TERMINAIS</h3>
+                <h3 class="text-xl font-bold tracking-tight z-10 transition-colors duration-300 group-hover:text-[#FFB300]">STORAGE & TERMINALS</h3>
 
                 <p class="text-gray-400 text-sm leading-relaxed z-10 transition-colors duration-300 group-hover:text-gray-300">
-                  Pré-comissionamento e start-up de terminais de granéis líquidos, assegurando eficiência operacional.
+                  Pre-commissioning and start-up of liquid bulk terminals, ensuring operational efficiency.
                 </p>
 
                 <ul class="space-y-2 text-sm z-10">
                   <li class="flex items-start gap-2 transition-transform duration-300 group-hover:translate-x-1">
                     <span class="text-[#FFB300] mt-1">•</span>
-                    <span>Pré-comissionamento</span>
+                    <span>Pre-commissioning</span>
                   </li>
                   <li class="flex items-start gap-2 transition-transform duration-300 group-hover:translate-x-1" style="transition-delay: 50ms">
                     <span class="text-[#FFB300] mt-1">•</span>
-                    <span>Terminais Líquidos</span>
+                    <span>Liquid Terminals</span>
                   </li>
                   <li class="flex items-start gap-2 transition-transform duration-300 group-hover:translate-x-1" style="transition-delay: 100ms">
                     <span class="text-[#FFB300] mt-1">•</span>
-                    <span>Eficiência Operacional</span>
+                    <span>Operational Efficiency</span>
                   </li>
                 </ul>
 
                 <div class="flex flex-wrap gap-2 z-10">
                   <span class="px-4 py-1 border border-[#FFB300] text-[#FFB300] rounded-full text-xs font-semibold tracking-wider transition-all duration-300 hover:bg-[#FFB300] hover:text-[#1A1201]">TERMINAL</span>
-                  <span class="px-4 py-1 border border-[#FFB300] text-[#FFB300] rounded-full text-xs font-semibold tracking-wider transition-all duration-300 hover:bg-[#FFB300] hover:text-[#1A1201]">LOGÍSTICA</span>
+                  <span class="px-4 py-1 border border-[#FFB300] text-[#FFB300] rounded-full text-xs font-semibold tracking-wider transition-all duration-300 hover:bg-[#FFB300] hover:text-[#1A1201]">LOGISTICS</span>
                 </div>
 
                 <div class="mt-auto pt-4 border-t border-[#2A2318] z-10 transition-colors duration-300 group-hover:border-[#FFB300]/30">
-                  <p class="text-[#FFB300] text-xs font-bold mb-1">IDEAL PARA:</p>
-                  <p class="text-gray-400 text-xs italic transition-colors duration-300 group-hover:text-gray-300">Empresas de armazenamento e logística</p>
+                  <p class="text-[#FFB300] text-xs font-bold mb-1">IDEAL FOR:</p>
+                  <p class="text-gray-400 text-xs italic transition-colors duration-300 group-hover:text-gray-300">Storage and logistics companies</p>
                 </div>
               </div>
-              <!-- Card 5: Gases Industriais -->
+              <!-- Card 5: Industrial Gases -->
               <div
                 class="relative bg-gradient-to-br from-[#0D0A05] to-[#1A1201] rounded-2xl p-6 flex flex-col gap-5 border border-[#2A2318] overflow-hidden transition-all duration-500 hover:border-[#FFB300] hover:shadow-2xl hover:shadow-[#FFB300]/20 hover:-translate-y-2 group"
               >
@@ -246,17 +246,17 @@
                     <div class="w-2 h-2 bg-[#00FF00] rounded-full"></div>
                     <div class="absolute inset-0 w-2 h-2 bg-[#00FF00] rounded-full animate-ping opacity-75"></div>
                   </div>
-                  <span class="text-[#00FF00] text-xs font-bold tracking-wider">DISPONÍVEL</span>
+                  <span class="text-[#00FF00] text-xs font-bold tracking-wider">AVAILABLE</span>
                 </div>
 
                 <div class="w-16 h-16 bg-[#2A2318] rounded-2xl flex items-center justify-center p-3 transition-all duration-300 group-hover:bg-[#FFB300] group-hover:scale-110 group-hover:rotate-3 z-10">
-                  <img src="/svg/industrial-gases.svg" alt="Gases Industriais" class="w-full h-full object-contain brightness-0 invert transition-transform duration-300 group-hover:scale-110">
+                  <img src="/svg/industrial-gases.svg" alt="Industrial Gases" class="w-full h-full object-contain brightness-0 invert transition-transform duration-300 group-hover:scale-110">
                 </div>
 
-                <h3 class="text-3xl font-bold tracking-tight z-10 transition-colors duration-300 group-hover:text-[#FFB300]">GASES INDUSTRIAIS</h3>
+                <h3 class="text-3xl font-bold tracking-tight z-10 transition-colors duration-300 group-hover:text-[#FFB300]">INDUSTRIAL GASES</h3>
 
                 <p class="text-gray-400 text-sm leading-relaxed z-10 transition-colors duration-300 group-hover:text-gray-300">
-                  FAT, SAT e suporte em projetos de distribuição e tratamento de gases industriais.
+                  FAT, SAT, and support in industrial gas distribution and treatment projects.
                 </p>
 
                 <ul class="space-y-2 text-sm z-10">
@@ -266,11 +266,11 @@
                   </li>
                   <li class="flex items-start gap-2 transition-transform duration-300 group-hover:translate-x-1" style="transition-delay: 50ms">
                     <span class="text-[#FFB300] mt-1">•</span>
-                    <span>Distribuição</span>
+                    <span>Distribution</span>
                   </li>
                   <li class="flex items-start gap-2 transition-transform duration-300 group-hover:translate-x-1" style="transition-delay: 100ms">
                     <span class="text-[#FFB300] mt-1">•</span>
-                    <span>Tratamento de Gases</span>
+                    <span>Gas Treatment</span>
                   </li>
                 </ul>
 
@@ -280,12 +280,12 @@
                 </div>
 
                 <div class="mt-auto pt-4 border-t border-[#2A2318] z-10 transition-colors duration-300 group-hover:border-[#FFB300]/30">
-                  <p class="text-[#FFB300] text-xs font-bold mb-1">IDEAL PARA:</p>
-                  <p class="text-gray-400 text-xs italic transition-colors duration-300 group-hover:text-gray-300">Empresas de gases industriais</p>
+                  <p class="text-[#FFB300] text-xs font-bold mb-1">IDEAL FOR:</p>
+                  <p class="text-gray-400 text-xs italic transition-colors duration-300 group-hover:text-gray-300">Industrial gas companies</p>
                 </div>
               </div>
 
-              <!-- Card 6: Automóvel -->
+              <!-- Card 6: Automotive -->
               <div
                 class="relative bg-gradient-to-br from-[#0D0A05] to-[#1A1201] rounded-2xl p-6 flex flex-col gap-5 border border-[#2A2318] overflow-hidden transition-all duration-500 hover:border-[#FFB300] hover:shadow-2xl hover:shadow-[#FFB300]/20 hover:-translate-y-2 group"
               >
@@ -298,50 +298,50 @@
                     <div class="w-2 h-2 bg-[#00FF00] rounded-full"></div>
                     <div class="absolute inset-0 w-2 h-2 bg-[#00FF00] rounded-full animate-ping opacity-75"></div>
                   </div>
-                  <span class="text-[#00FF00] text-xs font-bold tracking-wider">DISPONÍVEL</span>
+                  <span class="text-[#00FF00] text-xs font-bold tracking-wider">AVAILABLE</span>
                 </div>
 
                 <div class="w-16 h-16 bg-[#2A2318] rounded-2xl flex items-center justify-center p-3 transition-all duration-300 group-hover:bg-[#FFB300] group-hover:scale-110 group-hover:rotate-3 z-10">
-                  <img src="/svg/automotive.svg" alt="Automóvel" class="w-full h-full object-contain brightness-0 invert transition-transform duration-300 group-hover:scale-110">
+                  <img src="/svg/automotive.svg" alt="Automotive" class="w-full h-full object-contain brightness-0 invert transition-transform duration-300 group-hover:scale-110">
                 </div>
 
-                <h3 class="text-3xl font-bold tracking-tight z-10 transition-colors duration-300 group-hover:text-[#FFB300]">AUTOMÓVEL</h3>
+                <h3 class="text-3xl font-bold tracking-tight z-10 transition-colors duration-300 group-hover:text-[#FFB300]">AUTOMOTIVE</h3>
 
                 <p class="text-gray-400 text-sm leading-relaxed z-10 transition-colors duration-300 group-hover:text-gray-300">
-                  Automação e controlo de linhas de produção automotiva com alta precisão e eficiência.
+                  Automation and control of automotive production lines with high precision and efficiency.
                 </p>
 
                 <ul class="space-y-2 text-sm z-10">
                   <li class="flex items-start gap-2 transition-transform duration-300 group-hover:translate-x-1">
                     <span class="text-[#FFB300] mt-1">•</span>
-                    <span>Linhas de Produção</span>
+                    <span>Production Lines</span>
                   </li>
                   <li class="flex items-start gap-2 transition-transform duration-300 group-hover:translate-x-1" style="transition-delay: 50ms">
                     <span class="text-[#FFB300] mt-1">•</span>
-                    <span>Automação Industrial</span>
+                    <span>Industrial Automation</span>
                   </li>
                   <li class="flex items-start gap-2 transition-transform duration-300 group-hover:translate-x-1" style="transition-delay: 100ms">
                     <span class="text-[#FFB300] mt-1">•</span>
-                    <span>Controlo de Qualidade</span>
+                    <span>Quality Control</span>
                   </li>
                 </ul>
 
                 <div class="flex flex-wrap gap-2 z-10">
-                  <span class="px-4 py-1 border border-[#FFB300] text-[#FFB300] rounded-full text-xs font-semibold tracking-wider transition-all duration-300 hover:bg-[#FFB300] hover:text-[#1A1201]">AUTOMAÇÃO</span>
-                  <span class="px-4 py-1 border border-[#FFB300] text-[#FFB300] rounded-full text-xs font-semibold tracking-wider transition-all duration-300 hover:bg-[#FFB300] hover:text-[#1A1201]">PRODUÇÃO</span>
+                  <span class="px-4 py-1 border border-[#FFB300] text-[#FFB300] rounded-full text-xs font-semibold tracking-wider transition-all duration-300 hover:bg-[#FFB300] hover:text-[#1A1201]">AUTOMATION</span>
+                  <span class="px-4 py-1 border border-[#FFB300] text-[#FFB300] rounded-full text-xs font-semibold tracking-wider transition-all duration-300 hover:bg-[#FFB300] hover:text-[#1A1201]">PRODUCTION</span>
                 </div>
 
                 <div class="mt-auto pt-4 border-t border-[#2A2318] z-10 transition-colors duration-300 group-hover:border-[#FFB300]/30">
-                  <p class="text-[#FFB300] text-xs font-bold mb-1">IDEAL PARA:</p>
-                  <p class="text-gray-400 text-xs italic transition-colors duration-300 group-hover:text-gray-300">Indústria automotiva</p>
+                  <p class="text-[#FFB300] text-xs font-bold mb-1">IDEAL FOR:</p>
+                  <p class="text-gray-400 text-xs italic transition-colors duration-300 group-hover:text-gray-300">Automotive industry</p>
                 </div>
               </div>
 
             </div>
 
-            <!-- Slide 3: Terceira página de cards -->
+            <!-- Slide 3: Third page of cards -->
             <div class="min-w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-2">
-              <!-- Card 7: Utilities e Infraestruturas -->
+              <!-- Card 7: Utilities & Infrastructure -->
               <div
                 class="relative bg-gradient-to-br from-[#0D0A05] to-[#1A1201] rounded-2xl p-6 flex flex-col gap-5 border border-[#2A2318] overflow-hidden transition-all duration-500 hover:border-[#FFB300] hover:shadow-2xl hover:shadow-[#FFB300]/20 hover:-translate-y-2 group"
               >
@@ -354,46 +354,46 @@
                     <div class="w-2 h-2 bg-[#00FF00] rounded-full"></div>
                     <div class="absolute inset-0 w-2 h-2 bg-[#00FF00] rounded-full animate-ping opacity-75"></div>
                   </div>
-                  <span class="text-[#00FF00] text-xs font-bold tracking-wider">DISPONÍVEL</span>
+                  <span class="text-[#00FF00] text-xs font-bold tracking-wider">AVAILABLE</span>
                 </div>
 
                 <div class="w-16 h-16 bg-[#2A2318] rounded-2xl flex items-center justify-center p-3 transition-all duration-300 group-hover:bg-[#FFB300] group-hover:scale-110 group-hover:rotate-3 z-10">
                   <img src="/svg/utilities.svg" alt="Utilities" class="w-full h-full object-contain brightness-0 invert transition-transform duration-300 group-hover:scale-110">
                 </div>
 
-                <h3 class="text-2xl font-bold tracking-tight z-10 transition-colors duration-300 group-hover:text-[#FFB300]">UTILITIES & INFRAESTRUTURAS</h3>
+                <h3 class="text-2xl font-bold tracking-tight z-10 transition-colors duration-300 group-hover:text-[#FFB300]">UTILITIES & INFRASTRUCTURE</h3>
 
                 <p class="text-gray-400 text-sm leading-relaxed z-10 transition-colors duration-300 group-hover:text-gray-300">
-                  Gestão e otimização de sistemas de utilities e infraestruturas críticas industriais.
+                  Management and optimization of utility systems and critical industrial infrastructures.
                 </p>
 
                 <ul class="space-y-2 text-sm z-10">
                   <li class="flex items-start gap-2 transition-transform duration-300 group-hover:translate-x-1">
                     <span class="text-[#FFB300] mt-1">•</span>
-                    <span>Sistemas de Utilities</span>
+                    <span>Utility Systems</span>
                   </li>
                   <li class="flex items-start gap-2 transition-transform duration-300 group-hover:translate-x-1" style="transition-delay: 50ms">
                     <span class="text-[#FFB300] mt-1">•</span>
-                    <span>Infraestrutura Crítica</span>
+                    <span>Critical Infrastructure</span>
                   </li>
                   <li class="flex items-start gap-2 transition-transform duration-300 group-hover:translate-x-1" style="transition-delay: 100ms">
                     <span class="text-[#FFB300] mt-1">•</span>
-                    <span>Otimização de Processos</span>
+                    <span>Process Optimization</span>
                   </li>
                 </ul>
 
                 <div class="flex flex-wrap gap-2 z-10">
                   <span class="px-4 py-1 border border-[#FFB300] text-[#FFB300] rounded-full text-xs font-semibold tracking-wider transition-all duration-300 hover:bg-[#FFB300] hover:text-[#1A1201]">UTILITIES</span>
-                  <span class="px-4 py-1 border border-[#FFB300] text-[#FFB300] rounded-full text-xs font-semibold tracking-wider transition-all duration-300 hover:bg-[#FFB300] hover:text-[#1A1201]">INFRAESTRUTURA</span>
+                  <span class="px-4 py-1 border border-[#FFB300] text-[#FFB300] rounded-full text-xs font-semibold tracking-wider transition-all duration-300 hover:bg-[#FFB300] hover:text-[#1A1201]">INFRASTRUCTURE</span>
                 </div>
 
                 <div class="mt-auto pt-4 border-t border-[#2A2318] z-10 transition-colors duration-300 group-hover:border-[#FFB300]/30">
-                  <p class="text-[#FFB300] text-xs font-bold mb-1">IDEAL PARA:</p>
-                  <p class="text-gray-400 text-xs italic transition-colors duration-300 group-hover:text-gray-300">Gestores de infraestruturas</p>
+                  <p class="text-[#FFB300] text-xs font-bold mb-1">IDEAL FOR:</p>
+                  <p class="text-gray-400 text-xs italic transition-colors duration-300 group-hover:text-gray-300">Infrastructure managers</p>
                 </div>
               </div>
 
-              <!-- Card 8: Energia (cópia para loop infinito) -->
+              <!-- Card 8: Energy (copy for infinite loop) -->
               <div
                 class="relative bg-gradient-to-br from-[#0D0A05] to-[#1A1201] rounded-2xl p-6 flex flex-col gap-5 border border-[#2A2318] overflow-hidden transition-all duration-500 hover:border-[#FFB300] hover:shadow-2xl hover:shadow-[#FFB300]/20 hover:-translate-y-2 group"
               >
@@ -406,46 +406,46 @@
                     <div class="w-2 h-2 bg-[#00FF00] rounded-full"></div>
                     <div class="absolute inset-0 w-2 h-2 bg-[#00FF00] rounded-full animate-ping opacity-75"></div>
                   </div>
-                  <span class="text-[#00FF00] text-xs font-bold tracking-wider">DISPONÍVEL</span>
+                  <span class="text-[#00FF00] text-xs font-bold tracking-wider">AVAILABLE</span>
                 </div>
 
                 <div class="w-16 h-16 bg-[#2A2318] rounded-2xl flex items-center justify-center p-3 transition-all duration-300 group-hover:bg-[#FFB300] group-hover:scale-110 group-hover:rotate-3 z-10">
-                  <img src="/svg/energy.svg" alt="Energia" class="w-full h-full object-contain brightness-0 invert transition-transform duration-300 group-hover:scale-110">
+                  <img src="/svg/energy.svg" alt="Energy" class="w-full h-full object-contain brightness-0 invert transition-transform duration-300 group-hover:scale-110">
                 </div>
 
-                <h3 class="text-3xl font-bold tracking-tight z-10 transition-colors duration-300 group-hover:text-[#FFB300]">ENERGIA</h3>
+                <h3 class="text-3xl font-bold tracking-tight z-10 transition-colors duration-300 group-hover:text-[#FFB300]">ENERGY</h3>
 
                 <p class="text-gray-400 text-sm leading-relaxed z-10 transition-colors duration-300 group-hover:text-gray-300">
-                  Comissionamento e start-up de usinas CCGT garantindo confiabilidade e operação segura.
+                  Commissioning and start-up of CCGT plants ensuring reliability and safe operation.
                 </p>
 
                 <ul class="space-y-2 text-sm z-10">
                   <li class="flex items-start gap-2 transition-transform duration-300 group-hover:translate-x-1">
                     <span class="text-[#FFB300] mt-1">•</span>
-                    <span>Usinas CCGT</span>
+                    <span>CCGT Plants</span>
                   </li>
                   <li class="flex items-start gap-2 transition-transform duration-300 group-hover:translate-x-1" style="transition-delay: 50ms">
                     <span class="text-[#FFB300] mt-1">•</span>
-                    <span>Confiabilidade</span>
+                    <span>Reliability</span>
                   </li>
                   <li class="flex items-start gap-2 transition-transform duration-300 group-hover:translate-x-1" style="transition-delay: 100ms">
                     <span class="text-[#FFB300] mt-1">•</span>
-                    <span>Operação Segura</span>
+                    <span>Safe Operation</span>
                   </li>
                 </ul>
 
                 <div class="flex flex-wrap gap-2 z-10">
-                  <span class="px-4 py-1 border border-[#FFB300] text-[#FFB300] rounded-full text-xs font-semibold tracking-wider transition-all duration-300 hover:bg-[#FFB300] hover:text-[#1A1201]">COMISSIONAMENTO</span>
+                  <span class="px-4 py-1 border border-[#FFB300] text-[#FFB300] rounded-full text-xs font-semibold tracking-wider transition-all duration-300 hover:bg-[#FFB300] hover:text-[#1A1201]">COMMISSIONING</span>
                   <span class="px-4 py-1 border border-[#FFB300] text-[#FFB300] rounded-full text-xs font-semibold tracking-wider transition-all duration-300 hover:bg-[#FFB300] hover:text-[#1A1201]">START-UP</span>
                 </div>
 
                 <div class="mt-auto pt-4 border-t border-[#2A2318] z-10 transition-colors duration-300 group-hover:border-[#FFB300]/30">
-                  <p class="text-[#FFB300] text-xs font-bold mb-1">IDEAL PARA:</p>
-                  <p class="text-gray-400 text-xs italic transition-colors duration-300 group-hover:text-gray-300">Empresas do setor energético</p>
+                  <p class="text-[#FFB300] text-xs font-bold mb-1">IDEAL FOR:</p>
+                  <p class="text-gray-400 text-xs italic transition-colors duration-300 group-hover:text-gray-300">Energy sector companies</p>
                 </div>
               </div>
 
-              <!-- Card 9: Químico e Petroquímico (cópia para loop infinito) -->
+              <!-- Card 9: Chemical & Petrochemical (copy for infinite loop) -->
               <div
                 class="relative bg-gradient-to-br from-[#0D0A05] to-[#1A1201] rounded-2xl p-6 flex flex-col gap-5 border border-[#2A2318] overflow-hidden transition-all duration-500 hover:border-[#FFB300] hover:shadow-2xl hover:shadow-[#FFB300]/20 hover:-translate-y-2 group"
               >
@@ -458,23 +458,23 @@
                     <div class="w-2 h-2 bg-[#00FF00] rounded-full"></div>
                     <div class="absolute inset-0 w-2 h-2 bg-[#00FF00] rounded-full animate-ping opacity-75"></div>
                   </div>
-                  <span class="text-[#00FF00] text-xs font-bold tracking-wider">DISPONÍVEL</span>
+                  <span class="text-[#00FF00] text-xs font-bold tracking-wider">AVAILABLE</span>
                 </div>
 
                 <div class="w-16 h-16 bg-[#2A2318] rounded-2xl flex items-center justify-center p-3 transition-all duration-300 group-hover:bg-[#FFB300] group-hover:scale-110 group-hover:rotate-3 z-10">
-                  <img src="/svg/chemicals.svg" alt="Químico" class="w-full h-full object-contain brightness-0 invert transition-transform duration-300 group-hover:scale-110">
+                  <img src="/svg/chemicals.svg" alt="Chemical" class="w-full h-full object-contain brightness-0 invert transition-transform duration-300 group-hover:scale-110">
                 </div>
 
-                <h3 class="text-2xl font-bold tracking-tight z-10 transition-colors duration-300 group-hover:text-[#FFB300]">QUÍMICO & PETROQUÍMICO</h3>
+                <h3 class="text-2xl font-bold tracking-tight z-10 transition-colors duration-300 group-hover:text-[#FFB300]">CHEMICAL & PETROCHEMICAL</h3>
 
                 <p class="text-gray-400 text-sm leading-relaxed z-10 transition-colors duration-300 group-hover:text-gray-300">
-                  Calibração e loop check em unidades químicas, com foco em conformidade e rastreabilidade.
+                  Calibration and loop check in chemical units, focusing on compliance and traceability.
                 </p>
 
                 <ul class="space-y-2 text-sm z-10">
                   <li class="flex items-start gap-2 transition-transform duration-300 group-hover:translate-x-1">
                     <span class="text-[#FFB300] mt-1">•</span>
-                    <span>Calibração</span>
+                    <span>Calibration</span>
                   </li>
                   <li class="flex items-start gap-2 transition-transform duration-300 group-hover:translate-x-1" style="transition-delay: 50ms">
                     <span class="text-[#FFB300] mt-1">•</span>
@@ -482,18 +482,18 @@
                   </li>
                   <li class="flex items-start gap-2 transition-transform duration-300 group-hover:translate-x-1" style="transition-delay: 100ms">
                     <span class="text-[#FFB300] mt-1">•</span>
-                    <span>Conformidade</span>
+                    <span>Compliance</span>
                   </li>
                 </ul>
 
                 <div class="flex flex-wrap gap-2 z-10">
-                  <span class="px-4 py-1 border border-[#FFB300] text-[#FFB300] rounded-full text-xs font-semibold tracking-wider transition-all duration-300 hover:bg-[#FFB300] hover:text-[#1A1201]">QUÍMICA</span>
-                  <span class="px-4 py-1 border border-[#FFB300] text-[#FFB300] rounded-full text-xs font-semibold tracking-wider transition-all duration-300 hover:bg-[#FFB300] hover:text-[#1A1201]">PETROQUÍMICA</span>
+                  <span class="px-4 py-1 border border-[#FFB300] text-[#FFB300] rounded-full text-xs font-semibold tracking-wider transition-all duration-300 hover:bg-[#FFB300] hover:text-[#1A1201]">CHEMICAL</span>
+                  <span class="px-4 py-1 border border-[#FFB300] text-[#FFB300] rounded-full text-xs font-semibold tracking-wider transition-all duration-300 hover:bg-[#FFB300] hover:text-[#1A1201]">PETROCHEMICAL</span>
                 </div>
 
                 <div class="mt-auto pt-4 border-t border-[#2A2318] z-10 transition-colors duration-300 group-hover:border-[#FFB300]/30">
-                  <p class="text-[#FFB300] text-xs font-bold mb-1">IDEAL PARA:</p>
-                  <p class="text-gray-400 text-xs italic transition-colors duration-300 group-hover:text-gray-300">Indústrias químicas e petroquímicas</p>
+                  <p class="text-[#FFB300] text-xs font-bold mb-1">IDEAL FOR:</p>
+                  <p class="text-gray-400 text-xs italic transition-colors duration-300 group-hover:text-gray-300">Chemical and petrochemical industries</p>
                 </div>
               </div>
             </div>
@@ -504,7 +504,7 @@
         <button
           @click="previousSlide"
           class="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 lg:-translate-x-12 bg-[#FFB300] hover:bg-[#FFC933] text-[#1A1201] p-3 rounded-full transition-all duration-300 hover:scale-110 shadow-lg hover:shadow-[#FFB300]/50 z-20"
-          aria-label="Slide anterior"
+          aria-label="Previous slide"
         >
           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
@@ -514,7 +514,7 @@
         <button
           @click="nextSlide"
           class="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 lg:translate-x-12 bg-[#FFB300] hover:bg-[#FFC933] text-[#1A1201] p-3 rounded-full transition-all duration-300 hover:scale-110 shadow-lg hover:shadow-[#FFB300]/50 z-20"
-          aria-label="Próximo slide"
+          aria-label="Next slide"
         >
           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
@@ -531,7 +531,7 @@
             :class="currentSlide === index - 1
               ? 'w-12 h-3 bg-[#FFB300] rounded-full'
               : 'w-3 h-3 bg-[#2A2318] rounded-full hover:bg-[#FFB300]/50'"
-            :aria-label="`Ir para slide ${index}`"
+            :aria-label="`Go to slide ${index}`"
           ></button>
         </div>
       </div>
@@ -567,7 +567,7 @@ const goToSlide = (index) => {
 const startAutoplay = () => {
   autoplayInterval = setInterval(() => {
     nextSlide()
-  }, 5000) // Muda de slide a cada 5 segundos
+  }, 5000) // Changes slide every 5 seconds
 }
 
 const stopAutoplay = () => {
@@ -594,7 +594,7 @@ onMounted(() => {
     observer.observe(sectionRef.value)
   }
 
-  // Inicia o autoplay
+  // Start autoplay
   startAutoplay()
 })
 

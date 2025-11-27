@@ -84,7 +84,12 @@
               @click="toggleLanguageDropdown"
               class="flex items-center space-x-2 px-3 py-2 rounded-lg hover:bg-gray-100 transition-colors duration-300"
             >
-              <img :src="currentLanguageFlag" :alt="currentLanguage" class="w-6 h-6 rounded-sm object-cover">
+              <img
+                :src="currentLanguageFlag"
+                :alt="currentLanguage"
+                class="w-6 h-6 rounded-sm object-cover border border-gray-200"
+                @error="(e) => { console.error('Flag failed to load:', e.target.src); e.target.src = '/svg/flags/united-states.svg'; }"
+              >
               <span class="text-sm font-bold text-[#B07E09]">{{ currentLanguage }}</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -112,7 +117,12 @@
                   class="w-full text-left px-4 py-2 text-sm font-semibold hover:bg-gray-100 transition-colors duration-200 flex items-center space-x-3"
                   :class="{ 'text-[#B07E09] bg-gray-50': currentLanguage === lang.code }"
                 >
-                  <img :src="lang.flag" :alt="lang.name" class="w-6 h-6 rounded-sm object-cover">
+                  <img
+                    :src="lang.flag"
+                    :alt="lang.name"
+                    class="w-6 h-6 rounded-sm object-cover border border-gray-200"
+                    @error="(e) => console.error('Failed to load flag:', lang.code, e.target.src)"
+                  >
                   <span>{{ lang.name }}</span>
                 </button>
               </div>
@@ -231,7 +241,12 @@
                 class="flex items-center space-x-2 px-4 py-2.5 text-sm font-bold rounded-lg transition-all duration-300"
                 :class="currentLanguage === lang.code ? 'bg-[#B07E09] text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200'"
               >
-                <img :src="lang.flag" :alt="lang.name" class="w-5 h-5 rounded-sm object-cover">
+                <img
+                  :src="lang.flag"
+                  :alt="lang.name"
+                  class="w-5 h-5 rounded-sm object-cover border border-gray-300"
+                  @error="(e) => console.error('Mobile flag failed:', lang.code, e.target.src)"
+                >
                 <span>{{ lang.code }}</span>
               </button>
             </div>
@@ -244,12 +259,25 @@
 
 <script setup>
 import { ref, computed, onMounted, onUnmounted } from 'vue'
+import { useRouter, useRoute } from 'vue-router'
+
+const router = useRouter()
+const route = useRoute()
 
 const scrolled = ref(false)
 const mobileMenuOpen = ref(false)
 const languageDropdownOpen = ref(false)
-const currentLanguage = ref('EN')
 const languageDropdown = ref(null)
+
+// Get current locale from route or default to 'en'
+const getCurrentLocale = () => {
+  const path = route.path
+  if (path.startsWith('/fr')) return 'FR'
+  if (path.startsWith('/es')) return 'ES'
+  return 'EN'
+}
+
+const currentLanguage = ref(getCurrentLocale())
 
 const menuItems = [
   { name: 'Home', href: '/', active: false },
@@ -260,13 +288,13 @@ const menuItems = [
     active: false,
     hasSubmenu: true,
     submenu: [
-      { name: 'Energia', href: '/industries#energia' },
-      { name: 'Químico e Petroquímico', href: '/industries#quimico-petroquimico' },
-      { name: 'Hidrogénio', href: '/industries#hidrogenio' },
-      { name: 'Armazenamento e Terminais de Granéis Líquidos', href: '/industries#armazenamento-terminais' },
-      { name: 'Gases Industriais', href: '/industries#gases-industriais' },
-      { name: 'Automóvel', href: '/industries#automovel' },
-      { name: 'Utilities e Infraestruturas', href: '/industries#utilities-infraestruturas' }
+      { name: 'Energy', href: '/industries#energia' },
+      { name: 'Chemical & Petrochemical', href: '/industries#quimico-petroquimico' },
+      { name: 'Hydrogen', href: '/industries#hidrogenio' },
+      { name: 'Storage & Liquid Bulk Terminals', href: '/industries#armazenamento-terminais' },
+      { name: 'Industrial Gases', href: '/industries#gases-industriais' },
+      { name: 'Automotive', href: '/industries#automovel' },
+      { name: 'Utilities & Infrastructure', href: '/industries#utilities-infraestruturas' }
     ]
   },
   {
@@ -276,10 +304,10 @@ const menuItems = [
     hasSubmenu: true,
     submenu: [
       { name: 'FAT / SAT', href: '/services#fat-sat' },
-      { name: 'Calibração', href: '/services#calibracao' },
+      { name: 'Calibration', href: '/services#calibracao' },
       { name: 'Loop Check', href: '/services#loop-check' },
-      { name: 'Pré-Comissionamento', href: '/services#pre-comissionamento' },
-      { name: 'Comissionamento', href: '/services#comissionamento' },
+      { name: 'Pre-Commissioning', href: '/services#pre-comissionamento' },
+      { name: 'Commissioning', href: '/services#comissionamento' },
       { name: 'Handover', href: '/services#handover' }
     ]
   }
@@ -295,7 +323,9 @@ const languages = [
 
 const currentLanguageFlag = computed(() => {
   const lang = languages.find(l => l.code === currentLanguage.value)
-  return lang ? lang.flag : '/svg/flags/united-states.svg'
+  const flagPath = lang ? lang.flag : '/svg/flags/united-states.svg'
+  console.log('Current language:', currentLanguage.value, 'Flag path:', flagPath)
+  return flagPath
 })
 
 const handleScroll = () => {
@@ -325,6 +355,22 @@ const toggleLanguageDropdown = () => {
 const selectLanguage = (lang) => {
   currentLanguage.value = lang
   languageDropdownOpen.value = false
+
+  // Get current path without locale prefix
+  let path = route.path
+  path = path.replace(/^\/(en|fr|es)/, '')
+  if (!path) path = '/'
+
+  // Navigate to new locale
+  const localeMap = { 'EN': 'en', 'FR': 'fr', 'ES': 'es' }
+  const newLocale = localeMap[lang]
+
+  if (newLocale === 'en') {
+    // English is default, no prefix
+    router.push(path)
+  } else {
+    router.push(`/${newLocale}${path}`)
+  }
 }
 
 const handleClickOutside = (event) => {

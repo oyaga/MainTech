@@ -1,52 +1,52 @@
 <template>
   <section class="relative overflow-hidden min-h-screen" style="background: linear-gradient(to bottom, #160A00 0%, #FFB300 100%);">
-    <!-- Elementos Decorativos -->
+    <!-- Decorative Elements -->
     <div class="absolute inset-0 pointer-events-none">
-      <!-- Círculos decorativos -->
+      <!-- Decorative Circles -->
       <div class="absolute top-[10%] left-[5%] w-[300px] h-[300px] rounded-full bg-white/5 blur-3xl"></div>
       <div class="absolute bottom-[15%] right-[8%] w-[400px] h-[400px] rounded-full bg-white/5 blur-3xl"></div>
       <div class="absolute top-[50%] right-[15%] w-[200px] h-[200px] rounded-full bg-white/10 blur-2xl"></div>
 
-      <!-- Linhas diagonais -->
+      <!-- Diagonal Lines -->
       <div class="absolute top-[20%] left-[-5%] w-[500px] h-[2px] bg-white/10 rotate-45"></div>
       <div class="absolute bottom-[30%] right-[-5%] w-[400px] h-[2px] bg-white/10 -rotate-45"></div>
 
-      <!-- Pontos decorativos -->
+      <!-- Decorative Dots -->
       <div class="absolute top-[25%] right-[20%] w-3 h-3 rounded-full bg-white/20"></div>
       <div class="absolute top-[30%] right-[18%] w-2 h-2 rounded-full bg-white/30"></div>
       <div class="absolute bottom-[40%] left-[10%] w-4 h-4 rounded-full bg-white/15"></div>
       <div class="absolute bottom-[35%] left-[8%] w-2 h-2 rounded-full bg-white/25"></div>
 
-      <!-- Formas geométricas -->
+      <!-- Geometric Shapes -->
       <div class="absolute top-[15%] right-[5%] w-16 h-16 border-2 border-white/10 rotate-45"></div>
       <div class="absolute bottom-[20%] left-[15%] w-20 h-20 border-2 border-white/15 rounded-full"></div>
 
-      <!-- Grid pattern sutil -->
+      <!-- Subtle Grid Pattern -->
       <div class="absolute inset-0 opacity-5" style="background-image: linear-gradient(white 1px, transparent 1px), linear-gradient(90deg, white 1px, transparent 1px); background-size: 50px 50px;"></div>
     </div>
 
     <!-- Header Component -->
-    <Header />
+    <ElementosHeader />
 
     <div class="relative h-full max-w-[1494px] px-4 md:px-12 mx-auto pt-20 md:pt-40">
       <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-8 md:gap-[75px]">
-        <!-- Conteúdo Esquerdo -->
+        <!-- Left Content -->
         <div class="flex flex-col gap-3 md:gap-4 w-full md:max-w-[686px]">
           <div class="flex items-center justify-center gap-[10px] md:gap-[13px] bg-white rounded-[15px] md:rounded-[20px] p-[8px] md:p-[10px] w-fit max-w-[280px] md:max-w-[334px] h-[32px] md:h-[36px]">
             <img src="/svg/email.svg" alt="Email" class="w-[24px] md:w-[34px] h-[20px] md:h-[27px]" style="filter: brightness(0) saturate(100%) invert(36%) sepia(95%) saturate(2679%) hue-rotate(1deg) brightness(101%) contrast(103%);" />
-            <span class="font-bold text-[14px] md:text-lg text-[#FF5A02] tracking-[0.05em]">Fale Conosco</span>
+            <span class="font-bold text-[14px] md:text-lg text-[#FF5A02] tracking-[0.05em]">Get in Touch</span>
           </div>
 
-          <h2 class="font-bold text-[32px] md:text-6xl text-white tracking-[0.05em] leading-tight">Entre em Contato</h2>
+          <h2 class="font-bold text-[32px] md:text-6xl text-white tracking-[0.05em] leading-tight">Contact Us</h2>
 
           <p class="font-light text-[16px] md:text-2xl text-white tracking-[0.05em] leading-normal">
-            Estou aqui para ajudar você. Entre em contato e descubra como posso transformar suas ideias em realidade digital.
+            I am here to help you. Get in touch and discover how I can transform your ideas into digital reality.
           </p>
 
           <div class="flex flex-col md:flex-row gap-3 md:gap-4 mt-3 md:mt-4 w-full md:w-auto">
             <button class="flex items-center justify-center gap-[13px] p-[10px] rounded-lg border-none cursor-pointer font-bold text-lg tracking-[0.05em] h-[49px] transition duration-200 ease-in-out hover:-translate-y-0.5 hover:shadow-lg bg-white text-[#FF5A02] px-5">
               <img src="/svg/email.svg" alt="Email" class="w-8 h-[25px]" style="filter: brightness(0) saturate(100%) invert(36%) sepia(95%) saturate(2679%) hue-rotate(1deg) brightness(101%) contrast(103%);" />
-              <span>Enviar Email</span>
+              <span>Send Email</span>
             </button>
 
             <a href="https://api.whatsapp.com/send/?phone=5519993369603&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center gap-[13px] p-[10px] rounded-lg border-none cursor-pointer font-bold text-lg tracking-[0.05em] h-[49px] transition duration-200 ease-in-out hover:-translate-y-0.5 hover:shadow-lg text-white px-5" style="background: linear-gradient(90deg, #1CA908 0%, #1B730F 100%);">
@@ -58,17 +58,17 @@
 
         <!-- Contact Info Cards -->
         <div class="flex flex-col gap-6 md:gap-12 w-full md:max-w-[673px] pt-0">
-          <!-- Telefone -->
+          <!-- Phone -->
           <div class="flex flex-row items-center gap-0 bg-white/25 border border-white/60 rounded-[15px] md:rounded-[20px] p-[8px] md:p-[10px] h-[100px] md:h-[132px] backdrop-blur-lg transition-all duration-300 ease-in-out hover:bg-white/35 hover:-translate-x-1 text-left">
             <div class="flex items-center justify-center w-[90px] md:w-[142px] h-[90px] md:h-[120px] relative flex-shrink-0">
               <div class="w-[60px] md:w-[78px] h-[60px] md:h-[78px] bg-white/40 rounded-full flex items-center justify-center relative">
-                <img src="/svg/phone.svg" alt="Telefone" class="w-[35px] md:w-[50px] h-[35px] md:h-[50px] relative z-10" style="filter: brightness(0) invert(1);" />
+                <img src="/svg/phone.svg" alt="Phone" class="w-[35px] md:w-[50px] h-[35px] md:h-[50px] relative z-10" style="filter: brightness(0) invert(1);" />
               </div>
             </div>
             <div class="flex flex-col gap-1 text-white flex-1 w-full pr-3 md:pr-5">
-              <p class="font-bold text-[14px] md:text-lg tracking-[0.05em] m-0">Telefone</p>
+              <p class="font-bold text-[14px] md:text-lg tracking-[0.05em] m-0">Phone</p>
               <p class="font-bold text-[20px] md:text-3xl tracking-[0.05em] m-0">+33 492 02 13 43</p>
-              <p class="font-normal text-[10px] md:text-xs tracking-[0.05em] m-0">Atendimento 24 horas</p>
+              <p class="font-normal text-[10px] md:text-xs tracking-[0.05em] m-0">24h Support</p>
             </div>
           </div>
 
@@ -83,21 +83,21 @@
               <p class="font-bold text-[14px] md:text-lg tracking-[0.05em] m-0">E-mail</p>
               <p class="font-bold text-[16px] md:text-3xl tracking-[0.05em] m-0 break-all">
 contato@maintech.be</p>
-              <p class="font-normal text-[10px] md:text-xs tracking-[0.05em] m-0">Resposta em até 24 horas</p>
+              <p class="font-normal text-[10px] md:text-xs tracking-[0.05em] m-0">Response within 24 hours</p>
             </div>
           </div>
 
-          <!-- Localização -->
+          <!-- Location -->
           <div class="flex flex-row items-center gap-0 bg-white/25 border border-white/60 rounded-[15px] md:rounded-[20px] p-[8px] md:p-[10px] h-[100px] md:h-[132px] backdrop-blur-lg transition-all duration-300 ease-in-out hover:bg-white/35 hover:-translate-x-1 text-left">
             <div class="flex items-center justify-center w-[90px] md:w-[142px] h-[90px] md:h-[120px] relative flex-shrink-0">
               <div class="w-[60px] md:w-[78px] h-[60px] md:h-[78px] bg-white/40 rounded-full flex items-center justify-center relative">
-                <img src="/svg/location.svg" alt="Localização" class="w-[35px] md:w-[50px] h-[35px] md:h-[50px] relative z-10" style="filter: brightness(0) invert(1);" />
+                <img src="/svg/location.svg" alt="Location" class="w-[35px] md:w-[50px] h-[35px] md:h-[50px] relative z-10" style="filter: brightness(0) invert(1);" />
               </div>
             </div>
             <div class="flex flex-col gap-1 text-white flex-1 w-full pr-3 md:pr-5">
-              <p class="font-bold text-[14px] md:text-lg tracking-[0.05em] m-0">Localização</p>
-              <p class="font-bold text-[20px] md:text-3xl tracking-[0.05em] m-0">Bélgica </p>
-              <p class="font-normal text-[10px] md:text-xs tracking-[0.05em] m-0">Atendemos em todo o <strong class="font-bold">MUNDO!</strong></p>
+              <p class="font-bold text-[14px] md:text-lg tracking-[0.05em] m-0">Location</p>
+              <p class="font-bold text-[20px] md:text-3xl tracking-[0.05em] m-0">Belgium</p>
+              <p class="font-normal text-[10px] md:text-xs tracking-[0.05em] m-0">We serve <strong class="font-bold">WORLDWIDE!</strong></p>
             </div>
           </div>
         </div>
@@ -113,9 +113,9 @@ contato@maintech.be</p>
             <form id="contact-form" ref="formRef" class="space-y-4 md:space-y-8" @submit.prevent="submitForm">
               <!-- Grid Fields -->
               <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
-                <!-- Nome -->
+                <!-- Name -->
                 <div class="form-group">
-                  <label for="nome" class="form-label block text-sm font-semibold text-white mb-2">Nome Completo *</label>
+                  <label for="nome" class="form-label block text-sm font-semibold text-white mb-2">Full Name *</label>
                   <div class="relative">
                     <input
                       type="text"
@@ -123,7 +123,7 @@ contato@maintech.be</p>
                       name="user_name"
                       v-model="form.name"
                       class="form-input w-full px-4 py-3 pr-12 bg-white/10 border border-white/20 rounded-lg text-white placeholder-white/60 focus:ring-2 focus:ring-white focus:border-transparent backdrop-blur-sm transition-all duration-300"
-                      placeholder="Seu nome completo"
+                      placeholder="Your full name"
                       required>
                     <div class="absolute inset-y-0 right-0 flex items-center pr-4">
                       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="w-5 h-5 text-white/60">
@@ -134,9 +134,9 @@ contato@maintech.be</p>
                   </div>
                 </div>
 
-                <!-- Empresa -->
+                <!-- Company -->
                 <div class="form-group">
-                  <label for="empresa" class="form-label block text-sm font-semibold text-white mb-2">Empresa</label>
+                  <label for="empresa" class="form-label block text-sm font-semibold text-white mb-2">Company</label>
                   <div class="relative">
                     <input
                       type="text"
@@ -144,7 +144,7 @@ contato@maintech.be</p>
                       name="company"
                       v-model="form.company"
                       class="form-input w-full px-4 py-3 pr-12 bg-white/10 border border-white/20 rounded-lg text-white placeholder-white/60 focus:ring-2 focus:ring-white focus:border-transparent backdrop-blur-sm transition-all duration-300"
-                      placeholder="Nome da sua empresa">
+                      placeholder="Your company name">
                     <div class="absolute inset-y-0 right-0 flex items-center pr-4">
                       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="w-5 h-5 text-white/60">
                         <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
@@ -164,7 +164,7 @@ contato@maintech.be</p>
                       name="user_email"
                       v-model="form.email"
                       class="form-input w-full px-4 py-3 pr-12 bg-white/10 border border-white/20 rounded-lg text-white placeholder-white/60 focus:ring-2 focus:ring-white focus:border-transparent backdrop-blur-sm transition-all duration-300"
-                      placeholder="seu@email.com"
+                      placeholder="your@email.com"
                       required>
                     <div class="absolute inset-y-0 right-0 flex items-center pr-4">
                       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="w-5 h-5 text-white/60">
@@ -175,9 +175,9 @@ contato@maintech.be</p>
                   </div>
                 </div>
 
-                <!-- Telefone -->
+                <!-- Phone -->
                 <div class="form-group">
-                  <label for="telefone" class="form-label block text-sm font-semibold text-white mb-2">Telefone *</label>
+                  <label for="telefone" class="form-label block text-sm font-semibold text-white mb-2">Phone *</label>
                   <div class="relative">
                     <input
                       type="tel"
@@ -197,33 +197,33 @@ contato@maintech.be</p>
                 </div>
               </div>
 
-              <!-- Serviço -->
+              <!-- Service -->
               <div class="form-group">
-                <label for="servico" class="form-label block text-sm font-semibold text-white mb-2">Serviço de Interesse</label>
+                <label for="servico" class="form-label block text-sm font-semibold text-white mb-2">Service of Interest</label>
                 <select
                   id="servico"
                   name="service"
                   v-model="form.service"
                   class="form-select w-full px-4 py-3 bg-white/10 border border-white/20 rounded-lg text-white focus:ring-2 focus:ring-white focus:border-transparent backdrop-blur-sm transition-all duration-300 appearance-none">
-                  <option value="" class="text-gray-900">Selecione um serviço</option>
-                  <option value="Design de Interfaces" class="text-gray-900">Design de Interfaces</option>
-                  <option value="Desenvolvimento Web" class="text-gray-900">Desenvolvimento Web</option>
-                  <option value="Consultoria Digital" class="text-gray-900">Consultoria Digital</option>
-                  <option value="Automação de Processos" class="text-gray-900">Automação de Processos</option>
-                  <option value="Marketing Digital" class="text-gray-900">Marketing Digital</option>
-                  <option value="Outros Serviços" class="text-gray-900">Outros</option>
+                  <option value="" class="text-gray-900">Select a service</option>
+                  <option value="Design de Interfaces" class="text-gray-900">Interface Design</option>
+                  <option value="Desenvolvimento Web" class="text-gray-900">Web Development</option>
+                  <option value="Consultoria Digital" class="text-gray-900">Digital Consulting</option>
+                  <option value="Automação de Processos" class="text-gray-900">Process Automation</option>
+                  <option value="Marketing Digital" class="text-gray-900">Digital Marketing</option>
+                  <option value="Outros Serviços" class="text-gray-900">Other Services</option>
                 </select>
               </div>
 
-              <!-- Mensagem -->
+              <!-- Message -->
               <div class="form-group">
-                <label for="mensagem" class="form-label block text-sm font-semibold text-white mb-2">Mensagem *</label>
+                <label for="mensagem" class="form-label block text-sm font-semibold text-white mb-2">Message *</label>
                 <textarea
                   id="mensagem"
                   name="message"
                   v-model="form.message"
                   class="form-textarea w-full px-4 py-3 bg-white/10 border border-white/20 rounded-lg text-white placeholder-white/60 focus:ring-2 focus:ring-white focus:border-transparent backdrop-blur-sm transition-all duration-300 resize-none"
-                  placeholder="Descreva suas necessidades ou dúvidas..."
+                  placeholder="Describe your needs or questions..."
                   rows="6"
                   required></textarea>
               </div>
@@ -238,8 +238,8 @@ contato@maintech.be</p>
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                   </svg>
                   <div>
-                    <h3 class="text-green-400 font-semibold">Mensagem enviada com sucesso!</h3>
-                    <p class="text-green-300 text-sm mt-1">Entrarei em contato em breve.</p>
+                    <h3 class="text-green-400 font-semibold">Message sent successfully!</h3>
+                    <p class="text-green-300 text-sm mt-1">I will contact you soon.</p>
                   </div>
                 </div>
               </div>
@@ -254,7 +254,7 @@ contato@maintech.be</p>
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                   <div>
-                    <h3 class="text-red-400 font-semibold">Erro ao enviar mensagem</h3>
+                    <h3 class="text-red-400 font-semibold">Error sending message</h3>
                     <p class="text-red-300 text-sm mt-1">{{ errorMessage }}</p>
                   </div>
                 </div>
@@ -274,7 +274,7 @@ contato@maintech.be</p>
                     <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
                   </svg>
                   <!-- Text -->
-                  <span class="relative z-10">{{ isSubmitting ? 'ENVIANDO...' : 'ENVIAR MENSAGEM' }}</span>
+                  <span class="relative z-10">{{ isSubmitting ? 'SENDING...' : 'SEND MESSAGE' }}</span>
                 </button>
               </div>
             </form>
@@ -318,15 +318,15 @@ const submitForm = async () => {
 
   try {
     // Create mailto link with form data
-    const subject = `Contato: ${form.value.service || 'Geral'}`
+    const subject = `Contact: ${form.value.service || 'General'}`
     const body = `
-Nome: ${form.value.name}
-Empresa: ${form.value.company || 'N/A'}
+Name: ${form.value.name}
+Company: ${form.value.company || 'N/A'}
 Email: ${form.value.email}
-Telefone: ${form.value.phone}
-Serviço: ${form.value.service || 'N/A'}
+Phone: ${form.value.phone}
+Service: ${form.value.service || 'N/A'}
 
-Mensagem:
+Message:
 ${form.value.message}
     `.trim()
 
@@ -356,7 +356,7 @@ contato@maintech.be?subject=${encodeURIComponent(subject)}&body=${encodeURICompo
   } catch (error) {
     console.error('Form Error:', error)
 
-    errorMessage.value = 'Ocorreu um erro ao processar o formulário. Por favor, tente novamente.'
+    errorMessage.value = 'An error occurred while processing the form. Please try again.'
 
     // Show error message
     showErrorMessage.value = true

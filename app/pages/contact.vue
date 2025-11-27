@@ -2,14 +2,14 @@
 import { ref } from 'vue'
 
 useSeoMeta({
-  title: 'Fale Conosco - Transforme Ideias em Realidade | Maintech Solutions',
-  ogTitle: 'Fale Conosco - Transforme Ideias em Realidade | Maintech Solutions',
-  description: 'Entre em contato com a Maintech Solutions. Descubra como podemos transformar suas ideias em realidade digital e impulsionar seus projetos.',
-  ogDescription: 'Entre em contato com a Maintech Solutions. Descubra como podemos transformar suas ideias em realidade digital e impulsionar seus projetos.',
+  title: 'Contact Us - Turn Ideas into Reality | Maintech Solutions',
+  ogTitle: 'Contact Us - Turn Ideas into Reality | Maintech Solutions',
+  description: 'Get in touch with Maintech Solutions. Discover how we can transform your ideas into digital reality and boost your projects.',
+  ogDescription: 'Get in touch with Maintech Solutions. Discover how we can transform your ideas into digital reality and boost your projects.',
   ogImage: '/imagens/open-graph.webp',
   twitterCard: 'summary_large_image',
-  twitterTitle: 'Fale Conosco - Transforme Ideias em Realidade | Maintech Solutions',
-  twitterDescription: 'Entre em contato com a Maintech Solutions. Descubra como podemos transformar suas ideias em realidade digital e impulsionar seus projetos.',
+  twitterTitle: 'Contact Us - Turn Ideas into Reality | Maintech Solutions',
+  twitterDescription: 'Get in touch with Maintech Solutions. Discover how we can transform your ideas into digital reality and boost your projects.',
   twitterImage: '/imagens/open-graph.webp',
 })
 

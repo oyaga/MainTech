@@ -23,14 +23,14 @@
         <!-- Left Column - Title -->
         <div class="flex flex-col justify-start">
           <h1 class="text-4xl sm:text-5xl lg:text-[55px] font-bold leading-tight" style="letter-spacing: 1.1px; line-height: 1.21;">
-            Engenharia de Precisão para as Indústrias Mais Exigentes
+            Precision Engineering for the Most Demanding Industries
           </h1>
         </div>
 
         <!-- Right Column - Description -->
         <div class="flex flex-col justify-end pb-8 sm:pb-16 lg:pb-32">
           <p class="text-lg sm:text-xl lg:text-[26px] font-light leading-relaxed text-gray-100">
-            Embora cada indústria possua desafios únicos, todas partilham uma necessidade comum: a certeza de que os seus sistemas operacionais funcionarão com máxima segurança e fiabilidade. Na Maintech Solutions, aplicamos os nossos princípios de engenharia de precisão para traduzir as visões dos nossos clientes em valor operacional, independentemente da complexidade do setor. Explore as indústrias onde a nossa experiência faz a diferença.
+            Although each industry has unique challenges, they all share a common need: the certainty that their operating systems will function with maximum safety and reliability. At Maintech Solutions, we apply our precision engineering principles to translate our clients' visions into operational value, regardless of the sector's complexity. Explore the industries where our experience makes the difference.
           </p>
         </div>
       </div>

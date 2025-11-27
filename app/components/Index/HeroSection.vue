@@ -23,18 +23,14 @@
         <!-- Left Column - Title -->
         <div class="flex flex-col justify-start">
           <h1 class="text-5xl sm:text-6xl lg:text-7xl font-bold leading-tight tracking-tight">
-            Todo grande projeto começa com uma visão. E ganha vida com soluções confiáveis!
+            {{ $t('hero.title') }}
           </h1>
         </div>
 
         <!-- Right Column - Description -->
         <div class="flex flex-col justify-end pb-8 sm:pb-16 lg:pb-32">
           <p class="text-base sm:text-lg lg:text-xl font-light leading-relaxed text-gray-200">
-            Sabemos o que é preciso para transformar planos complexos em realidade operacional. A distância entre a conclusão da
-            construção e um arranque bem-sucedido é um caminho crítico, cheio de variáveis que não admitem erros. Milhares de
-            componentes, sistemas interligados, orçamentos rigorosos e prazos inflexíveis. No meio de toda essa
-            complexidade, a sua meta é clara: começar a operar com máxima segurança, eficiência e fiabilidade. É
-            precisamente aí que a nossa história se cruza com a sua.
+            {{ $t('hero.description') }}
           </p>
         </div>
       </div>

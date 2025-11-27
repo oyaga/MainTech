@@ -1,6 +1,6 @@
 <template>
   <div class="bg-[#160a00] relative w-full py-24 overflow-hidden">
-    <!-- Elementos Decorativos de Background -->
+    <!-- Decorative Background Elements -->
     <div class="absolute inset-0 pointer-events-none">
       <!-- Grid Pattern -->
       <div class="absolute inset-0 opacity-[0.03]"
@@ -12,7 +12,7 @@
       <div class="absolute bottom-0 right-0 w-[500px] h-[500px] bg-[#ffb300] rounded-full mix-blend-screen filter blur-[128px] opacity-10 translate-x-1/2 translate-y-1/2"></div>
     </div>
 
-    <!-- Linha central vertical -->
+    <!-- Vertical Center Line -->
     <div class="absolute bg-gradient-to-b from-[#ffb300]/20 via-[#d9d9d9] to-[#ffb300]/20 h-full left-1/2 top-0 w-[2px] -translate-x-1/2"></div>
 
     <div class="container mx-auto px-4 max-w-7xl">
@@ -23,13 +23,13 @@
         class="relative mb-24 last:mb-0 scroll-mt-20"
       >
         <div class="flex items-center" :class="service.align === 'left' ? 'justify-start' : 'justify-end'">
-          <!-- Card do Serviço -->
+          <!-- Service Card -->
           <div class="w-full md:w-1/2" :class="service.align === 'left' ? 'md:pr-16' : 'md:pl-16'">
             <div
               class="bg-gradient-to-br from-[#f4f0e5] to-[#e8e4d9] border-[#ffb300] rounded-[30px] p-8 shadow-2xl hover:shadow-[#ffb300]/20 transition-all duration-500 hover:scale-[1.02]"
               :class="service.align === 'left' ? 'border-l-8' : 'border-r-8'"
             >
-              <!-- Número do serviço -->
+              <!-- Service Number -->
               <div class="flex items-center gap-4 mb-4">
                 <span class="text-6xl font-bold text-[#ffb300]/30">{{ service.number }}</span>
                 <div class="flex-1">
@@ -38,10 +38,10 @@
                 </div>
               </div>
 
-              <!-- Descrição -->
+              <!-- Description -->
               <p class="text-lg text-[#160a00]/80 leading-relaxed mb-6">{{ service.description }}</p>
 
-              <!-- Lista de itens -->
+              <!-- Items List -->
               <div class="bg-white/50 rounded-2xl p-6 backdrop-blur-sm">
                 <ul class="space-y-3">
                   <li
@@ -59,16 +59,16 @@
             </div>
           </div>
 
-          <!-- Ícone Central com SVG -->
+          <!-- Center Icon with SVG -->
           <div
             class="absolute left-1/2 -translate-x-1/2 hidden md:block z-10"
             :style="{ top: '50%', transform: 'translate(-50%, -50%)' }"
           >
             <div class="relative group">
-              <!-- Círculo de fundo com efeito de brilho -->
+              <!-- Background circle with glow effect -->
               <div class="absolute inset-0 bg-[#ffb300] rounded-full blur-xl opacity-30 group-hover:opacity-50 transition-opacity duration-500"></div>
 
-              <!-- Container do ícone -->
+              <!-- Icon Container -->
               <div class="relative backdrop-blur-md bg-gradient-to-br from-[#ffb300]/20 to-[#ffb300]/10 border-2 border-[#ffb300]/40 rounded-full w-[120px] h-[120px] flex items-center justify-center shadow-2xl group-hover:scale-110 transition-all duration-500">
                 <img
                   :src="service.icon"
@@ -77,7 +77,7 @@
                 />
               </div>
 
-              <!-- Pulso animado -->
+              <!-- Animated Pulse -->
               <div class="absolute inset-0 rounded-full border-2 border-[#ffb300]/30 animate-ping"></div>
             </div>
           </div>
@@ -91,84 +91,84 @@
 const services = [
   {
     id: 'fat-sat',
-    title: 'Conformidade Garantida',
+    title: 'Guaranteed Compliance',
     number: '01',
     name: 'FAT / SAT',
-    description: 'Atuamos como seus olhos técnicos antes mesmo da obra começar. Validamos o desempenho no fabricante e garantimos a integridade na chegada à planta.',
+    description: 'We act as your technical eyes even before work begins. We validate performance at the manufacturer and ensure integrity upon arrival at the plant.',
     items: [
-      'Validação de lógica e hardware em fábrica',
-      'Inspeção de danos de transporte',
-      'Aprovação técnica para instalação',
+      'Logic and hardware validation in factory',
+      'Transport damage inspection',
+      'Technical approval for installation',
     ],
     align: 'left',
     icon: '/svg/fat-sat.svg',
   },
   {
     id: 'calibracao',
-    title: 'Precisão que Evita Perdas',
+    title: 'Precision that Avoids Losses',
     number: '02',
-    name: 'Calibração',
-    description: 'A precisão é a base do lucro. Realizamos o ajuste rastreável de sensores e atuadores, eliminando desvios que causam desperdício de insumos.',
+    name: 'Calibration',
+    description: 'Precision is the basis of profit. We perform traceable adjustment of sensors and actuators, eliminating deviations that cause input waste.',
     items: [
-      'Certificação RBC/Inmetro',
-      'Ajuste de malhas de controle',
-      'Conformidade com normas de qualidade',
+      'RBC/Inmetro Certification',
+      'Control loop adjustment',
+      'Compliance with quality standards',
     ],
     align: 'right',
     icon: '/svg/calibracao-de-instrumentos.svg',
   },
   {
     id: 'loop-check',
-    title: 'Resposta Rápida e Segura',
+    title: 'Fast and Safe Response',
     number: '03',
     name: 'Loop Check',
-    description: 'Certificamos a integridade de cada sinal. Simulamos a comunicação campo-sala para garantir que o sistema reaja na fração de segundo correta.',
+    description: 'We certify the integrity of every signal. We simulate field-room communication to ensure the system reacts in the correct fraction of a second.',
     items: [
-      'Simulação de sinais 0-100%',
-      'Verificação de alarmes e intertravamentos',
-      'Correção de falhas de cabeamento',
+      '0-100% signal simulation',
+      'Alarm and interlock verification',
+      'Cabling fault correction',
     ],
     align: 'left',
     icon: '/svg/loop-check.svg',
   },
   {
     id: 'pre-comissionamento',
-    title: 'Antecipação de Problemas',
+    title: 'Problem Anticipation',
     number: '04',
-    name: 'Pré-Comissionamento',
-    description: 'Limpamos o caminho para o sucesso. Executamos testes a frio rigorosos e gerimos agressivamente a lista de pendências para evitar atrasos no Start-up.',
+    name: 'Pre-Commissioning',
+    description: 'We clear the path for success. We execute rigorous cold tests and aggressively manage the punch list to avoid delays in Start-up.',
     items: [
-      'Gestão de Punch List (Pendências)',
-      'Testes de rotação e megagem',
-      'Testes funcionais a frio',
+      'Punch List Management',
+      'Rotation and megger testing',
+      'Cold functional tests',
     ],
     align: 'right',
     icon: '/svg/Instruments.svg',
   },
   {
     id: 'comissionamento',
-    title: 'Operação Estável Dia 1',
+    title: 'Stable Operation Day 1',
     number: '05',
-    name: 'Comissionamento',
-    description: 'O momento da verdade. Conduzimos a energização e os testes com processo ativo (Hot Commissioning), garantindo uma rampa de produção segura e otimizada.',
+    name: 'Commissioning',
+    description: 'The moment of truth. We conduct energization and tests with active process (Hot Commissioning), ensuring a safe and optimized production ramp-up.',
     items: [
-      'Partida assistida e assistida',
-      'Sintonia de malhas (Tuning)',
-      'Validação de segurança operacional',
+      'Assisted start-up',
+      'Loop Tuning',
+      'Operational safety validation',
     ],
     align: 'left',
     icon: '/svg/start-up.svg',
   },
   {
     id: 'handover',
-    title: 'Controle Total do Ativo',
+    title: 'Total Asset Control',
     number: '06',
     name: 'Handover',
-    description: 'Transferência de inteligência. Entregamos a planta com documentação atualizada e real (As-Built), capacitando sua equipe para operar com autonomia total.',
+    description: 'Intelligence transfer. We deliver the plant with updated and real (As-Built) documentation, empowering your team to operate with full autonomy.',
     items: [
-      'Data Books completos e organizados',
-      'Desenhos As-Built verificados',
-      'Treinamento de operação e manutenção',
+      'Complete and organized Data Books',
+      'Verified As-Built drawings',
+      'Operation and maintenance training',
     ],
     align: 'right',
     icon: '/svg/doc-handover.svg',

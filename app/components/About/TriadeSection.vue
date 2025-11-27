@@ -3,17 +3,17 @@
     <div class="container mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-16">
         <h2 class="text-4xl md:text-5xl font-bold tracking-wider">
-          A NOSSA IDENTIDADE
+          OUR IDENTITY
         </h2>
         <p class="text-xl mt-4 font-medium tracking-wider max-w-4xl mx-auto">
-          Todo o projeto industrial de sucesso existe em dois estados: o estado da visão e o estado da realidade.
+          Every successful industrial project exists in two states: the state of vision and the state of reality.
           <br>
-          Compreender ambos é a chave para a excelência.
+          Understanding both is the key to excellence.
         </p>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-10">
-        <!-- Card Missão -->
+        <!-- Card Mission -->
         <div class="group relative bg-gradient-to-br from-[#0A0501] via-[#1A1201] to-[#2A1901] rounded-3xl p-10 border-2 border-[#FF6B00]/30 hover:border-[#FF6B00] transition-all duration-500 hover:shadow-2xl hover:shadow-[#FF6B00]/30 hover:-translate-y-3 overflow-hidden">
           <!-- Glow Effect -->
           <div class="absolute inset-0 bg-gradient-to-br from-[#FF6B00]/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
@@ -27,16 +27,16 @@
             </div>
 
             <!-- Title -->
-            <h3 class="text-4xl font-bold mb-6 text-[#FF6B00] tracking-wide">Missão</h3>
+            <h3 class="text-4xl font-bold mb-6 text-[#FF6B00] tracking-wide">Mission</h3>
 
             <!-- Description -->
             <p class="text-base leading-relaxed text-gray-300 group-hover:text-white transition-colors duration-300">
-              Garantir a entrega segura, eficiente e confiável de projetos de instrumentação e comissionamento, oferecendo soluções ágeis e integradas que assegurem conformidade técnica e a plena satisfação dos clientes.
+              Ensure the safe, efficient, and reliable delivery of instrumentation and commissioning projects, offering agile and integrated solutions that ensure technical compliance and full customer satisfaction.
             </p>
           </div>
         </div>
 
-        <!-- Card Visão -->
+        <!-- Card Vision -->
         <div class="group relative bg-gradient-to-br from-[#0A0501] via-[#1A1201] to-[#2A1901] rounded-3xl p-10 border-2 border-[#FF6B00]/30 hover:border-[#FF6B00] transition-all duration-500 hover:shadow-2xl hover:shadow-[#FF6B00]/30 hover:-translate-y-3 overflow-hidden">
           <!-- Glow Effect -->
           <div class="absolute inset-0 bg-gradient-to-br from-[#FF6B00]/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
@@ -58,16 +58,16 @@
             </div>
 
             <!-- Title -->
-            <h3 class="text-4xl font-bold mb-6 text-[#FF6B00] tracking-wide">Visão</h3>
+            <h3 class="text-4xl font-bold mb-6 text-[#FF6B00] tracking-wide">Vision</h3>
 
             <!-- Description -->
             <p class="text-base leading-relaxed text-gray-300 group-hover:text-white transition-colors duration-300">
-              Ser reconhecida como referência em comissionamento e serviços de I&C na região do Benelux e da Península Ibérica, ampliando nossa presença internacional por meio da excelência técnica, inovação contínua e uma cultura sólida de segurança.
+              To be recognized as a reference in commissioning and I&C services in the Benelux region and the Iberian Peninsula, expanding our international presence through technical excellence, continuous innovation, and a solid safety culture.
             </p>
           </div>
         </div>
 
-        <!-- Card Valores -->
+        <!-- Card Values -->
         <div class="group relative bg-gradient-to-br from-[#0A0501] via-[#1A1201] to-[#2A1901] rounded-3xl p-10 border-2 border-[#FF6B00]/30 hover:border-[#FF6B00] transition-all duration-500 hover:shadow-2xl hover:shadow-[#FF6B00]/30 hover:-translate-y-3 overflow-hidden">
           <!-- Glow Effect -->
           <div class="absolute inset-0 bg-gradient-to-br from-[#FF6B00]/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
@@ -89,29 +89,29 @@
             </div>
 
             <!-- Title -->
-            <h3 class="text-4xl font-bold mb-6 text-[#FF6B00] tracking-wide">Valores</h3>
+            <h3 class="text-4xl font-bold mb-6 text-[#FF6B00] tracking-wide">Values</h3>
 
             <!-- Values List -->
             <ul class="text-base list-none space-y-3.5">
               <li class="flex items-start group/item">
                 <span class="text-[#FF6B00] mr-3 text-xl font-bold group-hover/item:scale-125 transition-transform duration-300">▸</span>
-                <span class="text-gray-300 group-hover/item:text-white group-hover/item:translate-x-1 transition-all duration-300">Segurança em primeiro lugar</span>
+                <span class="text-gray-300 group-hover/item:text-white group-hover/item:translate-x-1 transition-all duration-300">Safety first</span>
               </li>
               <li class="flex items-start group/item">
                 <span class="text-[#FF6B00] mr-3 text-xl font-bold group-hover/item:scale-125 transition-transform duration-300">▸</span>
-                <span class="text-gray-300 group-hover/item:text-white group-hover/item:translate-x-1 transition-all duration-300">Transparência e rastreabilidade</span>
+                <span class="text-gray-300 group-hover/item:text-white group-hover/item:translate-x-1 transition-all duration-300">Transparency and traceability</span>
               </li>
               <li class="flex items-start group/item">
                 <span class="text-[#FF6B00] mr-3 text-xl font-bold group-hover/item:scale-125 transition-transform duration-300">▸</span>
-                <span class="text-gray-300 group-hover/item:text-white group-hover/item:translate-x-1 transition-all duration-300">Agilidade e flexibilidade</span>
+                <span class="text-gray-300 group-hover/item:text-white group-hover/item:translate-x-1 transition-all duration-300">Agility and flexibility</span>
               </li>
               <li class="flex items-start group/item">
                 <span class="text-[#FF6B00] mr-3 text-xl font-bold group-hover/item:scale-125 transition-transform duration-300">▸</span>
-                <span class="text-gray-300 group-hover/item:text-white group-hover/item:translate-x-1 transition-all duration-300">Compromisso com a qualidade</span>
+                <span class="text-gray-300 group-hover/item:text-white group-hover/item:translate-x-1 transition-all duration-300">Commitment to quality</span>
               </li>
               <li class="flex items-start group/item">
                 <span class="text-[#FF6B00] mr-3 text-xl font-bold group-hover/item:scale-125 transition-transform duration-300">▸</span>
-                <span class="text-gray-300 group-hover/item:text-white group-hover/item:translate-x-1 transition-all duration-300">Respeito às pessoas e ao meio ambiente</span>
+                <span class="text-gray-300 group-hover/item:text-white group-hover/item:translate-x-1 transition-all duration-300">Respect for people and the environment</span>
               </li>
             </ul>
           </div>

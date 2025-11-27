@@ -23,12 +23,11 @@
           class="bg-[rgba(25,125,175,0.87)] p-2 rounded-2xl shadow-lg max-w-4xl mx-auto flex flex-col gap-2"
         >
           <h2 class="text-5xl font-bold">
-            O Blueprint para a Execução Perfeita
+            The Blueprint for Perfect Execution
           </h2>
           <p class="text-xl">
-            A nossa metodologia transforma a abstração em operação através de um
-            processo rigoroso e controlado. Cada etapa é um passo calculado para
-            construir a sua realidade com a máxima fiabilidade e precisão.
+            Our methodology transforms abstraction into operation through a rigorous and controlled process.
+            Each step is a calculated move to build your reality with maximum reliability and precision.
           </p>
         </div>
       </div>

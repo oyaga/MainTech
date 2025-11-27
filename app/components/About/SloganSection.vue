@@ -10,7 +10,7 @@
         </div>
         <div class="w-[691px]">
           <h2 class="text-4xl md:text-5xl font-bold leading-tight">
-            Da energia à automação, transformamos a precisão em progresso.
+            From energy to automation, we transform precision into progress.
           </h2>
         </div>
       </div>

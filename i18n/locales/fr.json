@@ -1,0 +1,396 @@
+{
+  "welcome": "Bienvenue",
+  "hero": {
+    "title": "Chaque grand projet commence par une vision. Et prend vie avec des solutions fiables !",
+    "description": "Nous savons ce qu'il faut pour transformer des plans complexes en réalité opérationnelle. La distance entre l'achèvement de la construction et un démarrage réussi est un chemin critique, plein de variables qui ne laissent aucune place à l'erreur. Des milliers de composants, des systèmes interconnectés, des budgets stricts et des délais inflexibles. Au milieu de toute cette complexité, votre objectif est clair : commencer à opérer avec un maximum de sécurité, d'efficacité et de fiabilité. C'est précisément là que notre histoire croise la vôtre."
+  },
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "industries": "Secteurs",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "buttons": {
+    "learnMore": "En savoir plus",
+    "discoverMore": "Découvrir plus",
+    "getInTouch": "Nous contacter",
+    "contactUs": "Contactez-nous",
+    "requestQuote": "Demander un devis",
+    "chatWhatsapp": "Discuter sur WhatsApp",
+    "sendEmail": "Envoyer un e-mail",
+    "sendMessage": "ENVOYER LE MESSAGE",
+    "sending": "ENVOI EN COURS..."
+  },
+  "home": {
+    "seo": {
+      "title": "Maintech Solutions - Solutions fiables pour grands projets",
+      "description": "Nous transformons des plans complexes en réalité opérationnelle avec un maximum de sécurité, d'efficacité et de fiabilité. Chaque grand projet commence par une vision."
+    },
+    "about": {
+      "badge": "Maintech Solutions",
+      "heading": "Dans un monde de variables, la précision n'est pas une option. C'est la seule réponse.",
+      "paragraph1": "Maintech Solutions est née en 2022 avec un objectif clair : offrir une nouvelle approche du commissioning industriel. Nous avons vu le besoin d'un partenaire combinant des décennies d'expérience technique avec l'agilité d'une structure moderne et flexible. Au lieu de bureaucratie, nous offrons une communication directe. Au lieu de retards, nous prenons des décisions rapides.",
+      "paragraph2": "Notre force réside dans l'intégration harmonieuse de la gestion avec l'exécution sur le terrain, résultant en moins de défaillances et une plus grande efficacité. Nous sommes les experts qui vous accompagnent à chaque étape, garantissant que votre vision se matérialise sans revers.",
+      "button": "Découvrir plus"
+    },
+    "services": {
+      "mainHeading": "Notre méthode est votre manuel pour un démarrage sans faille.",
+      "subheading": "Nous accompagnons le client depuis les tests en usine jusqu'à la livraison finale de l'installation, garantissant que tout fonctionne avec sécurité, traçabilité et efficacité.",
+      "fat": {
+        "title": "FAT/SAT",
+        "subtitle": "TEST D'ACCEPTATION EN USINE ET SUR SITE",
+        "description": "Tests effectués avant et après l'installation des équipements. Ils garantissent que tout est conforme au projet et fonctionne correctement, de l'usine au site d'opération final."
+      },
+      "calibration": {
+        "title": "Calibration",
+        "subtitle": "INSTRUMENTS ET ACTIONNEURS",
+        "description": "Consiste à ajuster et certifier les capteurs, vannes et compteurs pour qu'ils fonctionnent avec une précision totale. Chaque élément reçoit une identification et une certification, apportant confiance et traçabilité au processus."
+      },
+      "loopCheck": {
+        "title": "Loop Check",
+        "subtitle": "VÉRIFICATION DES SIGNAUX",
+        "description": "C'est comme un « test de communication » : teste tous les signaux entre les instruments et les systèmes de contrôle. Cela garantit que les alarmes, les verrouillages de sécurité et les arrêts automatiques fonctionnent au bon moment."
+      },
+      "preCommissioning": {
+        "title": "Pré-commissioning",
+        "subtitle": "PRÉPARATION ET INSPECTION",
+        "description": "Une étape de préparation avant la mise en marche de l'installation. Comprend des inspections sur le terrain, l'enregistrement des punch lists et des tests à froid pour éviter les surprises lors du démarrage."
+      },
+      "commissioning": {
+        "title": "Commissioning",
+        "subtitle": "DÉMARRAGE DE L'INSTALLATION",
+        "description": "C'est ici que l'installation prend vraiment vie. Des tests fonctionnels et des validations de sécurité sont effectués, accompagnant le démarrage jusqu'à ce que tout soit stable et sûr pour l'exploitation."
+      },
+      "documentation": {
+        "title": "Documentation",
+        "subtitle": "LIVRAISON & AS-BUILT",
+        "description": "Livraison finale des rapports, certificats et de toute la documentation « as-built ». Cela apporte transparence et sécurité au client pour exploiter l'installation."
+      }
+    },
+    "industries": {
+      "mainHeading": "Nous maîtrisons les secteurs industriels les plus exigeants.",
+      "subheading": "Notre agilité et nos connaissances techniques ont été testées et approuvées dans les environnements industriels les plus exigeants. Nous opérons avec confiance et expertise dans toute la région du Benelux et de la Péninsule Ibérique, dans les secteurs suivants.",
+      "statusBadge": "DISPONIBLE",
+      "energy": {
+        "title": "ÉNERGIE",
+        "description": "Commissioning et démarrage d'installations CCGT garantissant fiabilité et exploitation sûre.",
+        "items": "Installations CCGT, Fiabilité, Exploitation sûre",
+        "tags": "COMMISSIONING, DÉMARRAGE",
+        "idealFor": "Entreprises du secteur énergétique"
+      },
+      "chemical": {
+        "title": "CHIMIQUE & PÉTROCHIMIQUE",
+        "description": "Calibration et loop check dans les unités chimiques, en mettant l'accent sur la conformité et la traçabilité.",
+        "items": "Calibration, Loop Check, Conformité",
+        "tags": "CHIMIQUE, PÉTROCHIMIQUE",
+        "idealFor": "Industries chimiques et pétrochimiques"
+      },
+      "hydrogen": {
+        "title": "HYDROGÈNE",
+        "description": "Solutions spécialisées dans les projets de production, stockage et distribution d'hydrogène vert.",
+        "items": "Hydrogène vert, Production & Stockage, Technologie propre",
+        "tags": "H2 VERT, ÉNERGIE PROPRE",
+        "idealFor": "Projets d'énergie renouvelable"
+      },
+      "storage": {
+        "title": "STOCKAGE & TERMINAUX",
+        "description": "Pré-commissioning et démarrage de terminaux de vrac liquide, garantissant l'efficacité opérationnelle.",
+        "items": "Pré-commissioning, Terminaux liquides, Efficacité opérationnelle",
+        "tags": "TERMINAL, LOGISTIQUE",
+        "idealFor": "Entreprises de stockage et logistique"
+      },
+      "gases": {
+        "title": "GAZ INDUSTRIELS",
+        "description": "FAT, SAT et support dans les projets de distribution et traitement de gaz industriels.",
+        "items": "FAT & SAT, Distribution, Traitement des gaz",
+        "tags": "GAZ, INDUSTRIEL",
+        "idealFor": "Entreprises de gaz industriels"
+      },
+      "automotive": {
+        "title": "AUTOMOBILE",
+        "description": "Automatisation et contrôle des lignes de production automobile avec haute précision et efficacité.",
+        "items": "Lignes de production, Automatisation industrielle, Contrôle qualité",
+        "tags": "AUTOMATISATION, PRODUCTION",
+        "idealFor": "Industrie automobile"
+      },
+      "utilities": {
+        "title": "SERVICES PUBLICS & INFRASTRUCTURE",
+        "description": "Gestion et optimisation des systèmes de services publics et infrastructures industrielles critiques.",
+        "items": "Systèmes de services, Infrastructure critique, Optimisation des processus",
+        "tags": "SERVICES, INFRASTRUCTURE",
+        "idealFor": "Gestionnaires d'infrastructure"
+      }
+    },
+    "status": {
+      "heading": "Nous disposons des outils idéaux pour vos besoins",
+      "subheading": "Nous fournissons un support spécialisé et des solutions fiables pour garantir que votre exploitation ne s'arrête jamais. Notre expérience et notre technologie travaillent en votre faveur.",
+      "stat1": "Réduction des coûts opérationnels",
+      "stat1Value": "85%",
+      "stat2": "Augmentation de la productivité",
+      "stat2Value": "92%",
+      "stat3": "Précision dans la livraison de projets",
+      "stat3Value": "97%"
+    },
+    "cta": {
+      "heading": "PARLONS-EN",
+      "phone": "Téléphone :",
+      "phoneNumber": "+33 492 02 13 43",
+      "email": "E-mail :",
+      "emailAddress": "contato{'@'}maintech.be",
+      "address": "Adresse",
+      "addressText": "Heilig-Hartstraat 31\nBeerse 2340 - Belgique",
+      "ctaText": "Prêt à démarrer votre prochain projet ?",
+      "button": "Nous contacter"
+    }
+  },
+  "about": {
+    "seo": {
+      "title": "À propos de nous - Ingénierie de précision | Maintech Solutions",
+      "description": "Ingénierie de précision pour des visions ambitieuses. Nous construisons la base technique de votre projet avec des solutions de commissioning robustes et fiables."
+    },
+    "hero": {
+      "heading": "Ingénierie de précision pour des visions ambitieuses.",
+      "subheading": "Une grande vision exige une fondation inébranlable. Nous construisons la base technique de votre projet avec des solutions de commissioning aussi robustes et fiables que votre ambition."
+    },
+    "intro": {
+      "badge": "Qui nous sommes",
+      "heading": "De la complexité à l'efficacité : nous livrons des résultats sans faille",
+      "paragraph1": "Maintech Solutions & Engineering est née pour transformer la complexité en efficacité. Fondée en 2022, elle a émergé avec la mission d'offrir des solutions innovantes et sûres en commissioning, instrumentation et automatisation industrielle.",
+      "paragraph2": "Aujourd'hui, nous opérons dans toute la région du Benelux et de la Péninsule Ibérique, apportant excellence technique, innovation et un engagement inébranlable envers la sécurité et la fiabilité de chaque projet."
+    },
+    "values": {
+      "badge": "Nos valeurs",
+      "mainHeading": "Les piliers non négociables de notre travail",
+      "subheading": "Toute notre architecture de travail est soutenue par trois piliers fondamentaux. Ils garantissent que chaque projet que nous livrons n'est pas seulement fonctionnel, mais exemplaire.",
+      "precision": {
+        "title": "PRÉCISION",
+        "description": "Dans notre travail, « presque » n'est pas une option. Notre obsession du détail technique garantit que chaque calcul, mesure et test est exécuté avec une exactitude absolue. C'est la base de la qualité."
+      },
+      "reliability": {
+        "title": "FIABILITÉ",
+        "description": "Nos solutions sont conçues pour durer et fonctionner sous pression. La fiabilité est au centre de notre processus, garantissant que votre exploitation non seulement démarre bien mais continue de fonctionner de manière cohérente."
+      },
+      "safety": {
+        "title": "SÉCURITÉ",
+        "description": "C'est le pilier maître, la fondation qui soutient tous les autres. La sécurité est notre priorité maximale et non négociable, protégeant vos personnes, vos actifs et l'avenir de votre investissement."
+      }
+    },
+    "identity": {
+      "mainHeading": "NOTRE IDENTITÉ",
+      "subheading": "Chaque projet industriel réussi existe en deux états : l'état de vision et l'état de réalité. Comprendre les deux est la clé de l'excellence.",
+      "mission": {
+        "title": "Mission",
+        "description": "Assurer la livraison sûre, efficace et fiable de projets d'instrumentation et de commissioning, offrant des solutions agiles et intégrées qui garantissent la conformité technique et la satisfaction totale du client."
+      },
+      "vision": {
+        "title": "Vision",
+        "description": "Être reconnu comme une référence en commissioning et services I&C dans la région du Benelux et de la Péninsule Ibérique, élargissant notre présence internationale grâce à l'excellence technique, l'innovation continue et une solide culture de sécurité."
+      },
+      "values": {
+        "title": "Valeurs",
+        "item1": "La sécurité d'abord",
+        "item2": "Transparence et traçabilité",
+        "item3": "Agilité et flexibilité",
+        "item4": "Engagement envers la qualité",
+        "item5": "Respect des personnes et de l'environnement"
+      }
+    },
+    "blueprint": {
+      "mainHeading": "Le plan d'exécution parfaite",
+      "subheading": "Notre méthodologie transforme l'abstraction en opération à travers un processus rigoureux et contrôlé. Chaque étape est un mouvement calculé pour construire votre réalité avec une fiabilité et une précision maximales."
+    },
+    "slogan": {
+      "mainHeading": "De l'énergie à l'automatisation, nous transformons la précision en progrès."
+    },
+    "cta": {
+      "heading": "Construisons la réalité de votre prochain projet.",
+      "subheading": "Votre vision mérite un partenaire de construction qui l'honore avec une exécution sans faille. Si vous êtes prêt à transformer votre ambition en votre prochaine réalité opérationnelle, notre conversation est en retard.",
+      "button1": "Demander un devis",
+      "button2": "Discuter sur WhatsApp",
+      "phone": "Téléphone",
+      "phoneNumber": "+33 492 02 13 43",
+      "email": "E-mail",
+      "emailAddress": "contato{'@'}maintechsolutions.be",
+      "support": "Support",
+      "supportText": "24h par jour"
+    }
+  },
+  "services": {
+    "seo": {
+      "title": "Nos services - Ingénierie et performance | Maintech Solutions",
+      "description": "De la validation en usine à la livraison finale. Nous garantissons que vos actifs fonctionnent avec un maximum de sécurité, une précision absolue et un retour financier."
+    },
+    "hero": {
+      "heading": "L'ingénierie qui transforme les projets en performance.",
+      "subheading": "De la validation en usine à la livraison de la documentation finale : nous garantissons que vos actifs fonctionnent avec un maximum de sécurité, une précision absolue et un retour financier garanti."
+    },
+    "timeline": {
+      "fat": {
+        "title": "FAT / SAT",
+        "heading": "Conformité garantie",
+        "description": "Nous agissons comme vos yeux techniques avant même le début des travaux. Nous validons les performances chez le fabricant et garantissons l'intégrité à l'arrivée à l'installation.",
+        "item1": "Validation logique et matérielle en usine",
+        "item2": "Inspection des dommages de transport",
+        "item3": "Approbation technique pour l'installation"
+      },
+      "calibration": {
+        "title": "Calibration",
+        "heading": "Précision qui évite les pertes",
+        "description": "La précision est la base du profit. Nous effectuons un ajustement traçable des capteurs et actionneurs, éliminant les déviations qui causent le gaspillage d'intrants.",
+        "item1": "Certification RBC/Inmetro",
+        "item2": "Ajustement de la boucle de contrôle",
+        "item3": "Conformité aux normes de qualité"
+      },
+      "loopCheck": {
+        "title": "Loop Check",
+        "heading": "Réponse rapide et sûre",
+        "description": "Nous certifions l'intégrité de chaque signal. Nous simulons la communication terrain-salle pour garantir que le système réagit dans la fraction de seconde correcte.",
+        "item1": "Simulation de signal 0-100%",
+        "item2": "Vérification des alarmes et verrouillages",
+        "item3": "Correction des défauts de câblage"
+      },
+      "preCommissioning": {
+        "title": "Pré-commissioning",
+        "heading": "Anticipation des problèmes",
+        "description": "Nous préparons le chemin du succès. Nous exécutons des tests à froid rigoureux et gérons agressivement la punch list pour éviter les retards au démarrage.",
+        "item1": "Gestion de la Punch List",
+        "item2": "Tests de rotation et megger",
+        "item3": "Tests fonctionnels à froid"
+      },
+      "commissioning": {
+        "title": "Commissioning",
+        "heading": "Exploitation stable dès le jour 1",
+        "description": "Le moment de vérité. Nous conduisons l'énergisation et les tests avec processus actif (Hot Commissioning), garantissant une montée en production sûre et optimisée.",
+        "item1": "Démarrage assisté",
+        "item2": "Loop Tuning",
+        "item3": "Validation de la sécurité opérationnelle"
+      },
+      "handover": {
+        "title": "Livraison",
+        "heading": "Contrôle total de l'actif",
+        "description": "Transfert d'intelligence. Nous livrons l'installation avec une documentation mise à jour et réelle (As-Built), permettant à votre équipe d'exploiter en toute autonomie.",
+        "item1": "Data Books complets et organisés",
+        "item2": "Plans As-Built vérifiés",
+        "item3": "Formation exploitation et maintenance"
+      }
+    },
+    "cta": {
+      "heading": "PARLONS-EN",
+      "phone": "Téléphone :",
+      "phoneNumber": "+33 492 02 13 43",
+      "email": "E-mail :",
+      "emailAddress": "contato{'@'}maintech.be",
+      "address": "Adresse",
+      "addressText": "Heilig-Hartstraat 31\nBeerse 2340 - Belgique",
+      "ctaText": "Prêt à démarrer votre prochain projet ?",
+      "button": "Nous contacter"
+    }
+  },
+  "contact": {
+    "seo": {
+      "title": "Contactez-nous - Transformez vos idées en réalité | Maintech Solutions",
+      "description": "Prenez contact avec Maintech Solutions. Découvrez comment nous pouvons transformer vos idées en réalité numérique et dynamiser vos projets."
+    },
+    "hero": {
+      "badge": "Prenez contact",
+      "mainHeading": "Contactez-nous",
+      "subheading": "Je suis ici pour vous aider. Prenez contact et découvrez comment je peux transformer vos idées en réalité numérique.",
+      "button1": "Envoyer un e-mail",
+      "button2": "WhatsApp",
+      "phone": "Téléphone",
+      "phoneNumber": "+33 492 02 13 43",
+      "phoneSupport": "Support 24h",
+      "email": "E-mail",
+      "emailAddress": "contato{'@'}maintech.be",
+      "emailResponse": "Réponse sous 24 heures",
+      "location": "Localisation",
+      "locationCountry": "Belgique",
+      "locationScope": "Nous servons LE MONDE ENTIER !"
+    },
+    "form": {
+      "fullName": "Nom complet *",
+      "company": "Entreprise",
+      "email": "E-mail *",
+      "phone": "Téléphone *",
+      "service": "Service d'intérêt",
+      "serviceOptions": {
+        "interface": "Design d'interface",
+        "web": "Développement web",
+        "consulting": "Conseil numérique",
+        "automation": "Automatisation des processus",
+        "marketing": "Marketing numérique",
+        "other": "Autres services"
+      },
+      "message": "Message *",
+      "messagePlaceholder": "Décrivez vos besoins ou questions...",
+      "submitButton": "ENVOYER LE MESSAGE",
+      "submitting": "ENVOI EN COURS...",
+      "successTitle": "Message envoyé avec succès !",
+      "successMessage": "Je vous contacterai bientôt.",
+      "errorTitle": "Erreur lors de l'envoi du message",
+      "errorMessage": "Une erreur s'est produite lors du traitement du formulaire. Veuillez réessayer."
+    },
+    "map": {
+      "heading": "Venez nous rendre visite",
+      "subheading": "Notre bureau est situé au cœur de l'Europe, prêt à vous accueillir.",
+      "addressLabel": "Adresse",
+      "addressText": "Heilig-Hartstraat 31 Beerse, 2340 - Belgique",
+      "hoursLabel": "Heures d'ouverture",
+      "weekdays": "Lun-Ven",
+      "weekdaysHours": "8h à 18h",
+      "saturday": "Samedi",
+      "saturdayHours": "8h à 12h",
+      "emergencies": "Urgences",
+      "emergenciesHours": "24h"
+    }
+  },
+  "industries": {
+    "seo": {
+      "title": "Secteurs - Ingénierie de précision | Maintech Solutions",
+      "description": "Ingénierie de précision pour les industries les plus exigeantes. Solutions opérationnelles avec un maximum de sécurité et de fiabilité pour divers secteurs."
+    },
+    "hero": {
+      "mainHeading": "Ingénierie de précision pour les industries les plus exigeantes",
+      "subheading": "Bien que chaque industrie ait des défis uniques, elles partagent toutes un besoin commun : la certitude que leurs systèmes d'exploitation fonctionneront avec un maximum de sécurité et de fiabilité. Chez Maintech Solutions, nous appliquons nos principes d'ingénierie de précision pour traduire les visions de nos clients en valeur opérationnelle, quelle que soit la complexité du secteur. Découvrez les industries où notre expérience fait la différence."
+    },
+    "badge": "Maintech Solutions",
+    "energy": {
+      "title": "Énergie",
+      "description": "Nous sommes experts dans le commissioning d'installations à cycle combiné et autres unités de production d'énergie. Notre processus rigoureux de tests et d'activation contrôlée garantit des démarrages rapides, sûrs et optimisés, maximisant votre capacité à répondre aux demandes du marché de l'énergie."
+    },
+    "chemical": {
+      "title": "Chimique et pétrochimique",
+      "description": "Nous avons une connaissance approfondie du commissioning des systèmes instrumentés de sécurité (SIS) et de l'instrumentation pour zones dangereuses. Nous garantissons que chaque boucle de contrôle et système de sécurité de votre installation est parfaitement calibré et validé, assurant la protection de vos personnes et actifs."
+    },
+    "hydrogen": {
+      "title": "Hydrogène",
+      "description": "Nous sommes à la pointe de la transition énergétique, avec une expérience dans l'instrumentation précise qu'exige l'économie de l'hydrogène. De la production au stockage, nous commissionnons vos systèmes pour garantir une manipulation sûre, des mesures précises et une exploitation fiable."
+    },
+    "storage": {
+      "title": "Stockage et terminaux de vrac liquide",
+      "description": "Notre expertise va de la calibration des systèmes de mesure de débit et de niveau au commissioning des systèmes d'automatisation de terminaux (TAS). Nous garantissons que vos opérations de stockage et de transfert sont précises, sûres et efficaces."
+    },
+    "gases": {
+      "title": "Gaz industriels",
+      "description": "Nous effectuons une vérification méticuleuse et le commissioning de toute la chaîne d'instrumentation, des capteurs de pureté aux vannes de contrôle, garantissant que votre production et distribution de gaz industriels fonctionne sans faille et avec un maximum de sécurité."
+    },
+    "automotive": {
+      "title": "Automobile",
+      "description": "Nous commissionnons les systèmes de services et l'infrastructure de contrôle qui sont l'épine dorsale de votre usine. Nous garantissons que l'énergie et les fluides atteignent vos robots et lignes d'assemblage avec la fiabilité nécessaire pour éviter des arrêts de production coûteux."
+    },
+    "utilities": {
+      "title": "Services publics et infrastructure",
+      "description": "Nous sommes spécialistes du commissioning des systèmes de protection et de contrôle dans les postes de transformation moyenne et haute tension. Nous garantissons que vos systèmes répondent correctement à tout événement du réseau, protégeant vos actifs et assurant la continuité de l'approvisionnement en énergie."
+    },
+    "cta": {
+      "heading": "PARLONS-EN",
+      "phone": "Téléphone :",
+      "phoneNumber": "+33 492 02 13 43",
+      "email": "E-mail :",
+      "emailAddress": "contato{'@'}maintech.be",
+      "address": "Adresse",
+      "addressText": "Heilig-Hartstraat 31\nBeerse 2340 - Belgique"
+    }
+  }
+}

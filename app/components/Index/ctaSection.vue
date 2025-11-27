@@ -2,7 +2,7 @@
   <section class="bg-[#AF8019] py-20">
     <div class="container mx-auto px-4 sm:px-6 lg:px-8">
       <div class="bg-[#D99B0A] rounded-3xl text-center py-6 mb-12">
-        <a href="tel:+33492021343" class="text-white text-4xl font-black">Ligue +33 492 02 13 43 ou Envie Mensagem</a>
+        <a href="tel:+33492021343" class="text-white text-4xl font-black">Call +33 492 02 13 43 or Send a Message</a>
       </div>
       <div class="bg-white rounded-lg shadow-lg p-8 grid grid-cols-1 md:grid-cols-2 gap-8">
         <div class="bg-[#B07E09] text-white p-8 rounded-lg">
@@ -30,7 +30,7 @@
             <div class="w-6 h-6 mr-2 flex-shrink-0">
               <svg class="w-full h-full text-white" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/></svg>
             </div>
-            <p>Heilig-Hartstraat 31 Beerse 2340 - Bélgica</p>
+            <p>Heilig-Hartstraat 31 Beerse 2340 - Belgium</p>
           </div>
         </div>
         <div>

@@ -26,14 +26,14 @@
         <!-- Left Column - Title -->
         <div class="flex flex-col justify-center">
           <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight">
-            Engenharia que Transforma Projetos em Performance.
+            Engineering that Transforms Projects into Performance.
           </h1>
         </div>
 
         <!-- Right Column - Description -->
         <div class="flex flex-col justify-center">
           <p class="text-lg sm:text-xl lg:text-2xl font-light leading-relaxed text-gray-200">
-            Da validação em fábrica até a entrega final da documentação: garantimos que seus ativos operem com segurança máxima, precisão absoluta e retorno financeiro garantido.
+            From factory validation to final documentation delivery: we ensure your assets operate with maximum safety, absolute precision, and guaranteed financial return.
           </p>
         </div>
       </div>

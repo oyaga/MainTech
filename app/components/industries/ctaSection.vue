@@ -11,7 +11,7 @@
     <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
       <!-- Title -->
       <h2 class="text-[96px] font-bold text-white text-center mb-[27px] leading-normal">
-        VAMOS CONVERSAR
+        LET'S TALK
       </h2>
 
       <!-- Divider Line -->
@@ -24,12 +24,12 @@
           <!-- Icon Circle -->
           <div class="backdrop-blur-sm bg-white/10 border border-white/27 rounded-full w-[86px] h-[86px] flex items-center justify-center">
             <div class="w-[51px] h-[51px]">
-              <img src="/svg/phone.svg" alt="Telefone" class="w-full h-full object-contain brightness-0 invert">
+              <img src="/svg/phone.svg" alt="Phone" class="w-full h-full object-contain brightness-0 invert">
             </div>
           </div>
 
           <h3 class="text-[36px] font-bold text-white text-center leading-normal">
-            Telefone:
+            Phone:
           </h3>
 
           <a href="tel:+33492021343" class="text-[25px] font-light text-white text-center leading-normal hover:underline transition-all">
@@ -42,12 +42,12 @@
           <!-- Icon Circle -->
           <div class="backdrop-blur-sm bg-white/10 border border-white/27 rounded-full w-[86px] h-[86px] flex items-center justify-center">
             <div class="w-[51px] h-[51px]">
-              <img src="/svg/email.svg" alt="E-mail" class="w-full h-full object-contain brightness-0 invert">
+              <img src="/svg/email.svg" alt="Email" class="w-full h-full object-contain brightness-0 invert">
             </div>
           </div>
 
           <h3 class="text-[36px] font-bold text-white text-center leading-normal">
-            E-mail:
+            Email:
           </h3>
 
           <a href="mailto:contato@maintech.be" class="text-[25px] font-light text-white text-center leading-normal hover:underline transition-all">
@@ -60,17 +60,17 @@
           <!-- Icon Circle -->
           <div class="backdrop-blur-sm bg-white/10 border border-white/27 rounded-full w-[86px] h-[86px] flex items-center justify-center">
             <div class="w-[51px] h-[51px]">
-              <img src="/svg/location.svg" alt="Endereço" class="w-full h-full object-contain brightness-0 invert">
+              <img src="/svg/location.svg" alt="Address" class="w-full h-full object-contain brightness-0 invert">
             </div>
           </div>
 
           <h3 class="text-[36px] font-bold text-white text-center leading-normal">
-            Endereço
+            Address
           </h3>
 
           <p class="text-[25px] font-light text-white text-center leading-normal px-4">
             Heilig-Hartstraat 31<br>
-            Beerse 2340 - Bélgica
+            Beerse 2340 - Belgium
           </p>
         </div>
       </div>
