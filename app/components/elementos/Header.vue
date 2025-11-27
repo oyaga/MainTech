@@ -275,7 +275,7 @@ const languageDropdown = ref(null)
 const getCurrentLocale = () => {
   const path = route.path
   if (path.startsWith('/fr')) return 'FR'
-  if (path.startsWith('/es')) return 'ES'
+  if (path.startsWith('/nl')) return 'NL'
   return 'EN'
 }
 
@@ -320,7 +320,7 @@ const openSubmenus = ref({})
 const languages = [
   { code: 'EN', name: 'English', flag: '/svg/flags/united-states.svg' },
   { code: 'FR', name: 'Français', flag: '/svg/flags/france.svg' },
-  { code: 'ES', name: 'Español', flag: '/svg/flags/spain.svg' }
+  { code: 'NL', name: 'Nederlands', flag: '/svg/flags/holanda.svg' }
 ]
 
 const currentLanguageFlag = computed(() => {
@@ -360,11 +360,11 @@ const selectLanguage = async (lang) => {
 
   // Get current path without locale prefix
   let path = route.path
-  path = path.replace(/^\/(en|fr|es)/, '')
+  path = path.replace(/^\/(en|fr|nl)/, '')
   if (!path) path = '/'
 
   // Navigate to new locale
-  const localeMap = { 'EN': 'en', 'FR': 'fr', 'ES': 'es' }
+  const localeMap = { 'EN': 'en', 'FR': 'fr', 'NL': 'nl' }
   const newLocale = localeMap[lang]
 
   if (newLocale === 'en') {
