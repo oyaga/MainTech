@@ -73,7 +73,7 @@
             href="/contact"
             class="relative bg-[#B07E09] text-white text-sm font-bold rounded-lg px-6 py-2.5 overflow-hidden group transition-all duration-300 shadow-md hover:shadow-xl"
           >
-            <span class="relative z-10">CONTACT US</span>
+            <span class="relative z-10">{{ t('buttons.contactUs').toUpperCase() }}</span>
             <span class="absolute inset-0 bg-gradient-to-r from-[#8F6507] to-[#B07E09] transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300 ease-out"></span>
             <span class="absolute inset-0 bg-white/20 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 ease-out"></span>
           </a>
@@ -227,7 +227,7 @@
               class="relative block w-full text-center bg-[#B07E09] text-white text-sm font-bold rounded-lg px-6 py-3 overflow-hidden group transition-all duration-300 shadow-md hover:shadow-xl"
               @click="closeMobileMenu"
             >
-              <span class="relative z-10">CONTACT US</span>
+              <span class="relative z-10">{{ t('buttons.contactUs').toUpperCase() }}</span>
               <span class="absolute inset-0 bg-gradient-to-r from-[#8F6507] to-[#B07E09] transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300 ease-out"></span>
               <span class="absolute inset-0 bg-white/20 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 ease-out"></span>
             </a>
@@ -260,9 +260,11 @@
 <script setup>
 import { ref, computed, onMounted, onUnmounted } from 'vue'
 import { useRouter, useRoute } from 'vue-router'
+import { useI18n } from 'vue-i18n'
 
 const router = useRouter()
 const route = useRoute()
+const { t } = useI18n()
 
 const scrolled = ref(false)
 const mobileMenuOpen = ref(false)
@@ -279,39 +281,39 @@ const getCurrentLocale = () => {
 
 const currentLanguage = ref(getCurrentLocale())
 
-const menuItems = [
-  { name: 'Home', href: '/', active: false },
-  { name: 'About', href: '/about-us', active: false },
+const menuItems = computed(() => [
+  { name: t('nav.home'), href: '/', active: false },
+  { name: t('nav.about'), href: '/about-us', active: false },
   {
-    name: 'Industries',
+    name: t('nav.industries'),
     href: '/industries',
     active: false,
     hasSubmenu: true,
     submenu: [
-      { name: 'Energy', href: '/industries#energia' },
-      { name: 'Chemical & Petrochemical', href: '/industries#quimico-petroquimico' },
-      { name: 'Hydrogen', href: '/industries#hidrogenio' },
-      { name: 'Storage & Liquid Bulk Terminals', href: '/industries#armazenamento-terminais' },
-      { name: 'Industrial Gases', href: '/industries#gases-industriais' },
-      { name: 'Automotive', href: '/industries#automovel' },
-      { name: 'Utilities & Infrastructure', href: '/industries#utilities-infraestruturas' }
+      { name: t('home.industries.energy.title'), href: '/industries#energia' },
+      { name: t('home.industries.chemical.title'), href: '/industries#quimico-petroquimico' },
+      { name: t('home.industries.hydrogen.title'), href: '/industries#hidrogenio' },
+      { name: t('home.industries.storage.title'), href: '/industries#armazenamento-terminais' },
+      { name: t('home.industries.gases.title'), href: '/industries#gases-industriais' },
+      { name: t('home.industries.automotive.title'), href: '/industries#automovel' },
+      { name: t('home.industries.utilities.title'), href: '/industries#utilities-infraestruturas' }
     ]
   },
   {
-    name: 'Services',
+    name: t('nav.services'),
     href: '/services',
     active: false,
     hasSubmenu: true,
     submenu: [
-      { name: 'FAT / SAT', href: '/services#fat-sat' },
-      { name: 'Calibration', href: '/services#calibracao' },
-      { name: 'Loop Check', href: '/services#loop-check' },
-      { name: 'Pre-Commissioning', href: '/services#pre-comissionamento' },
-      { name: 'Commissioning', href: '/services#comissionamento' },
-      { name: 'Handover', href: '/services#handover' }
+      { name: t('home.services.fat.title'), href: '/services#fat-sat' },
+      { name: t('home.services.calibration.title'), href: '/services#calibracao' },
+      { name: t('home.services.loopCheck.title'), href: '/services#loop-check' },
+      { name: t('home.services.preCommissioning.title'), href: '/services#pre-comissionamento' },
+      { name: t('home.services.commissioning.title'), href: '/services#comissionamento' },
+      { name: t('home.services.documentation.title'), href: '/services#handover' }
     ]
   }
-]
+])
 
 const openSubmenus = ref({})
 
@@ -352,7 +354,7 @@ const toggleLanguageDropdown = () => {
   languageDropdownOpen.value = !languageDropdownOpen.value
 }
 
-const selectLanguage = (lang) => {
+const selectLanguage = async (lang) => {
   currentLanguage.value = lang
   languageDropdownOpen.value = false
 
@@ -367,10 +369,13 @@ const selectLanguage = (lang) => {
 
   if (newLocale === 'en') {
     // English is default, no prefix
-    router.push(path)
+    await router.push(path)
   } else {
-    router.push(`/${newLocale}${path}`)
+    await router.push(`/${newLocale}${path}`)
   }
+
+  // Reload page to apply new locale
+  window.location.reload()
 }
 
 const handleClickOutside = (event) => {

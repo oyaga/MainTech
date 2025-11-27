@@ -1,7 +1,70 @@
 {
-    "welcome": "Bienvenido",
-    "hero": {
-        "title": "¡Todo gran proyecto comienza con una visión. Y cobra vida con soluciones confiables!",
-        "description": "Sabemos lo que se necesita para transformar planes complejos en realidad operativa. La distancia entre la finalización de la construcción y una puesta en marcha exitosa es un camino crítico, lleno de variables que no dejan margen para el error. Miles de componentes, sistemas interconectados, presupuestos estrictos y plazos inflexibles. En medio de toda esta complejidad, su objetivo es claro: comenzar a operar con la máxima seguridad, eficiencia y confiabilidad. Es precisamente ahí donde nuestra historia se cruza con la suya."
+  "welcome": "Bienvenido",
+  "hero": {
+    "title": "¡Todo gran proyecto comienza con una visión. Y cobra vida con soluciones confiables!",
+    "description": "Sabemos lo que se necesita para transformar planes complejos en realidad operativa. La distancia entre la finalización de la construcción y una puesta en marcha exitosa es un camino crítico, lleno de variables que no dejan margen para el error. Miles de componentes, sistemas interconectados, presupuestos estrictos y plazos inflexibles. En medio de toda esta complejidad, su objetivo es claro: comenzar a operar con la máxima seguridad, eficiencia y confiabilidad. Es precisamente ahí donde nuestra historia se cruza con la suya."
+  },
+  "nav": {
+    "home": "Inicio",
+    "about": "Nosotros",
+    "industries": "Sectores",
+    "services": "Servicios",
+    "contact": "Contacto"
+  },
+  "buttons": {
+    "learnMore": "Saber más",
+    "discoverMore": "Descubrir más",
+    "getInTouch": "Contáctenos",
+    "contactUs": "Contáctenos",
+    "requestQuote": "Solicitar cotización",
+    "chatWhatsapp": "Chatear en WhatsApp",
+    "sendEmail": "Enviar correo",
+    "sendMessage": "ENVIAR MENSAJE",
+    "sending": "ENVIANDO..."
+  },
+  "home": {
+    "industries": {
+      "energy": {
+        "title": "ENERGÍA"
+      },
+      "chemical": {
+        "title": "QUÍMICO & PETROQUÍMICO"
+      },
+      "hydrogen": {
+        "title": "HIDRÓGENO"
+      },
+      "storage": {
+        "title": "ALMACENAMIENTO & TERMINALES"
+      },
+      "gases": {
+        "title": "GASES INDUSTRIALES"
+      },
+      "automotive": {
+        "title": "AUTOMOTRIZ"
+      },
+      "utilities": {
+        "title": "SERVICIOS PÚBLICOS & INFRAESTRUCTURA"
+      }
+    },
+    "services": {
+      "fat": {
+        "title": "FAT/SAT"
+      },
+      "calibration": {
+        "title": "Calibración"
+      },
+      "loopCheck": {
+        "title": "Loop Check"
+      },
+      "preCommissioning": {
+        "title": "Pre-Comisionamiento"
+      },
+      "commissioning": {
+        "title": "Comisionamiento"
+      },
+      "documentation": {
+        "title": "Documentación"
+      }
     }
+  }
 }

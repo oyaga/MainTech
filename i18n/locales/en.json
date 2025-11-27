@@ -1,7 +1,70 @@
 {
-    "welcome": "Welcome",
-    "hero": {
-        "title": "Every great project starts with a vision. And comes to life with reliable solutions!",
-        "description": "We know what it takes to transform complex plans into operational reality. The distance between construction completion and a successful startup is a critical path, full of variables that allow no room for error. Thousands of components, interconnected systems, strict budgets, and inflexible deadlines. Amidst all this complexity, your goal is clear: to start operating with maximum safety, efficiency, and reliability. That is precisely where our story intersects with yours."
+  "welcome": "Welcome",
+  "hero": {
+    "title": "Every great project starts with a vision. And comes to life with reliable solutions!",
+    "description": "We know what it takes to transform complex plans into operational reality. The distance between construction completion and a successful startup is a critical path, full of variables that allow no room for error. Thousands of components, interconnected systems, strict budgets, and inflexible deadlines. Amidst all this complexity, your goal is clear: to start operating with maximum safety, efficiency, and reliability. That is precisely where our story intersects with yours."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "industries": "Industries",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "buttons": {
+    "learnMore": "Learn More",
+    "discoverMore": "Discover More",
+    "getInTouch": "Get in Touch",
+    "contactUs": "Contact Us",
+    "requestQuote": "Request Quote",
+    "chatWhatsapp": "Chat on WhatsApp",
+    "sendEmail": "Send Email",
+    "sendMessage": "SEND MESSAGE",
+    "sending": "SENDING..."
+  },
+  "home": {
+    "industries": {
+      "energy": {
+        "title": "ENERGY"
+      },
+      "chemical": {
+        "title": "CHEMICAL & PETROCHEMICAL"
+      },
+      "hydrogen": {
+        "title": "HYDROGEN"
+      },
+      "storage": {
+        "title": "STORAGE & TERMINALS"
+      },
+      "gases": {
+        "title": "INDUSTRIAL GASES"
+      },
+      "automotive": {
+        "title": "AUTOMOTIVE"
+      },
+      "utilities": {
+        "title": "UTILITIES & INFRASTRUCTURE"
+      }
+    },
+    "services": {
+      "fat": {
+        "title": "FAT/SAT"
+      },
+      "calibration": {
+        "title": "Calibration"
+      },
+      "loopCheck": {
+        "title": "Loop Check"
+      },
+      "preCommissioning": {
+        "title": "Pre-Commissioning"
+      },
+      "commissioning": {
+        "title": "Commissioning"
+      },
+      "documentation": {
+        "title": "Documentation"
+      }
     }
+  }
 }
