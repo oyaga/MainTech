@@ -18,5 +18,9 @@ export default defineNuxtConfig({
     ],
     defaultLocale: 'en',
     strategy: 'prefix_except_default'
+  },
+  devServer: {
+    host: '0.0.0.0',
+    port: 3000
   }
 })

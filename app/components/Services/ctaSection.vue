@@ -21,7 +21,7 @@
             <img src="/svg/phone.svg" alt="Phone" class="w-[51px] h-[51px] filter brightness-0 invert" />
           </div>
           <p class="text-white text-4xl font-bold text-center">Phone:</p>
-          <p class="text-white text-2xl font-light text-center">+33 492 02 13 43</p>
+          <p class="text-white text-2xl font-light text-center">+32 492 84 62 33</p>
         </div>
 
         <!-- Email Card -->
@@ -32,7 +32,7 @@
             <img src="/svg/email.svg" alt="Email" class="w-[51px] h-[51px] filter brightness-0 invert" />
           </div>
           <p class="text-white text-4xl font-bold text-center">Email:</p>
-          <p class="text-white text-2xl font-light text-center">contato@maintech.be</p>
+          <p class="text-white text-2xl font-light text-center">info@maintechsolutions.be</p>
         </div>
 
         <!-- Address Card -->

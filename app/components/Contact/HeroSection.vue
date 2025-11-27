@@ -67,7 +67,7 @@
             </div>
             <div class="flex flex-col gap-1 text-white flex-1 w-full pr-3 md:pr-5">
               <p class="font-bold text-[14px] md:text-lg tracking-[0.05em] m-0">Phone</p>
-              <p class="font-bold text-[20px] md:text-3xl tracking-[0.05em] m-0">+33 492 02 13 43</p>
+              <p class="font-bold text-[20px] md:text-3xl tracking-[0.05em] m-0">+32 492 84 62 33</p>
               <p class="font-normal text-[10px] md:text-xs tracking-[0.05em] m-0">24h Support</p>
             </div>
           </div>
@@ -82,7 +82,7 @@
             <div class="flex flex-col gap-1 text-white flex-1 w-full pr-3 md:pr-5">
               <p class="font-bold text-[14px] md:text-lg tracking-[0.05em] m-0">E-mail</p>
               <p class="font-bold text-[16px] md:text-3xl tracking-[0.05em] m-0 break-all">
-contato@maintech.be</p>
+info@maintechsolutions.be</p>
               <p class="font-normal text-[10px] md:text-xs tracking-[0.05em] m-0">Response within 24 hours</p>
             </div>
           </div>
@@ -331,7 +331,7 @@ ${form.value.message}
     `.trim()
 
     const mailtoLink = `mailto:
-contato@maintech.be?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
+info@maintechsolutions.be?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
 
     // Open email client
     window.location.href = mailtoLink

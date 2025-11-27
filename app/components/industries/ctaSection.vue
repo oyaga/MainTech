@@ -32,8 +32,8 @@
             Phone:
           </h3>
 
-          <a href="tel:+33492021343" class="text-[25px] font-light text-white text-center leading-normal hover:underline transition-all">
-            +33 492 02 13 43
+          <a href="tel:+32492846233" class="text-[25px] font-light text-white text-center leading-normal hover:underline transition-all">
+            +32 492 84 62 33
           </a>
         </div>
 
@@ -50,8 +50,8 @@
             Email:
           </h3>
 
-          <a href="mailto:contato@maintech.be" class="text-[25px] font-light text-white text-center leading-normal hover:underline transition-all">
-            contato@maintech.be
+          <a href="mailto:info@maintechsolutions.be" class="text-[25px] font-light text-white text-center leading-normal hover:underline transition-all">
+            info@maintechsolutions.be
           </a>
         </div>
 

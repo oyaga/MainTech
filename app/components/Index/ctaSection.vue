@@ -2,7 +2,7 @@
   <section class="bg-[#AF8019] py-20">
     <div class="container mx-auto px-4 sm:px-6 lg:px-8">
       <div class="bg-[#D99B0A] rounded-3xl text-center py-6 mb-12">
-        <a href="tel:+33492021343" class="text-white text-4xl font-black">Call +33 492 02 13 43 or Send a Message</a>
+        <a href="tel:+32492846233" class="text-white text-4xl font-black">Call +32 492 84 62 33 or Send a Message</a>
       </div>
       <div class="bg-white rounded-lg shadow-lg p-8 grid grid-cols-1 md:grid-cols-2 gap-8">
         <div class="bg-[#B07E09] text-white p-8 rounded-lg">
@@ -14,7 +14,7 @@
             <div class="w-6 h-6 mr-2 flex-shrink-0">
               <img src="/svg/phone.svg" alt="Phone" class="w-full h-full object-contain brightness-0 invert">
             </div>
-            <p>+33 492 02 13 43</p>
+            <p>+32 492 84 62 33</p>
           </div>
 
           <!-- Email -->
@@ -22,7 +22,7 @@
             <div class="w-6 h-6 mr-2 flex-shrink-0">
               <img src="/svg/email.svg" alt="Email" class="w-full h-full object-contain brightness-0 invert">
             </div>
-            <p>contato@maintech.be</p>
+            <p>info@maintechsolutions.be</p>
           </div>
 
           <!-- Location -->

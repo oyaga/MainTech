@@ -45,7 +45,7 @@
             </div>
             <div class="space-y-1">
               <p class="text-zinc-400 text-sm font-medium uppercase tracking-wide">Phone</p>
-              <p class="text-xl font-bold text-white">+33 492 02 13 43</p>
+              <p class="text-xl font-bold text-white">+32 492 84 62 33</p>
             </div>
           </div>
         </div>
@@ -58,7 +58,7 @@
             </div>
             <div class="space-y-1">
               <p class="text-zinc-400 text-sm font-medium uppercase tracking-wide">E-mail</p>
-              <p class="text-xl font-bold text-white break-all">contato@maintechsolutions.be</p>
+              <p class="text-xl font-bold text-white break-all">info@maintechsolutions.be</p>
             </div>
           </div>
         </div>
