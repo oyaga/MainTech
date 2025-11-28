@@ -64,7 +64,7 @@
                 </div>
 
                 <div class="mt-auto pt-4 border-t border-[#2A2318] z-10 transition-colors duration-300 group-hover:border-[#FFB300]/30">
-                  <p class="text-[#FFB300] text-xs font-bold mb-1">IDEAL FOR:</p>
+                  <p class="text-[#FFB300] text-xs font-bold mb-1">{{ $t('home.industries.idealForLabel') }}</p>
                   <p class="text-gray-400 text-xs italic transition-colors duration-300 group-hover:text-gray-300">{{ $t('home.industries.energy.idealFor') }}</p>
                 </div>
               </div>
@@ -118,7 +118,7 @@
                 </div>
 
                 <div class="mt-auto pt-4 border-t border-[#2A2318] z-10 transition-colors duration-300 group-hover:border-[#FFB300]/30">
-                  <p class="text-[#FFB300] text-xs font-bold mb-1">IDEAL FOR:</p>
+                  <p class="text-[#FFB300] text-xs font-bold mb-1">{{ $t('home.industries.idealForLabel') }}</p>
                   <p class="text-gray-400 text-xs italic transition-colors duration-300 group-hover:text-gray-300">{{ $t('home.industries.chemical.idealFor') }}</p>
                 </div>
               </div>
@@ -172,7 +172,7 @@
                 </div>
 
                 <div class="mt-auto pt-4 border-t border-[#2A2318] z-10 transition-colors duration-300 group-hover:border-[#FFB300]/30">
-                  <p class="text-[#FFB300] text-xs font-bold mb-1">IDEAL FOR:</p>
+                  <p class="text-[#FFB300] text-xs font-bold mb-1">{{ $t('home.industries.idealForLabel') }}</p>
                   <p class="text-gray-400 text-xs italic transition-colors duration-300 group-hover:text-gray-300">{{ $t('home.industries.hydrogen.idealFor') }}</p>
                 </div>
               </div>
@@ -228,7 +228,7 @@
                 </div>
 
                 <div class="mt-auto pt-4 border-t border-[#2A2318] z-10 transition-colors duration-300 group-hover:border-[#FFB300]/30">
-                  <p class="text-[#FFB300] text-xs font-bold mb-1">IDEAL FOR:</p>
+                  <p class="text-[#FFB300] text-xs font-bold mb-1">{{ $t('home.industries.idealForLabel') }}</p>
                   <p class="text-gray-400 text-xs italic transition-colors duration-300 group-hover:text-gray-300">{{ $t('home.industries.storage.idealFor') }}</p>
                 </div>
               </div>
@@ -279,7 +279,7 @@
                 </div>
 
                 <div class="mt-auto pt-4 border-t border-[#2A2318] z-10 transition-colors duration-300 group-hover:border-[#FFB300]/30">
-                  <p class="text-[#FFB300] text-xs font-bold mb-1">IDEAL FOR:</p>
+                  <p class="text-[#FFB300] text-xs font-bold mb-1">{{ $t('home.industries.idealForLabel') }}</p>
                   <p class="text-gray-400 text-xs italic transition-colors duration-300 group-hover:text-gray-300">{{ $t('home.industries.gases.idealFor') }}</p>
                 </div>
               </div>
@@ -331,7 +331,7 @@
                 </div>
 
                 <div class="mt-auto pt-4 border-t border-[#2A2318] z-10 transition-colors duration-300 group-hover:border-[#FFB300]/30">
-                  <p class="text-[#FFB300] text-xs font-bold mb-1">IDEAL FOR:</p>
+                  <p class="text-[#FFB300] text-xs font-bold mb-1">{{ $t('home.industries.idealForLabel') }}</p>
                   <p class="text-gray-400 text-xs italic transition-colors duration-300 group-hover:text-gray-300">{{ $t('home.industries.automotive.idealFor') }}</p>
                 </div>
               </div>
@@ -387,7 +387,7 @@
                 </div>
 
                 <div class="mt-auto pt-4 border-t border-[#2A2318] z-10 transition-colors duration-300 group-hover:border-[#FFB300]/30">
-                  <p class="text-[#FFB300] text-xs font-bold mb-1">IDEAL FOR:</p>
+                  <p class="text-[#FFB300] text-xs font-bold mb-1">{{ $t('home.industries.idealForLabel') }}</p>
                   <p class="text-gray-400 text-xs italic transition-colors duration-300 group-hover:text-gray-300">{{ $t('home.industries.utilities.idealFor') }}</p>
                 </div>
               </div>
@@ -439,7 +439,7 @@
                 </div>
 
                 <div class="mt-auto pt-4 border-t border-[#2A2318] z-10 transition-colors duration-300 group-hover:border-[#FFB300]/30">
-                  <p class="text-[#FFB300] text-xs font-bold mb-1">IDEAL FOR:</p>
+                  <p class="text-[#FFB300] text-xs font-bold mb-1">{{ $t('home.industries.idealForLabel') }}</p>
                   <p class="text-gray-400 text-xs italic transition-colors duration-300 group-hover:text-gray-300">{{ $t('home.industries.energy.idealFor') }}</p>
                 </div>
               </div>
@@ -491,7 +491,7 @@
                 </div>
 
                 <div class="mt-auto pt-4 border-t border-[#2A2318] z-10 transition-colors duration-300 group-hover:border-[#FFB300]/30">
-                  <p class="text-[#FFB300] text-xs font-bold mb-1">IDEAL FOR:</p>
+                  <p class="text-[#FFB300] text-xs font-bold mb-1">{{ $t('home.industries.idealForLabel') }}</p>
                   <p class="text-gray-400 text-xs italic transition-colors duration-300 group-hover:text-gray-300">{{ $t('home.industries.chemical.idealFor') }}</p>
                 </div>
               </div>
