@@ -1,13 +1,15 @@
 <script setup lang="ts">
+const { t } = useI18n()
+
 useSeoMeta({
-  title: 'Industries - Precision Engineering | Maintech Solutions',
-  ogTitle: 'Industries - Precision Engineering | Maintech Solutions',
-  description: 'Precision engineering for the most demanding industries. Operational solutions with maximum safety and reliability for various sectors.',
-  ogDescription: 'Precision engineering for the most demanding industries. Operational solutions with maximum safety and reliability for various sectors.',
+  title: t('industries.seo.title'),
+  ogTitle: t('industries.seo.title'),
+  description: t('industries.seo.description'),
+  ogDescription: t('industries.seo.description'),
   ogImage: '/imagens/open-graph.webp',
   twitterCard: 'summary_large_image',
-  twitterTitle: 'Industries - Precision Engineering | Maintech Solutions',
-  twitterDescription: 'Precision engineering for the most demanding industries. Operational solutions with maximum safety and reliability for various sectors.',
+  twitterTitle: t('industries.seo.title'),
+  twitterDescription: t('industries.seo.description'),
   twitterImage: '/imagens/open-graph.webp',
 })
 </script>

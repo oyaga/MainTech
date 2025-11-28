@@ -11,7 +11,7 @@
     <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
       <!-- Title -->
       <h2 class="text-[96px] font-bold text-white text-center mb-[27px] leading-normal">
-        LET'S TALK
+        {{ $t('industries.cta.heading') }}
       </h2>
 
       <!-- Divider Line -->
@@ -29,11 +29,11 @@
           </div>
 
           <h3 class="text-[36px] font-bold text-white text-center leading-normal">
-            Phone:
+            {{ $t('industries.cta.phone') }}
           </h3>
 
           <a href="tel:+32492846233" class="text-[25px] font-light text-white text-center leading-normal hover:underline transition-all">
-            +32 492 84 62 33
+            {{ $t('industries.cta.phoneNumber') }}
           </a>
         </div>
 
@@ -47,11 +47,11 @@
           </div>
 
           <h3 class="text-[36px] font-bold text-white text-center leading-normal">
-            Email:
+            {{ $t('industries.cta.email') }}
           </h3>
 
           <a href="mailto:info@maintechsolutions.be" class="text-[25px] font-light text-white text-center leading-normal hover:underline transition-all">
-            info@maintechsolutions.be
+            {{ $t('industries.cta.emailAddress').replace("{'@'}", '@') }}
           </a>
         </div>
 
@@ -65,13 +65,10 @@
           </div>
 
           <h3 class="text-[36px] font-bold text-white text-center leading-normal">
-            Address
+            {{ $t('industries.cta.address') }}
           </h3>
 
-          <p class="text-[25px] font-light text-white text-center leading-normal px-4">
-            Heilig-Hartstraat 31<br>
-            Beerse 2340 - Belgium
-          </p>
+          <p class="text-[25px] font-light text-white text-center leading-normal px-4" v-html="$t('industries.cta.addressText').replace(/\\n/g, '<br>')"></p>
         </div>
       </div>
     </div>

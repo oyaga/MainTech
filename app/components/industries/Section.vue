@@ -49,12 +49,12 @@
           >
             <div class="inline-flex">
               <span class="bg-[#ffb300] text-white px-8 py-2 rounded-full text-[15px] font-light tracking-[0.3px]">
-                Maintech Solutions
+                {{ $t('industries.badge') }}
               </span>
             </div>
-            <h2 class="text-4xl sm:text-5xl font-bold tracking-[1px]">{{ industry.title }}</h2>
+            <h2 class="text-4xl sm:text-5xl font-bold tracking-[1px]">{{ $t(industry.titleKey) }}</h2>
             <p class="text-2xl sm:text-3xl font-light leading-relaxed">
-              {{ industry.description }}
+              {{ $t(industry.descriptionKey) }}
             </p>
           </div>
         </div>
@@ -70,8 +70,8 @@ const sectionRef = ref(null)
 const industries = ref([
   {
     id: 'energia',
-    title: 'Energy',
-    description: 'We are experts in the commissioning of combined cycle plants and other power generation units. Our rigorous testing and controlled activation process ensures fast, safe, and optimized startups, maximizing your ability to respond to energy market demands.',
+    titleKey: 'industries.energy.title',
+    descriptionKey: 'industries.energy.description',
     image: '/imagens/industries/energia.webp',
     alt: 'Energy',
     order: 'default',
@@ -79,8 +79,8 @@ const industries = ref([
   },
   {
     id: 'quimico-petroquimico',
-    title: 'Chemical and Petrochemical',
-    description: 'We have deep knowledge in the commissioning of Safety Instrumented Systems (SIS) and instrumentation for hazardous areas. We ensure that every control loop and safety system in your plant is perfectly calibrated and validated, ensuring the protection of your people and assets.',
+    titleKey: 'industries.chemical.title',
+    descriptionKey: 'industries.chemical.description',
     image: '/imagens/industries/quimico-e-pretroquimico.webp',
     alt: 'Chemical and Petrochemical',
     order: 'reversed',
@@ -88,8 +88,8 @@ const industries = ref([
   },
   {
     id: 'hidrogenio',
-    title: 'Hydrogen',
-    description: 'We are at the forefront of the energy transition, with experience in the precise instrumentation that the hydrogen economy demands. From production to storage, we commission your systems to ensure safe handling, accurate measurements, and reliable operation.',
+    titleKey: 'industries.hydrogen.title',
+    descriptionKey: 'industries.hydrogen.description',
     image: '/imagens/industries/hidrogenio.webp',
     alt: 'Hydrogen',
     order: 'default',
@@ -97,8 +97,8 @@ const industries = ref([
   },
   {
     id: 'armazenamento-terminais',
-    title: 'Storage and Liquid Bulk Terminals',
-    description: 'Our expertise ranges from the calibration of flow and level measurement systems to the commissioning of terminal automation systems (TAS). We ensure your storage and transfer operations are precise, safe, and efficient.',
+    titleKey: 'industries.storage.title',
+    descriptionKey: 'industries.storage.description',
     image: '/imagens/industries/armazenamento-e-terminais.webp',
     alt: 'Storage and Liquid Bulk Terminals',
     order: 'reversed',
@@ -106,8 +106,8 @@ const industries = ref([
   },
   {
     id: 'gases-industriais',
-    title: 'Industrial Gases',
-    description: 'We perform meticulous verification and commissioning of the entire instrumentation chain, from purity sensors to control valves, ensuring your industrial gas production and distribution operates flawlessly and with maximum safety.',
+    titleKey: 'industries.gases.title',
+    descriptionKey: 'industries.gases.description',
     image: '/imagens/industries/gases-industriais.webp',
     alt: 'Industrial Gases',
     order: 'default',
@@ -115,8 +115,8 @@ const industries = ref([
   },
   {
     id: 'automovel',
-    title: 'Automotive',
-    description: 'We commission the utility systems and control infrastructure that are the backbone of your factory. We ensure energy and fluids reach your robots and assembly lines with the reliability needed to avoid costly production stoppages.',
+    titleKey: 'industries.automotive.title',
+    descriptionKey: 'industries.automotive.description',
     image: '/imagens/industries/automovel.webp',
     alt: 'Automotive',
     order: 'reversed',
@@ -124,8 +124,8 @@ const industries = ref([
   },
   {
     id: 'utilities-infraestruturas',
-    title: 'Utilities and Infrastructure',
-    description: 'We are specialists in the commissioning of protection and control systems in medium and high voltage substations. We ensure your systems respond correctly to any grid event, protecting your assets and ensuring power supply continuity.',
+    titleKey: 'industries.utilities.title',
+    descriptionKey: 'industries.utilities.description',
     image: '/imagens/industries/utilities-e-infraestruturas.webp',
     alt: 'Utilities and Infrastructure',
     order: 'default',
