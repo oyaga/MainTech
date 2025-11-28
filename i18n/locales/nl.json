@@ -148,6 +148,79 @@
       "addressText": "Heilig-Hartstraat 31 Beerse, 2340 - België"
     }
   },
+  "about": {
+    "seo": {
+      "title": "Over ons - Precisie-engineering | Maintech Solutions",
+      "description": "Precisie-engineering voor ambitieuze visies. We bouwen de technische fundering van uw project met robuuste en betrouwbare commissioning-oplossingen."
+    },
+    "hero": {
+      "heading": "Precisie-engineering voor ambitieuze visies.",
+      "subheading": "Een grote visie vereist een onwrikbare fundering. We bouwen de technische basis van uw project met commissioning-oplossingen die even robuust en betrouwbaar zijn als uw ambitie."
+    },
+    "intro": {
+      "badge": "Wie wij zijn",
+      "heading": "Van complexiteit naar efficiëntie: we leveren foutloze resultaten",
+      "paragraph1": "Maintech Solutions & Engineering werd geboren om complexiteit om te zetten in efficiëntie. Opgericht in 2022, ontstond het met de missie om innovatieve en veilige oplossingen te bieden in commissioning, instrumentatie en industriële automatisering.",
+      "paragraph2": "Vandaag opereren we in de hele Benelux-regio en op het Iberisch Schiereiland, waarbij we technische excellentie, innovatie en een onwrikbare toewijding aan de veiligheid en betrouwbaarheid van elk project brengen."
+    },
+    "values": {
+      "badge": "Onze waarden",
+      "mainHeading": "De niet-onderhandelbare pijlers van ons werk",
+      "subheading": "Onze hele werkarchitectuur wordt ondersteund door drie fundamentele pijlers. Ze garanderen dat elk project dat we leveren niet alleen functioneel is, maar exemplarisch.",
+      "precision": {
+        "title": "PRECISIE",
+        "description": "In ons werk is 'bijna' geen optie. Onze obsessie met technisch detail zorgt ervoor dat elke berekening, meting en test met absolute nauwkeurigheid wordt uitgevoerd. Dit is de basis van kwaliteit."
+      },
+      "reliability": {
+        "title": "BETROUWBAARHEID",
+        "description": "Onze oplossingen zijn ontworpen om lang mee te gaan en onder druk te functioneren. Betrouwbaarheid staat centraal in ons proces en zorgt ervoor dat uw operatie niet alleen goed start, maar ook consistent blijft functioneren."
+      },
+      "safety": {
+        "title": "VEILIGHEID",
+        "description": "Dit is de hoofdpijler, de fundering die alle anderen ondersteunt. Veiligheid is onze maximale en niet-onderhandelbare prioriteit, die uw mensen, uw activa en de toekomst van uw investering beschermt."
+      }
+    },
+    "identity": {
+      "mainHeading": "ONZE IDENTITEIT",
+      "subheading": "Elk succesvol industrieel project bestaat in twee staten: de staat van visie en de staat van realiteit. Beide begrijpen is de sleutel tot excellentie.",
+      "mission": {
+        "title": "Missie",
+        "description": "Het garanderen van de veilige, efficiënte en betrouwbare levering van instrumentatie- en commissioningprojecten, het aanbieden van wendbare en geïntegreerde oplossingen die technische naleving en totale klanttevredenheid garanderen."
+      },
+      "vision": {
+        "title": "Visie",
+        "description": "Erkend worden als een referentie in commissioning en I&C-diensten in de Benelux-regio en op het Iberisch Schiereiland, het uitbreiden van onze internationale aanwezigheid door technische excellentie, continue innovatie en een solide veiligheidscultuur."
+      },
+      "values": {
+        "title": "Waarden",
+        "item1": "Veiligheid eerst",
+        "item2": "Transparantie en traceerbaarheid",
+        "item3": "Wendbaarheid en flexibiliteit",
+        "item4": "Toewijding aan kwaliteit",
+        "item5": "Respect voor mensen en het milieu"
+      }
+    },
+    "blueprint": {
+      "mainHeading": "Het blauwdruk voor perfecte uitvoering",
+      "subheading": "Onze methodologie transformeert abstractie in operatie door een rigoureus en gecontroleerd proces. Elke stap is een berekende zet om uw realiteit te bouwen met maximale betrouwbaarheid en precisie."
+    },
+    "slogan": {
+      "mainHeading": "Van energie tot automatisering, we transformeren precisie in vooruitgang."
+    },
+    "cta": {
+      "heading": "Laten we de realiteit van uw volgende project bouwen.",
+      "mainHeading": "Laten we de realiteit van uw volgende project bouwen.",
+      "subheading": "Uw visie verdient een bouwpartner die deze eert met foutloze uitvoering. Als u klaar bent om uw ambitie om te zetten in uw volgende operationele realiteit, is ons gesprek te laat.",
+      "button1": "Vraag offerte aan",
+      "button2": "Chat op WhatsApp",
+      "phone": "Telefoon",
+      "phoneNumber": "+32 492 84 62 33",
+      "email": "E-mail",
+      "emailAddress": "contato{'@'}maintechsolutions.be",
+      "support": "Ondersteuning",
+      "supportText": "24/7"
+    }
+  },
   "industries": {
     "seo": {
       "title": "Sectoren - Precisie-engineering | Maintech Solutions",

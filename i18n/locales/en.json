@@ -148,6 +148,79 @@
       "addressText": "Heilig-Hartstraat 31 Beerse, 2340 - Belgium"
     }
   },
+  "about": {
+    "seo": {
+      "title": "About Us - Precision Engineering | Maintech Solutions",
+      "description": "Precision engineering for ambitious visions. We build the technical foundation of your project with robust and reliable commissioning solutions."
+    },
+    "hero": {
+      "heading": "Precision engineering for ambitious visions.",
+      "subheading": "A great vision demands an unshakable foundation. We build the technical foundation of your project with commissioning solutions as robust and reliable as your ambition."
+    },
+    "intro": {
+      "badge": "Who We Are",
+      "heading": "From complexity to efficiency: we deliver flawless results",
+      "paragraph1": "Maintech Solutions & Engineering was born to transform complexity into efficiency. Founded in 2022, it emerged with the mission of offering innovative and safe solutions in commissioning, instrumentation, and industrial automation.",
+      "paragraph2": "Today, we operate throughout the Benelux region and the Iberian Peninsula, bringing technical excellence, innovation, and an unwavering commitment to the safety and reliability of every project."
+    },
+    "values": {
+      "badge": "Our Values",
+      "mainHeading": "The non-negotiable pillars of our work",
+      "subheading": "Our entire work architecture is supported by three fundamental pillars. They ensure that every project we deliver is not just functional, but exemplary.",
+      "precision": {
+        "title": "PRECISION",
+        "description": "In our work, 'almost' is not an option. Our obsession with technical detail ensures that every calculation, measurement, and test is executed with absolute accuracy. This is the foundation of quality."
+      },
+      "reliability": {
+        "title": "RELIABILITY",
+        "description": "Our solutions are designed to last and function under pressure. Reliability is at the heart of our process, ensuring your operation not only starts well but continues to function consistently."
+      },
+      "safety": {
+        "title": "SAFETY",
+        "description": "This is the master pillar, the foundation that supports all others. Safety is our maximum and non-negotiable priority, protecting your people, your assets, and the future of your investment."
+      }
+    },
+    "identity": {
+      "mainHeading": "OUR IDENTITY",
+      "subheading": "Every successful industrial project exists in two states: the state of vision and the state of reality. Understanding both is the key to excellence.",
+      "mission": {
+        "title": "Mission",
+        "description": "To ensure the safe, efficient, and reliable delivery of instrumentation and commissioning projects, offering agile and integrated solutions that guarantee technical compliance and total client satisfaction."
+      },
+      "vision": {
+        "title": "Vision",
+        "description": "To be recognized as a reference in commissioning and I&C services in the Benelux region and the Iberian Peninsula, expanding our international presence through technical excellence, continuous innovation, and a solid safety culture."
+      },
+      "values": {
+        "title": "Values",
+        "item1": "Safety first",
+        "item2": "Transparency and traceability",
+        "item3": "Agility and flexibility",
+        "item4": "Commitment to quality",
+        "item5": "Respect for people and the environment"
+      }
+    },
+    "blueprint": {
+      "mainHeading": "The blueprint for perfect execution",
+      "subheading": "Our methodology transforms abstraction into operation through a rigorous and controlled process. Each step is a calculated move to build your reality with maximum reliability and precision."
+    },
+    "slogan": {
+      "mainHeading": "From energy to automation, we transform precision into progress."
+    },
+    "cta": {
+      "heading": "Let's build the reality of your next project.",
+      "mainHeading": "Let's build the reality of your next project.",
+      "subheading": "Your vision deserves a construction partner who honors it with flawless execution. If you're ready to transform your ambition into your next operational reality, our conversation is overdue.",
+      "button1": "Request Quote",
+      "button2": "Chat on WhatsApp",
+      "phone": "Phone",
+      "phoneNumber": "+32 492 84 62 33",
+      "email": "Email",
+      "emailAddress": "contato{'@'}maintechsolutions.be",
+      "support": "Support",
+      "supportText": "24/7"
+    }
+  },
   "industries": {
     "seo": {
       "title": "Industries - Precision Engineering | Maintech Solutions",
