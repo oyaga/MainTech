@@ -3,5 +3,85 @@
     "hero": {
         "title": "Tout grand projet commence par une vision. Et prend vie avec des solutions fiables !",
         "description": "Nous savons ce qu'il faut pour transformer des plans complexes en réalité opérationnelle. La distance entre l'achèvement de la construction et un démarrage réussi est un chemin critique, plein de variables qui ne laissent aucune place à l'erreur. Des milliers de composants, des systèmes interconnectés, des budgets stricts et des délais inflexibles. Au milieu de toute cette complexité, votre objectif est clair : commencer à opérer avec un maximum de sécurité, d'efficacité et de fiabilité. C'est précisément là que notre histoire croise la vôtre."
+    },
+    "contactPage": {
+        "hero": {
+            "tag": "Contactez-nous",
+            "title": "Contactez-nous",
+            "description": "Je suis là pour vous aider. Contactez-nous et découvrez comment je peux transformer vos idées en réalité numérique.",
+            "buttons": {
+                "sendEmail": "Envoyer un email",
+                "whatsapp": "WhatsApp"
+            },
+            "info": {
+                "phone": {
+                    "label": "Téléphone",
+                    "sublabel": "Support 24h/24"
+                },
+                "email": {
+                    "label": "E-mail",
+                    "sublabel": "Réponse sous 24 heures"
+                },
+                "location": {
+                    "label": "Emplacement",
+                    "value": "Belgique",
+                    "sublabel": "Nous servons",
+                    "sublabelBold": "DANS LE MONDE ENTIER !"
+                }
+            }
+        },
+        "form": {
+            "fields": {
+                "name": "Nom complet *",
+                "namePlaceholder": "Votre nom complet",
+                "company": "Entreprise",
+                "companyPlaceholder": "Nom de votre entreprise",
+                "email": "E-mail *",
+                "emailPlaceholder": "votre{'@'}email.com",
+                "phone": "Téléphone *",
+                "phonePlaceholder": "(11) 99999-9999",
+                "service": "Service d'intérêt",
+                "servicePlaceholder": "Sélectionnez un service",
+                "message": "Message *",
+                "messagePlaceholder": "Décrivez vos besoins ou questions..."
+            },
+            "services": {
+                "interfaceDesign": "Conception d'interface",
+                "webDevelopment": "Développement Web",
+                "digitalConsulting": "Conseil numérique",
+                "processAutomation": "Automatisation des processus",
+                "digitalMarketing": "Marketing numérique",
+                "otherServices": "Autres services"
+            },
+            "success": {
+                "title": "Message envoyé avec succès !",
+                "message": "Je vous contacterai bientôt."
+            },
+            "error": {
+                "title": "Erreur lors de l'envoi du message",
+                "default": "Une erreur s'est produite lors du traitement du formulaire. Veuillez réessayer."
+            },
+            "submit": "ENVOYER LE MESSAGE",
+            "sending": "ENVOI EN COURS..."
+        },
+        "map": {
+            "tag": "Notre emplacement",
+            "title": "Venez",
+            "titleHighlight": "Nous rendre visite",
+            "description": "Notre bureau est situé au cœur de l'Europe, prêt à vous accueillir.",
+            "address": {
+                "label": "Adresse",
+                "value": "Heilig-Hartstraat 31 Beerse, 2340 - Belgique"
+            },
+            "hours": {
+                "label": "Heures d'ouverture",
+                "weekdays": "Lundi à vendredi :",
+                "weekdaysValue": "8h à 18h",
+                "saturday": "Samedi :",
+                "saturdayValue": "8h à 12h",
+                "emergencies": "Urgences :",
+                "emergenciesValue": "24h/24"
+            }
+        }
     }
 }

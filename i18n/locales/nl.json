@@ -123,8 +123,11 @@
       "heading": "We hebben de ideale tools voor uw behoeften",
       "subheading": "We bieden gespecialiseerde ondersteuning en betrouwbare oplossingen om ervoor te zorgen dat uw operatie nooit stopt. Onze ervaring en technologie werken in uw voordeel.",
       "stat1": "Vermindering van operationele kosten",
+      "stat1Value": "85%",
       "stat2": "Toename van productiviteit",
-      "stat3": "Precisie in projectoplevering"
+      "stat2Value": "92%",
+      "stat3": "Precisie in projectoplevering",
+      "stat3Value": "97%"
     },
     "cta": {
       "heading": "Bel +32 492 84 62 33 of Stuur een Bericht"
@@ -209,7 +212,6 @@
     },
     "cta": {
       "heading": "Laten we de realiteit van uw volgende project bouwen.",
-      "mainHeading": "Laten we de realiteit van uw volgende project bouwen.",
       "subheading": "Uw visie verdient een bouwpartner die deze eert met foutloze uitvoering. Als u klaar bent om uw ambitie om te zetten in uw volgende operationele realiteit, is ons gesprek te laat.",
       "button1": "Vraag offerte aan",
       "button2": "Chat op WhatsApp",
@@ -233,7 +235,7 @@
     "badge": "Maintech Solutions",
     "energy": {
       "title": "Energie",
-      "description": "We zijn experts in de inbedrijfstelling van combined cycle-installaties en andere energieopwekkingseenheden. Ons rigoureuze test- en gecontroleerd activeringsproces zorgt voor snelle, veilige en geoptimaliseerde opstartingen, waardoor uw vermogen om te reageren op energiemarktvragen wordt gemaximaliseerd."
+      "description": "We zijn experts in de inbedrijfstelling van combined cycle-installaties en andere energieopwekkingseenheden. Ons rigoureuze test- en gecontroleerd activeringsproces zorgt voor snelle, veilige en geoptimaliseerde opstarten, waardoor uw vermogen om te reageren op energiemarktvragen wordt gemaximaliseerd."
     },
     "chemical": {
       "title": "Chemisch en petrochemisch",
@@ -267,6 +269,165 @@
       "emailAddress": "info{'@'}maintechsolutions.be",
       "address": "Adres",
       "addressText": "Heilig-Hartstraat 31\nBeerse 2340 - België"
+    }
+  },
+  "servicesPage": {
+    "hero": {
+      "title": "Engineering die Projecten omzet in Prestaties.",
+      "description": "Van fabrieksvalidatie tot definitieve documentatielevering: wij zorgen ervoor dat uw activa werken met maximale veiligheid, absolute precisie en gegarandeerd financieel rendement."
+    },
+    "list": {
+      "fatSat": {
+        "title": "Gegarandeerde Naleving",
+        "name": "FAT / SAT",
+        "description": "Wij fungeren als uw technische ogen, zelfs voordat het werk begint. We valideren de prestaties bij de fabrikant en zorgen voor integriteit bij aankomst in de fabriek.",
+        "items": [
+          "Logica- en hardwarevalidatie in de fabriek",
+          "Inspectie op transportschade",
+          "Technische goedkeuring voor installatie"
+        ]
+      },
+      "calibration": {
+        "title": "Precisie die Verliezen Voorkomt",
+        "name": "Kalibratie",
+        "description": "Precisie is de basis van winst. Wij voeren traceerbare aanpassingen uit van sensoren en actuatoren, waardoor afwijkingen die verspilling veroorzaken worden geëlimineerd.",
+        "items": [
+          "RBC/Inmetro Certificering",
+          "Aanpassing van regellussen",
+          "Naleving van kwaliteitsnormen"
+        ]
+      },
+      "loopCheck": {
+        "title": "Snelle en Veilige Respons",
+        "name": "Loop Check",
+        "description": "Wij certificeren de integriteit van elk signaal. We simuleren de communicatie tussen veld en controlekamer om ervoor te zorgen dat het systeem in de juiste fractie van een seconde reageert.",
+        "items": [
+          "0-100% signaalsimulatie",
+          "Verificatie van alarmen en interlocks",
+          "Correctie van bekabelingsfouten"
+        ]
+      },
+      "preCommissioning": {
+        "title": "Probleemanticipatie",
+        "name": "Pre-Inbedrijfstelling",
+        "description": "Wij maken de weg vrij voor succes. We voeren rigoureuze koude tests uit en beheren de punch list agressief om vertragingen bij de opstart te voorkomen.",
+        "items": [
+          "Punch List Beheer",
+          "Rotatie- en meggertesten",
+          "Koude functionele tests"
+        ]
+      },
+      "commissioning": {
+        "title": "Stabiele Werking Dag 1",
+        "name": "Inbedrijfstelling",
+        "description": "Het moment van de waarheid. We voeren energisatie en tests uit met actief proces (Hot Commissioning), wat zorgt voor een veilige en geoptimaliseerde productieopstart.",
+        "items": [
+          "Begeleide opstart",
+          "Loop Tuning",
+          "Validatie van operationele veiligheid"
+        ]
+      },
+      "handover": {
+        "title": "Totale Controle over Activa",
+        "name": "Overdracht",
+        "description": "Kennisoverdracht. Wij leveren de installatie op met bijgewerkte en reële (As-Built) documentatie, waardoor uw team met volledige autonomie kan werken.",
+        "items": [
+          "Complete en georganiseerde Data Books",
+          "Geverifieerde As-Built tekeningen",
+          "Training voor bediening en onderhoud"
+        ]
+      }
+    },
+    "cta": {
+      "title": "LATEN WE PRATEN",
+      "phone": "Telefoon:",
+      "phoneNumber": "+32 492 84 62 33",
+      "email": "E-mail:",
+      "emailAddress": "info{'@'}maintechsolutions.be",
+      "address": "Adres",
+      "addressText": "Heilig-Hartstraat 31\nBeerse 2340 - België",
+      "ready": "Klaar om uw volgende project te starten?",
+      "button": "Neem Contact Op"
+    }
+  },
+  "contactPage": {
+    "hero": {
+      "tag": "Neem contact op",
+      "title": "Neem contact met ons op",
+      "description": "Ik ben hier om u te helpen. Neem contact op en ontdek hoe ik uw ideeën kan omzetten in digitale realiteit.",
+      "buttons": {
+        "sendEmail": "Stuur e-mail",
+        "whatsapp": "WhatsApp"
+      },
+      "info": {
+        "phone": {
+          "label": "Telefoon",
+          "sublabel": "24u Ondersteuning"
+        },
+        "email": {
+          "label": "E-mail",
+          "sublabel": "Reactie binnen 24 uur"
+        },
+        "location": {
+          "label": "Locatie",
+          "value": "België",
+          "sublabel": "Wij bedienen",
+          "sublabelBold": "WERELDWIJD!"
+        }
+      }
+    },
+    "form": {
+      "fields": {
+        "name": "Volledige naam *",
+        "namePlaceholder": "Uw volledige naam",
+        "company": "Bedrijf",
+        "companyPlaceholder": "Uw bedrijfsnaam",
+        "email": "E-mail *",
+        "emailPlaceholder": "uw{'@'}email.com",
+        "phone": "Telefoon *",
+        "phonePlaceholder": "+32 000 00 00 00",
+        "service": "Dienst van interesse",
+        "servicePlaceholder": "Selecteer een dienst",
+        "message": "Bericht *",
+        "messagePlaceholder": "Beschrijf uw behoeften of vragen..."
+      },
+      "services": {
+        "interfaceDesign": "Interface Ontwerp",
+        "webDevelopment": "Webontwikkeling",
+        "digitalConsulting": "Digitaal Advies",
+        "processAutomation": "Procesautomatisering",
+        "digitalMarketing": "Digitale Marketing",
+        "otherServices": "Andere Diensten"
+      },
+      "success": {
+        "title": "Bericht succesvol verzonden!",
+        "message": "Ik neem binnenkort contact met u op."
+      },
+      "error": {
+        "title": "Fout bij het verzenden van bericht",
+        "default": "Er is een fout opgetreden bij het verwerken van het formulier. Probeer het opnieuw."
+      },
+      "submit": "VERSTUUR BERICHT",
+      "sending": "VERZENDEN..."
+    },
+    "map": {
+      "tag": "Onze Locatie",
+      "title": "Kom",
+      "titleHighlight": "ons bezoeken",
+      "description": "Ons kantoor is gevestigd in het hart van Europa, klaar om u te verwelkomen.",
+      "address": {
+        "label": "Adres",
+        "value": "Heilig-Hartstraat 31 Beerse, 2340 - België"
+      },
+      "hours": {
+        "label": "Openingstijden",
+        "weekdays": "Maandag tot Vrijdag:",
+        "weekdaysValue": "8u tot 18u",
+        "saturday": "Zaterdag:",
+        "saturdayValue": "8u tot 12u",
+        "emergencies": "Noodgevallen:",
+        "emergenciesValue": "24u"
+      }
     }
   }
 }

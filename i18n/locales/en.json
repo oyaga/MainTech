@@ -123,8 +123,11 @@
       "heading": "We have the ideal tools for your needs",
       "subheading": "We provide specialized support and reliable solutions to ensure your operation never stops. Our experience and technology work in your favor.",
       "stat1": "Reduction of operational costs",
+      "stat1Value": "85%",
       "stat2": "Increase in productivity",
-      "stat3": "Precision in project delivery"
+      "stat2Value": "92%",
+      "stat3": "Precision in project delivery",
+      "stat3Value": "97%"
     },
     "cta": {
       "heading": "Call +32 492 84 62 33 or Send a Message"
@@ -209,7 +212,6 @@
     },
     "cta": {
       "heading": "Let's build the reality of your next project.",
-      "mainHeading": "Let's build the reality of your next project.",
       "subheading": "Your vision deserves a construction partner who honors it with flawless execution. If you're ready to transform your ambition into your next operational reality, our conversation is overdue.",
       "button1": "Request Quote",
       "button2": "Chat on WhatsApp",
@@ -267,6 +269,165 @@
       "emailAddress": "info{'@'}maintechsolutions.be",
       "address": "Address",
       "addressText": "Heilig-Hartstraat 31\nBeerse 2340 - Belgium"
+    }
+  },
+  "servicesPage": {
+    "hero": {
+      "title": "Engineering that Transforms Projects into Performance.",
+      "description": "From factory validation to final documentation delivery: we ensure your assets operate with maximum safety, absolute precision, and guaranteed financial return."
+    },
+    "list": {
+      "fatSat": {
+        "title": "Guaranteed Compliance",
+        "name": "FAT / SAT",
+        "description": "We act as your technical eyes even before work begins. We validate performance at the manufacturer and ensure integrity upon arrival at the plant.",
+        "items": [
+          "Logic and hardware validation in factory",
+          "Transport damage inspection",
+          "Technical approval for installation"
+        ]
+      },
+      "calibration": {
+        "title": "Precision that Avoids Losses",
+        "name": "Calibration",
+        "description": "Precision is the basis of profit. We perform traceable adjustment of sensors and actuators, eliminating deviations that cause input waste.",
+        "items": [
+          "RBC/Inmetro Certification",
+          "Control loop adjustment",
+          "Compliance with quality standards"
+        ]
+      },
+      "loopCheck": {
+        "title": "Fast and Safe Response",
+        "name": "Loop Check",
+        "description": "We certify the integrity of every signal. We simulate field-room communication to ensure the system reacts in the correct fraction of a second.",
+        "items": [
+          "0-100% signal simulation",
+          "Alarm and interlock verification",
+          "Cabling fault correction"
+        ]
+      },
+      "preCommissioning": {
+        "title": "Problem Anticipation",
+        "name": "Pre-Commissioning",
+        "description": "We clear the path for success. We execute rigorous cold tests and aggressively manage the punch list to avoid delays in Start-up.",
+        "items": [
+          "Punch List Management",
+          "Rotation and megger testing",
+          "Cold functional tests"
+        ]
+      },
+      "commissioning": {
+        "title": "Stable Operation Day 1",
+        "name": "Commissioning",
+        "description": "The moment of truth. We conduct energization and tests with active process (Hot Commissioning), ensuring a safe and optimized production ramp-up.",
+        "items": [
+          "Assisted start-up",
+          "Loop Tuning",
+          "Operational safety validation"
+        ]
+      },
+      "handover": {
+        "title": "Total Asset Control",
+        "name": "Handover",
+        "description": "Intelligence transfer. We deliver the plant with updated and real (As-Built) documentation, empowering your team to operate with full autonomy.",
+        "items": [
+          "Complete and organized Data Books",
+          "Verified As-Built drawings",
+          "Operation and maintenance training"
+        ]
+      }
+    },
+    "cta": {
+      "title": "LET'S TALK",
+      "phone": "Phone:",
+      "phoneNumber": "+32 492 84 62 33",
+      "email": "Email:",
+      "emailAddress": "info{'@'}maintechsolutions.be",
+      "address": "Address",
+      "addressText": "Heilig-Hartstraat 31\nBeerse 2340 - Belgium",
+      "ready": "Ready to start your next project?",
+      "button": "Get in Touch"
+    }
+  },
+  "contactPage": {
+    "hero": {
+      "tag": "Get in Touch",
+      "title": "Contact Us",
+      "description": "I am here to help you. Get in touch and discover how I can transform your ideas into digital reality.",
+      "buttons": {
+        "sendEmail": "Send Email",
+        "whatsapp": "WhatsApp"
+      },
+      "info": {
+        "phone": {
+          "label": "Phone",
+          "sublabel": "24h Support"
+        },
+        "email": {
+          "label": "E-mail",
+          "sublabel": "Response within 24 hours"
+        },
+        "location": {
+          "label": "Location",
+          "value": "Belgium",
+          "sublabel": "We serve",
+          "sublabelBold": "WORLDWIDE!"
+        }
+      }
+    },
+    "form": {
+      "fields": {
+        "name": "Full Name *",
+        "namePlaceholder": "Your full name",
+        "company": "Company",
+        "companyPlaceholder": "Your company name",
+        "email": "E-mail *",
+        "emailPlaceholder": "your{'@'}email.com",
+        "phone": "Phone *",
+        "phonePlaceholder": "(11) 99999-9999",
+        "service": "Service of Interest",
+        "servicePlaceholder": "Select a service",
+        "message": "Message *",
+        "messagePlaceholder": "Describe your needs or questions..."
+      },
+      "services": {
+        "interfaceDesign": "Interface Design",
+        "webDevelopment": "Web Development",
+        "digitalConsulting": "Digital Consulting",
+        "processAutomation": "Process Automation",
+        "digitalMarketing": "Digital Marketing",
+        "otherServices": "Other Services"
+      },
+      "success": {
+        "title": "Message sent successfully!",
+        "message": "I will contact you soon."
+      },
+      "error": {
+        "title": "Error sending message",
+        "default": "An error occurred while processing the form. Please try again."
+      },
+      "submit": "SEND MESSAGE",
+      "sending": "SENDING..."
+    },
+    "map": {
+      "tag": "Our Location",
+      "title": "Come",
+      "titleHighlight": "Visit Us",
+      "description": "Our office is located in the heart of Europe, ready to welcome you.",
+      "address": {
+        "label": "Address",
+        "value": "Heilig-Hartstraat 31 Beerse, 2340 - Belgium"
+      },
+      "hours": {
+        "label": "Opening Hours",
+        "weekdays": "Monday to Friday:",
+        "weekdaysValue": "8am to 6pm",
+        "saturday": "Saturday:",
+        "saturdayValue": "8am to 12pm",
+        "emergencies": "Emergencies:",
+        "emergenciesValue": "24h"
+      }
     }
   }
 }

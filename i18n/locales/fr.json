@@ -217,74 +217,82 @@
       "supportText": "24h par jour"
     }
   },
-  "services": {
-    "seo": {
-      "title": "Nos services - Ingénierie et performance | Maintech Solutions",
-      "description": "De la validation en usine à la livraison finale. Nous garantissons que vos actifs fonctionnent avec un maximum de sécurité, une précision absolue et un retour financier."
-    },
+  "servicesPage": {
     "hero": {
-      "heading": "L'ingénierie qui transforme les projets en performance.",
-      "subheading": "De la validation en usine à la livraison de la documentation finale : nous garantissons que vos actifs fonctionnent avec un maximum de sécurité, une précision absolue et un retour financier garanti."
+      "title": "L'ingénierie qui transforme les projets en performance.",
+      "description": "De la validation en usine à la livraison de la documentation finale : nous garantissons que vos actifs fonctionnent avec un maximum de sécurité, une précision absolue et un retour financier garanti."
     },
-    "timeline": {
-      "fat": {
-        "title": "FAT / SAT",
-        "heading": "Conformité garantie",
+    "list": {
+      "fatSat": {
+        "title": "Conformité garantie",
+        "name": "FAT / SAT",
         "description": "Nous agissons comme vos yeux techniques avant même le début des travaux. Nous validons les performances chez le fabricant et garantissons l'intégrité à l'arrivée à l'installation.",
-        "item1": "Validation logique et matérielle en usine",
-        "item2": "Inspection des dommages de transport",
-        "item3": "Approbation technique pour l'installation"
+        "items": [
+          "Validation logique et matérielle en usine",
+          "Inspection des dommages de transport",
+          "Approbation technique pour l'installation"
+        ]
       },
       "calibration": {
-        "title": "Calibration",
-        "heading": "Précision qui évite les pertes",
+        "title": "Précision qui évite les pertes",
+        "name": "Calibration",
         "description": "La précision est la base du profit. Nous effectuons un ajustement traçable des capteurs et actionneurs, éliminant les déviations qui causent le gaspillage d'intrants.",
-        "item1": "Certification RBC/Inmetro",
-        "item2": "Ajustement de la boucle de contrôle",
-        "item3": "Conformité aux normes de qualité"
+        "items": [
+          "Certification RBC/Inmetro",
+          "Ajustement de la boucle de contrôle",
+          "Conformité aux normes de qualité"
+        ]
       },
       "loopCheck": {
-        "title": "Loop Check",
-        "heading": "Réponse rapide et sûre",
+        "title": "Réponse rapide et sûre",
+        "name": "Loop Check",
         "description": "Nous certifions l'intégrité de chaque signal. Nous simulons la communication terrain-salle pour garantir que le système réagit dans la fraction de seconde correcte.",
-        "item1": "Simulation de signal 0-100%",
-        "item2": "Vérification des alarmes et verrouillages",
-        "item3": "Correction des défauts de câblage"
+        "items": [
+          "Simulation de signal 0-100%",
+          "Vérification des alarmes et verrouillages",
+          "Correction des défauts de câblage"
+        ]
       },
       "preCommissioning": {
-        "title": "Pré-commissioning",
-        "heading": "Anticipation des problèmes",
+        "title": "Anticipation des problèmes",
+        "name": "Pré-commissioning",
         "description": "Nous préparons le chemin du succès. Nous exécutons des tests à froid rigoureux et gérons agressivement la punch list pour éviter les retards au démarrage.",
-        "item1": "Gestion de la Punch List",
-        "item2": "Tests de rotation et megger",
-        "item3": "Tests fonctionnels à froid"
+        "items": [
+          "Gestion de la Punch List",
+          "Tests de rotation et megger",
+          "Tests fonctionnels à froid"
+        ]
       },
       "commissioning": {
-        "title": "Commissioning",
-        "heading": "Exploitation stable dès le jour 1",
+        "title": "Exploitation stable dès le jour 1",
+        "name": "Commissioning",
         "description": "Le moment de vérité. Nous conduisons l'énergisation et les tests avec processus actif (Hot Commissioning), garantissant une montée en production sûre et optimisée.",
-        "item1": "Démarrage assisté",
-        "item2": "Loop Tuning",
-        "item3": "Validation de la sécurité opérationnelle"
+        "items": [
+          "Démarrage assisté",
+          "Loop Tuning",
+          "Validation de la sécurité opérationnelle"
+        ]
       },
       "handover": {
-        "title": "Livraison",
-        "heading": "Contrôle total de l'actif",
+        "title": "Contrôle total de l'actif",
+        "name": "Livraison",
         "description": "Transfert d'intelligence. Nous livrons l'installation avec une documentation mise à jour et réelle (As-Built), permettant à votre équipe d'exploiter en toute autonomie.",
-        "item1": "Data Books complets et organisés",
-        "item2": "Plans As-Built vérifiés",
-        "item3": "Formation exploitation et maintenance"
+        "items": [
+          "Data Books complets et organisés",
+          "Plans As-Built vérifiés",
+          "Formation exploitation et maintenance"
+        ]
       }
     },
     "cta": {
-      "heading": "PARLONS-EN",
+      "title": "PARLONS-EN",
       "phone": "Téléphone :",
       "phoneNumber": "+32 492 84 62 33",
       "email": "E-mail :",
       "emailAddress": "contato{'@'}maintech.be",
       "address": "Adresse",
       "addressText": "Heilig-Hartstraat 31\nBeerse 2340 - Belgique",
-      "ctaText": "Prêt à démarrer votre prochain projet ?",
+      "ready": "Prêt à démarrer votre prochain projet ?",
       "button": "Nous contacter"
     }
   },
@@ -392,6 +400,86 @@
       "emailAddress": "contato{'@'}maintech.be",
       "address": "Adresse",
       "addressText": "Heilig-Hartstraat 31\nBeerse 2340 - Belgique"
+    }
+  },
+  "contactPage": {
+    "hero": {
+      "tag": "Prenez contact",
+      "title": "Contactez-nous",
+      "description": "Je suis ici pour vous aider. Prenez contact et découvrez comment je peux transformer vos idées en réalité numérique.",
+      "buttons": {
+        "sendEmail": "Envoyer un e-mail",
+        "whatsapp": "WhatsApp"
+      },
+      "info": {
+        "phone": {
+          "label": "Téléphone",
+          "sublabel": "Support 24h"
+        },
+        "email": {
+          "label": "E-mail",
+          "sublabel": "Réponse sous 24 heures"
+        },
+        "location": {
+          "label": "Localisation",
+          "value": "Belgique",
+          "sublabel": "Nous servons",
+          "sublabelBold": "LE MONDE ENTIER !"
+        }
+      }
+    },
+    "form": {
+      "fields": {
+        "name": "Nom complet *",
+        "namePlaceholder": "Votre nom",
+        "company": "Entreprise",
+        "companyPlaceholder": "Votre entreprise",
+        "email": "E-mail *",
+        "emailPlaceholder": "votre{'@'}email.com",
+        "phone": "Téléphone *",
+        "phonePlaceholder": "+32 000 00 00 00",
+        "service": "Service d'intérêt",
+        "servicePlaceholder": "Sélectionnez un service",
+        "message": "Message *",
+        "messagePlaceholder": "Décrivez vos besoins ou questions..."
+      },
+      "services": {
+        "interfaceDesign": "Design d'interface",
+        "webDevelopment": "Développement web",
+        "digitalConsulting": "Conseil numérique",
+        "processAutomation": "Automatisation des processus",
+        "digitalMarketing": "Marketing numérique",
+        "otherServices": "Autres services"
+      },
+      "submit": "ENVOYER LE MESSAGE",
+      "sending": "ENVOI EN COURS...",
+      "success": {
+        "title": "Message envoyé avec succès !",
+        "message": "Je vous contacterai bientôt."
+      },
+      "error": {
+        "title": "Erreur lors de l'envoi du message",
+        "default": "Une erreur s'est produite lors du traitement du formulaire. Veuillez réessayer."
+      }
+    },
+    "map": {
+      "tag": "Localisation",
+      "title": "Venez nous",
+      "titleHighlight": "rendre visite",
+      "description": "Notre bureau est situé au cœur de l'Europe, prêt à vous accueillir.",
+      "address": {
+        "label": "Adresse",
+        "value": "Heilig-Hartstraat 31 Beerse, 2340 - Belgique"
+      },
+      "hours": {
+        "label": "Heures d'ouverture",
+        "weekdays": "Lun-Ven",
+        "weekdaysValue": "8h à 18h",
+        "saturday": "Samedi",
+        "saturdayValue": "8h à 12h",
+        "emergencies": "Urgences",
+        "emergenciesValue": "24h"
+      }
     }
   }
 }
