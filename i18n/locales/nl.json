@@ -134,7 +134,7 @@
       "mainHeading": "Neem contact met ons op",
       "subheading": "Ik ben hier om te helpen. Neem contact op en ontdek hoe ik uw ideeën kan omzetten in digitale realiteit.",
       "phoneNumber": "+32 492 84 62 33",
-      "emailAddress": "contato@maintech.be"
+      "emailAddress": "contato{'@'}maintech.be"
     },
     "form": {
       "fullName": "Volledige naam *",
