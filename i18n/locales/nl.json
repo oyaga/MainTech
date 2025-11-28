@@ -147,5 +147,53 @@
     "map": {
       "addressText": "Heilig-Hartstraat 31 Beerse, 2340 - België"
     }
+  },
+  "industries": {
+    "seo": {
+      "title": "Sectoren - Precisie-engineering | Maintech Solutions",
+      "description": "Precisie-engineering voor de meest veeleisende industrieën. Operationele oplossingen met maximale veiligheid en betrouwbaarheid voor verschillende sectoren."
+    },
+    "hero": {
+      "mainHeading": "Precisie-engineering voor de meest veeleisende industrieën",
+      "subheading": "Hoewel elke industrie unieke uitdagingen heeft, delen ze allemaal een gemeenschappelijke behoefte: de zekerheid dat hun bedrijfssystemen zullen functioneren met maximale veiligheid en betrouwbaarheid. Bij Maintech Solutions passen we onze precisie-engineeringprincipes toe om de visies van onze klanten te vertalen naar operationele waarde, ongeacht de complexiteit van de sector. Ontdek de industrieën waar onze ervaring het verschil maakt."
+    },
+    "badge": "Maintech Solutions",
+    "energy": {
+      "title": "Energie",
+      "description": "We zijn experts in de inbedrijfstelling van combined cycle-installaties en andere energieopwekkingseenheden. Ons rigoureuze test- en gecontroleerd activeringsproces zorgt voor snelle, veilige en geoptimaliseerde opstartingen, waardoor uw vermogen om te reageren op energiemarktvragen wordt gemaximaliseerd."
+    },
+    "chemical": {
+      "title": "Chemisch en petrochemisch",
+      "description": "We hebben grondige kennis van de inbedrijfstelling van veiligheidsinstrumenteersystemen (SIS) en instrumentatie voor gevaarlijke gebieden. We zorgen ervoor dat elke regellus en veiligheidssysteem in uw fabriek perfect is gekalibreerd en gevalideerd, waardoor de bescherming van uw mensen en activa wordt gegarandeerd."
+    },
+    "hydrogen": {
+      "title": "Waterstof",
+      "description": "We lopen voorop in de energietransitie, met ervaring in de precieze instrumentatie die de waterstofeconomie vereist. Van productie tot opslag, we stellen uw systemen in bedrijf om veilige behandeling, nauwkeurige metingen en betrouwbare werking te garanderen."
+    },
+    "storage": {
+      "title": "Opslag en vloeibare bulkterminals",
+      "description": "Onze expertise varieert van de kalibratie van stroom- en niveaumeetsystemen tot de inbedrijfstelling van terminalautomatiseringssystemen (TAS). We zorgen ervoor dat uw opslag- en overdrachtoperaties nauwkeurig, veilig en efficiënt zijn."
+    },
+    "gases": {
+      "title": "Industriële gassen",
+      "description": "We voeren nauwgezette verificatie en inbedrijfstelling uit van de gehele instrumentatieketen, van zuiverheidssensoren tot regelkleppen, zodat uw productie en distributie van industriële gassen foutloos werkt en met maximale veiligheid."
+    },
+    "automotive": {
+      "title": "Automobiel",
+      "description": "We stellen de utiliteitssystemen en regelinfrastructuur in bedrijf die de ruggengraat van uw fabriek vormen. We zorgen ervoor dat energie en vloeistoffen uw robots en assemblagelijnen bereiken met de betrouwbaarheid die nodig is om kostbare productiestops te voorkomen."
+    },
+    "utilities": {
+      "title": "Nutsbedrijven en infrastructuur",
+      "description": "We zijn specialisten in de inbedrijfstelling van beschermings- en regelsystemen in middenspannings- en hoogspanningsstations. We zorgen ervoor dat uw systemen correct reageren op elke netwerkgebeurtenis, uw activa beschermen en de continuïteit van de stroomvoorziening waarborgen."
+    },
+    "cta": {
+      "heading": "LATEN WE PRATEN",
+      "phone": "Telefoon:",
+      "phoneNumber": "+32 492 84 62 33",
+      "email": "E-mail:",
+      "emailAddress": "info{'@'}maintechsolutions.be",
+      "address": "Adres",
+      "addressText": "Heilig-Hartstraat 31\nBeerse 2340 - België"
+    }
   }
 }
