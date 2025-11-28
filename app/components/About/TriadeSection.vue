@@ -3,12 +3,10 @@
     <div class="container mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-16">
         <h2 class="text-4xl md:text-5xl font-bold tracking-wider">
-          OUR IDENTITY
+          {{ $t('about.identity.mainHeading') }}
         </h2>
         <p class="text-xl mt-4 font-medium tracking-wider max-w-4xl mx-auto">
-          Every successful industrial project exists in two states: the state of vision and the state of reality.
-          <br>
-          Understanding both is the key to excellence.
+          {{ $t('about.identity.subheading') }}
         </p>
       </div>
 
@@ -27,11 +25,11 @@
             </div>
 
             <!-- Title -->
-            <h3 class="text-4xl font-bold mb-6 text-[#FF6B00] tracking-wide">Mission</h3>
+            <h3 class="text-4xl font-bold mb-6 text-[#FF6B00] tracking-wide">{{ $t('about.identity.mission.title') }}</h3>
 
             <!-- Description -->
             <p class="text-base leading-relaxed text-gray-300 group-hover:text-white transition-colors duration-300">
-              Ensure the safe, efficient, and reliable delivery of instrumentation and commissioning projects, offering agile and integrated solutions that ensure technical compliance and full customer satisfaction.
+              {{ $t('about.identity.mission.description') }}
             </p>
           </div>
         </div>
@@ -58,11 +56,11 @@
             </div>
 
             <!-- Title -->
-            <h3 class="text-4xl font-bold mb-6 text-[#FF6B00] tracking-wide">Vision</h3>
+            <h3 class="text-4xl font-bold mb-6 text-[#FF6B00] tracking-wide">{{ $t('about.identity.vision.title') }}</h3>
 
             <!-- Description -->
             <p class="text-base leading-relaxed text-gray-300 group-hover:text-white transition-colors duration-300">
-              To be recognized as a reference in commissioning and I&C services in the Benelux region and the Iberian Peninsula, expanding our international presence through technical excellence, continuous innovation, and a solid safety culture.
+              {{ $t('about.identity.vision.description') }}
             </p>
           </div>
         </div>
@@ -89,29 +87,29 @@
             </div>
 
             <!-- Title -->
-            <h3 class="text-4xl font-bold mb-6 text-[#FF6B00] tracking-wide">Values</h3>
+            <h3 class="text-4xl font-bold mb-6 text-[#FF6B00] tracking-wide">{{ $t('about.identity.values.title') }}</h3>
 
             <!-- Values List -->
             <ul class="text-base list-none space-y-3.5">
               <li class="flex items-start group/item">
                 <span class="text-[#FF6B00] mr-3 text-xl font-bold group-hover/item:scale-125 transition-transform duration-300">▸</span>
-                <span class="text-gray-300 group-hover/item:text-white group-hover/item:translate-x-1 transition-all duration-300">Safety first</span>
+                <span class="text-gray-300 group-hover/item:text-white group-hover/item:translate-x-1 transition-all duration-300">{{ $t('about.identity.values.item1') }}</span>
               </li>
               <li class="flex items-start group/item">
                 <span class="text-[#FF6B00] mr-3 text-xl font-bold group-hover/item:scale-125 transition-transform duration-300">▸</span>
-                <span class="text-gray-300 group-hover/item:text-white group-hover/item:translate-x-1 transition-all duration-300">Transparency and traceability</span>
+                <span class="text-gray-300 group-hover/item:text-white group-hover/item:translate-x-1 transition-all duration-300">{{ $t('about.identity.values.item2') }}</span>
               </li>
               <li class="flex items-start group/item">
                 <span class="text-[#FF6B00] mr-3 text-xl font-bold group-hover/item:scale-125 transition-transform duration-300">▸</span>
-                <span class="text-gray-300 group-hover/item:text-white group-hover/item:translate-x-1 transition-all duration-300">Agility and flexibility</span>
+                <span class="text-gray-300 group-hover/item:text-white group-hover/item:translate-x-1 transition-all duration-300">{{ $t('about.identity.values.item3') }}</span>
               </li>
               <li class="flex items-start group/item">
                 <span class="text-[#FF6B00] mr-3 text-xl font-bold group-hover/item:scale-125 transition-transform duration-300">▸</span>
-                <span class="text-gray-300 group-hover/item:text-white group-hover/item:translate-x-1 transition-all duration-300">Commitment to quality</span>
+                <span class="text-gray-300 group-hover/item:text-white group-hover/item:translate-x-1 transition-all duration-300">{{ $t('about.identity.values.item4') }}</span>
               </li>
               <li class="flex items-start group/item">
                 <span class="text-[#FF6B00] mr-3 text-xl font-bold group-hover/item:scale-125 transition-transform duration-300">▸</span>
-                <span class="text-gray-300 group-hover/item:text-white group-hover/item:translate-x-1 transition-all duration-300">Respect for people and the environment</span>
+                <span class="text-gray-300 group-hover/item:text-white group-hover/item:translate-x-1 transition-all duration-300">{{ $t('about.identity.values.item5') }}</span>
               </li>
             </ul>
           </div>

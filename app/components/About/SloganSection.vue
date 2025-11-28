@@ -10,7 +10,7 @@
         </div>
         <div class="w-[691px]">
           <h2 class="text-4xl md:text-5xl font-bold leading-tight">
-            From energy to automation, we transform precision into progress.
+            {{ $t('about.slogan.mainHeading') }}
           </h2>
         </div>
       </div>

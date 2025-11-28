@@ -8,15 +8,15 @@
         </div>
         <div class="flex flex-col gap-[30px]">
           <div class="inline-block bg-[#FFB300] text-white text-sm font-medium tracking-wider rounded-full px-5 py-2 self-start">
-            Who we are
+            {{ $t('about.intro.badge') }}
           </div>
           <h2 class="text-3xl font-medium tracking-wider">
-            From complexity to efficiency: we deliver flawless results
+            {{ $t('about.intro.heading') }}
           </h2>
           <p class="text-lg font-light">
-            Maintech Solutions & Engineering was born to transform complexity into efficiency. Founded in 2022, it emerged with the mission to offer innovative and safe solutions in commissioning, instrumentation, and industrial automation.
+            {{ $t('about.intro.paragraph1') }}
             <br/><br/>
-            Today, we operate throughout the Benelux region and the Iberian Peninsula, bringing technical excellence, innovation, and an unwavering commitment to the safety and reliability of every project.
+            {{ $t('about.intro.paragraph2') }}
           </p>
         </div>
       </div>

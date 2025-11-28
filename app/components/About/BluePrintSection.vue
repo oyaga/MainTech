@@ -23,11 +23,10 @@
           class="bg-[rgba(25,125,175,0.87)] p-2 rounded-2xl shadow-lg max-w-4xl mx-auto flex flex-col gap-2"
         >
           <h2 class="text-5xl font-bold">
-            The Blueprint for Perfect Execution
+            {{ $t('about.blueprint.mainHeading') }}
           </h2>
           <p class="text-xl">
-            Our methodology transforms abstraction into operation through a rigorous and controlled process.
-            Each step is a calculated move to build your reality with maximum reliability and precision.
+            {{ $t('about.blueprint.subheading') }}
           </p>
         </div>
       </div>

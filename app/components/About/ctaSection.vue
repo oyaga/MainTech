@@ -11,14 +11,14 @@
       <div class="space-y-6">
         <div class="inline-block">
           <span class="bg-[#F8AF05]/10 text-[#F8AF05] border border-[#F8AF05]/20 px-6 py-2 rounded-full text-sm font-bold uppercase tracking-wider">
-            Get in touch
+            {{ $t('about.cta.heading') }}
           </span>
         </div>
         <h2 class="text-4xl md:text-5xl font-black text-white leading-tight max-w-5xl mx-auto">
-          Let's Build the Reality of <span class="text-transparent bg-clip-text bg-gradient-to-r from-[#F8AF05] to-[#FE7700]">Your Next Project</span>.
+          {{ $t('about.cta.mainHeading') }}
         </h2>
         <p class="text-lg md:text-xl text-zinc-400 max-w-3xl mx-auto leading-relaxed">
-          Your vision deserves a construction partner that honors it with flawless execution. If you are ready to transform your ambition into your next operational reality, our conversation is overdue.
+          {{ $t('about.cta.subheading') }}
         </p>
       </div>
 
@@ -27,11 +27,11 @@
         <a href="#" class="group relative flex items-center gap-3 bg-gradient-to-r from-[#FE7700] to-[#FFAF00] px-8 py-4 rounded-xl text-white font-bold text-lg transition-all duration-300 hover:shadow-[0_0_30px_rgba(254,119,0,0.4)] hover:-translate-y-1 overflow-hidden">
           <div class="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300"></div>
           <img src="/svg/email.svg" alt="Quote" class="h-6 w-6 brightness-0 invert relative z-10">
-          <span class="relative z-10">Request Quote</span>
+          <span class="relative z-10">{{ $t('about.cta.button1') }}</span>
         </a>
         <a href="#" class="group flex items-center gap-3 bg-white/5 border border-white/10 px-8 py-4 rounded-xl text-white font-bold text-lg transition-all duration-300 hover:bg-white/10 hover:border-[#25D366]/50 hover:text-[#25D366]">
           <img src="/svg/whatsapp-icon.svg" alt="WhatsApp" class="h-6 w-6 transition-transform duration-300 group-hover:scale-110 brightness-0 invert">
-          <span>Chat on WhatsApp</span>
+          <span>{{ $t('about.cta.button2') }}</span>
         </a>
       </div>
 
@@ -44,8 +44,8 @@
               <img src="/svg/phone.svg" alt="Phone" class="w-full h-full object-contain brightness-0 invert">
             </div>
             <div class="space-y-1">
-              <p class="text-zinc-400 text-sm font-medium uppercase tracking-wide">Phone</p>
-              <p class="text-xl font-bold text-white">+32 492 84 62 33</p>
+              <p class="text-zinc-400 text-sm font-medium uppercase tracking-wide">{{ $t('about.cta.phone') }}</p>
+              <p class="text-xl font-bold text-white">{{ $t('about.cta.phoneNumber') }}</p>
             </div>
           </div>
         </div>
@@ -57,8 +57,8 @@
               <img src="/svg/email.svg" alt="Email" class="w-full h-full object-contain brightness-0 invert">
             </div>
             <div class="space-y-1">
-              <p class="text-zinc-400 text-sm font-medium uppercase tracking-wide">E-mail</p>
-              <p class="text-xl font-bold text-white break-all">info@maintechsolutions.be</p>
+              <p class="text-zinc-400 text-sm font-medium uppercase tracking-wide">{{ $t('about.cta.email') }}</p>
+              <p class="text-xl font-bold text-white break-all">{{ $t('about.cta.emailAddress').replace("{'@'}", '@') }}</p>
             </div>
           </div>
         </div>
@@ -70,8 +70,8 @@
               <img src="/svg/whatsapp-icon.svg" alt="Support" class="w-full h-full object-contain brightness-0 invert">
             </div>
             <div class="space-y-1">
-              <p class="text-zinc-400 text-sm font-medium uppercase tracking-wide">Support</p>
-              <p class="text-xl font-bold text-white">24h a day</p>
+              <p class="text-zinc-400 text-sm font-medium uppercase tracking-wide">{{ $t('about.cta.support') }}</p>
+              <p class="text-xl font-bold text-white">{{ $t('about.cta.supportText') }}</p>
             </div>
           </div>
         </div>

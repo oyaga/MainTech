@@ -5,15 +5,14 @@
       <div class="text-center mb-16 space-y-6">
         <div class="inline-block">
           <span class="bg-[#BE8100]/10 text-white border border-white/20 px-6 py-2 rounded-full text-sm font-bold uppercase tracking-wider">
-            Our Values
+            {{ $t('about.values.badge') }}
           </span>
         </div>
         <h2 class="text-4xl md:text-5xl font-black text-white tracking-tight">
-          The Non-Negotiable Pillars of Our Work
+          {{ $t('about.values.mainHeading') }}
         </h2>
         <p class="text-lg md:text-xl text-white/90 max-w-3xl mx-auto leading-relaxed">
-          Our entire work architecture is supported by three fundamental pillars.
-          They ensure that every project we deliver is not just functional, but exemplary.
+          {{ $t('about.values.subheading') }}
         </p>
       </div>
 
@@ -30,9 +29,9 @@
             </div>
             
             <div class="space-y-4">
-              <h3 class="text-2xl font-bold text-white tracking-wide transition-colors">PRECISION</h3>
+              <h3 class="text-2xl font-bold text-white tracking-wide transition-colors">{{ $t('about.values.precision.title') }}</h3>
               <p class="text-white/80 leading-relaxed transition-colors">
-                In our work, "almost" is not an option. Our obsession with technical detail ensures that every calculation, measurement, and test is executed with absolute accuracy. It is the basis of quality.
+                {{ $t('about.values.precision.description') }}
               </p>
             </div>
           </div>
@@ -50,9 +49,9 @@
             </div>
             
             <div class="space-y-4">
-              <h3 class="text-2xl font-bold text-white tracking-wide transition-colors">RELIABILITY</h3>
+              <h3 class="text-2xl font-bold text-white tracking-wide transition-colors">{{ $t('about.values.reliability.title') }}</h3>
               <p class="text-white/80 leading-relaxed transition-colors">
-                Our solutions are built to last and to function under pressure. Reliability is at the center of our process, ensuring that your operation not only starts well but continues to operate consistently.
+                {{ $t('about.values.reliability.description') }}
               </p>
             </div>
           </div>
@@ -70,9 +69,9 @@
             </div>
             
             <div class="space-y-4">
-              <h3 class="text-2xl font-bold text-white tracking-wide transition-colors">SAFETY</h3>
+              <h3 class="text-2xl font-bold text-white tracking-wide transition-colors">{{ $t('about.values.safety.title') }}</h3>
               <p class="text-white/80 leading-relaxed transition-colors">
-                This is the master pillar, the foundation that sustains all others. Safety is our maximum and non-negotiable priority, protecting your people, your assets, and the future of your investment.
+                {{ $t('about.values.safety.description') }}
               </p>
             </div>
           </div>

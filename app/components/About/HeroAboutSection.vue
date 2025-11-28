@@ -23,16 +23,14 @@
         <!-- Left Column - Title -->
         <div class="flex flex-col justify-start">
           <h1 class="text-5xl sm:text-6xl lg:text-7xl font-bold leading-tight tracking-tight">
-            Precision <br/>Engineering for<br/>Ambitious Visions.
+            {{ $t('about.hero.heading') }}
           </h1>
         </div>
 
         <!-- Right Column - Description -->
         <div class="flex flex-col justify-end pb-8 sm:pb-16 lg:pb-32">
           <p class="text-base sm:text-lg lg:text-xl font-light leading-relaxed text-gray-200">
-            A Great Vision Demands an Unshakeable Foundation. We build the technical base
-            of your project with commissioning solutions as robust and
-            reliable as your ambition.
+            {{ $t('about.hero.subheading') }}
           </p>
         </div>
       </div>
