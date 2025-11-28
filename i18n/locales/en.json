@@ -23,48 +23,128 @@
     "sending": "SENDING..."
   },
   "home": {
+    "about": {
+      "badge": "Maintech Solutions",
+      "heading": "In a world of variables, precision is not an option. It's the only answer.",
+      "paragraph1": "Maintech Solutions was born in 2022 with a clear purpose: to offer a new approach to industrial commissioning. We saw the need for a partner that combined decades of technical experience with the agility of a modern and flexible structure. Instead of bureaucracy, we offer direct communication. Instead of delays, we make quick decisions.",
+      "paragraph2": "Our strength lies in seamlessly integrating management with field execution, resulting in fewer failures and greater efficiency. We are the experts who accompany you every step of the way, ensuring your vision materializes without setbacks.",
+      "button": "Discover more"
+    },
     "industries": {
+      "mainHeading": "We master the most demanding industrial sectors.",
+      "subheading": "Our agility and technical knowledge have been tested and approved in the most demanding industrial environments. We operate with confidence and expertise throughout the Benelux region and the Iberian Peninsula, in the following sectors.",
+      "statusBadge": "AVAILABLE",
       "energy": {
-        "title": "ENERGY"
+        "title": "ENERGY",
+        "description": "Commissioning and start-up of CCGT plants ensuring reliability and safe operation.",
+        "items": "CCGT Plants, Reliability, Safe Operation",
+        "tags": "COMMISSIONING, START-UP",
+        "idealFor": "Energy sector companies"
       },
       "chemical": {
-        "title": "CHEMICAL & PETROCHEMICAL"
+        "title": "CHEMICAL & PETROCHEMICAL",
+        "description": "Calibration and loop check in chemical units, focusing on compliance and traceability.",
+        "items": "Calibration, Loop Check, Compliance",
+        "tags": "CHEMICAL, PETROCHEMICAL",
+        "idealFor": "Chemical and petrochemical industries"
       },
       "hydrogen": {
-        "title": "HYDROGEN"
+        "title": "HYDROGEN",
+        "description": "Specialized solutions in green hydrogen production, storage, and distribution projects.",
+        "items": "Green Hydrogen, Production & Storage, Clean Technology",
+        "tags": "GREEN H2, CLEAN ENERGY",
+        "idealFor": "Renewable energy projects"
       },
       "storage": {
-        "title": "STORAGE & TERMINALS"
+        "title": "STORAGE & TERMINALS",
+        "description": "Pre-commissioning and start-up of liquid bulk terminals, ensuring operational efficiency.",
+        "items": "Pre-commissioning, Liquid Terminals, Operational Efficiency",
+        "tags": "TERMINAL, LOGISTICS",
+        "idealFor": "Storage and logistics companies"
       },
       "gases": {
-        "title": "INDUSTRIAL GASES"
+        "title": "INDUSTRIAL GASES",
+        "description": "FAT, SAT, and support in industrial gas distribution and treatment projects.",
+        "items": "FAT & SAT, Distribution, Gas Treatment",
+        "tags": "GASES, INDUSTRIAL",
+        "idealFor": "Industrial gas companies"
       },
       "automotive": {
-        "title": "AUTOMOTIVE"
+        "title": "AUTOMOTIVE",
+        "description": "Automation and control of automotive production lines with high precision and efficiency.",
+        "items": "Production Lines, Industrial Automation, Quality Control",
+        "tags": "AUTOMATION, PRODUCTION",
+        "idealFor": "Automotive industry"
       },
       "utilities": {
-        "title": "UTILITIES & INFRASTRUCTURE"
+        "title": "UTILITIES & INFRASTRUCTURE",
+        "description": "Management and optimization of utility systems and critical industrial infrastructures.",
+        "items": "Utility Systems, Critical Infrastructure, Process Optimization",
+        "tags": "UTILITIES, INFRASTRUCTURE",
+        "idealFor": "Infrastructure managers"
       }
     },
     "services": {
+      "mainHeading": "Our method is your manual for a flawless startup.",
+      "subheading": "We accompany the client from factory tests to the final handover of the plant, ensuring everything works with safety, traceability, and efficiency.",
       "fat": {
-        "title": "FAT/SAT"
+        "title": "FAT / SAT",
+        "subtitle": "FACTORY & SITE ACCEPTANCE TEST",
+        "description": "Tests performed before and after equipment installation. They ensure everything is project-compliant and works correctly, from the factory to the final operation site."
       },
       "calibration": {
-        "title": "Calibration"
+        "title": "Calibration",
+        "subtitle": "INSTRUMENTS AND ACTUATORS",
+        "description": "Consists of adjusting and certifying sensors, valves, and meters so they work with total precision. Each item receives identification and certification, providing confidence and traceability to the process."
       },
       "loopCheck": {
-        "title": "Loop Check"
+        "title": "Loop Check",
+        "subtitle": "SIGNAL VERIFICATION",
+        "description": "It's like a \"communication check\": tests all signals between instruments and control systems. This ensures alarms, safety interlocks, and automatic shutdowns work at the right moment."
       },
       "preCommissioning": {
-        "title": "Pre-Commissioning"
+        "title": "Pre-Commissioning",
+        "subtitle": "PREPARATION AND INSPECTION",
+        "description": "A preparation stage before turning on the plant. Includes field inspections, punch list registration, and cold tests to avoid surprises during start-up."
       },
       "commissioning": {
-        "title": "Commissioning"
+        "title": "Commissioning",
+        "subtitle": "PLANT START-UP",
+        "description": "Here is where the plant truly comes to life. Functional tests and safety validations are performed, accompanying the start-up until everything is stable and safe for operation."
       },
       "documentation": {
-        "title": "Documentation"
+        "title": "Documentation",
+        "subtitle": "HANDOVER & AS-BUILT",
+        "description": "Final delivery of reports, certificates, and all \"as-built\" documentation. This provides transparency and safety for the client to operate the plant."
       }
+    },
+    "status": {
+      "heading": "We have the ideal tools for your needs",
+      "subheading": "We provide specialized support and reliable solutions to ensure your operation never stops. Our experience and technology work in your favor.",
+      "stat1": "Reduction of operational costs",
+      "stat2": "Increase in productivity",
+      "stat3": "Precision in project delivery"
+    },
+    "cta": {
+      "heading": "Call +32 492 84 62 33 or Send a Message"
+    }
+  },
+  "contact": {
+    "hero": {
+      "mainHeading": "Contact us",
+      "subheading": "I'm here to help. Get in touch and discover how I can transform your ideas into digital reality.",
+      "phoneNumber": "+32 492 84 62 33",
+      "emailAddress": "contato@maintech.be"
+    },
+    "form": {
+      "fullName": "Full Name *",
+      "company": "Company",
+      "email": "Email *",
+      "phone": "Phone *",
+      "messagePlaceholder": "Describe your needs or questions..."
+    },
+    "map": {
+      "addressText": "Heilig-Hartstraat 31 Beerse, 2340 - Belgium"
     }
   }
 }

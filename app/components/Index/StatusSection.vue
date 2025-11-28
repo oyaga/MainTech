@@ -3,16 +3,16 @@
     <div class="container mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
         <div>
-          <h2 class="text-5xl font-bold mb-6">We have the ideal tools for your needs</h2>
+          <h2 class="text-5xl font-bold mb-6">{{ $t('home.status.heading') }}</h2>
           <p class="text-2xl font-light">
-            We provide specialized support and reliable solutions to ensure your operation never stops. Our experience and technology work in your favor.
+            {{ $t('home.status.subheading') }}
           </p>
         </div>
         <div class="flex flex-col gap-6">
           <!-- Stat 1 -->
           <div class="opacity-0 translate-y-4 transition-all duration-700" :class="{ 'opacity-100 translate-y-0': isVisible }">
             <div class="flex items-center justify-between mb-2">
-              <h3 class="text-2xl font-bold">Reduction of operational costs</h3>
+              <h3 class="text-2xl font-bold">{{ $t('home.status.stat1') }}</h3>
               <span class="text-3xl font-bold text-[#FFC94B]">{{ animatedValue1 }}%</span>
             </div>
             <div class="w-full bg-[#2A2318] h-5 rounded-full overflow-hidden">
@@ -26,7 +26,7 @@
           <!-- Stat 2 -->
           <div class="opacity-0 translate-y-4 transition-all duration-700 delay-500" :class="{ 'opacity-100 translate-y-0': isVisible }">
             <div class="flex items-center justify-between mb-2">
-              <h3 class="text-2xl font-bold">Increase in productivity</h3>
+              <h3 class="text-2xl font-bold">{{ $t('home.status.stat2') }}</h3>
               <span class="text-3xl font-bold text-[#FFC94B]">{{ animatedValue2 }}%</span>
             </div>
             <div class="w-full bg-[#2A2318] h-5 rounded-full overflow-hidden">
@@ -40,7 +40,7 @@
           <!-- Stat 3 -->
           <div class="opacity-0 translate-y-4 transition-all duration-700 delay-1000" :class="{ 'opacity-100 translate-y-0': isVisible }">
             <div class="flex items-center justify-between mb-2">
-              <h3 class="text-2xl font-bold">Precision in project delivery</h3>
+              <h3 class="text-2xl font-bold">{{ $t('home.status.stat3') }}</h3>
               <span class="text-3xl font-bold text-[#FFC94B]">{{ animatedValue3 }}%</span>
             </div>
             <div class="w-full bg-[#2A2318] h-5 rounded-full overflow-hidden">

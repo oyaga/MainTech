@@ -23,48 +23,128 @@
     "sending": "VERSTUREN..."
   },
   "home": {
+    "about": {
+      "badge": "Maintech Solutions",
+      "heading": "In een wereld van variabelen is precisie geen optie. Het is het enige antwoord.",
+      "paragraph1": "Maintech Solutions werd geboren in 2022 met een duidelijk doel: een nieuwe aanpak bieden voor industriële inbedrijfstelling. We zagen de behoefte aan een partner die tientallen jaren technische ervaring combineert met de flexibiliteit van een moderne en flexibele structuur. In plaats van bureaucratie bieden we directe communicatie. In plaats van vertragingen nemen we snelle beslissingen.",
+      "paragraph2": "Onze kracht ligt in het naadloos integreren van management met uitvoering op het terrein, wat resulteert in minder fouten en grotere efficiëntie. Wij zijn de experts die u bij elke stap begeleiden en ervoor zorgen dat uw visie zonder tegenslagen tot leven komt.",
+      "button": "Ontdek meer"
+    },
     "industries": {
+      "mainHeading": "Wij beheersen de meest veeleisende industriële sectoren.",
+      "subheading": "Onze flexibiliteit en technische kennis zijn getest en goedgekeurd in de meest veeleisende industriële omgevingen. We werken met vertrouwen en expertise in de hele Benelux-regio en het Iberisch schiereiland, in de volgende sectoren.",
+      "statusBadge": "BESCHIKBAAR",
       "energy": {
-        "title": "ENERGIE"
+        "title": "ENERGIE",
+        "description": "Inbedrijfstelling en opstart van STEG-centrales met garantie van betrouwbaarheid en veilige werking.",
+        "items": "STEG-centrales, Betrouwbaarheid, Veilige werking",
+        "tags": "INBEDRIJFSTELLING, OPSTART",
+        "idealFor": "Energiebedrijven"
       },
       "chemical": {
-        "title": "CHEMISCH & PETROCHEMISCH"
+        "title": "CHEMISCH & PETROCHEMISCH",
+        "description": "Kalibratie en loop check in chemische eenheden, met focus op naleving en traceerbaarheid.",
+        "items": "Kalibratie, Loop Check, Naleving",
+        "tags": "CHEMISCH, PETROCHEMISCH",
+        "idealFor": "Chemische en petrochemische industrieën"
       },
       "hydrogen": {
-        "title": "WATERSTOF"
+        "title": "WATERSTOF",
+        "description": "Gespecialiseerde oplossingen voor groene waterstofproductie, opslag en distributieprojecten.",
+        "items": "Groene waterstof, Productie & Opslag, Schone technologie",
+        "tags": "GROENE H2, SCHONE ENERGIE",
+        "idealFor": "Hernieuwbare energieprojecten"
       },
       "storage": {
-        "title": "OPSLAG & TERMINALS"
+        "title": "OPSLAG & TERMINALS",
+        "description": "Pre-inbedrijfstelling en opstart van vloeibare bulkterminals, met garantie van operationele efficiëntie.",
+        "items": "Pre-inbedrijfstelling, Vloeibare terminals, Operationele efficiëntie",
+        "tags": "TERMINAL, LOGISTIEK",
+        "idealFor": "Opslag- en logistiekbedrijven"
       },
       "gases": {
-        "title": "INDUSTRIËLE GASSEN"
+        "title": "INDUSTRIËLE GASSEN",
+        "description": "FAT, SAT en ondersteuning bij industriële gasdistributie en behandelingsprojecten.",
+        "items": "FAT & SAT, Distributie, Gasbehandeling",
+        "tags": "GASSEN, INDUSTRIEEL",
+        "idealFor": "Industriële gasbedrijven"
       },
       "automotive": {
-        "title": "AUTOMOTIVE"
+        "title": "AUTOMOTIVE",
+        "description": "Automatisering en besturing van automotive productielijnen met hoge precisie en efficiëntie.",
+        "items": "Productielijnen, Industriële automatisering, Kwaliteitscontrole",
+        "tags": "AUTOMATISERING, PRODUCTIE",
+        "idealFor": "Automotive industrie"
       },
       "utilities": {
-        "title": "NUTSBEDRIJVEN & INFRASTRUCTUUR"
+        "title": "NUTSBEDRIJVEN & INFRASTRUCTUUR",
+        "description": "Beheer en optimalisatie van nutssystemen en kritieke industriële infrastructuren.",
+        "items": "Nutssystemen, Kritieke infrastructuur, Procesoptimalisatie",
+        "tags": "NUTSBEDRIJVEN, INFRASTRUCTUUR",
+        "idealFor": "Infrastructuurbeheerders"
       }
     },
     "services": {
+      "mainHeading": "Onze methode is uw handboek voor een vlekkeloze opstart.",
+      "subheading": "We begeleiden de klant van fabriekstests tot de definitieve oplevering van de installatie, waarbij we ervoor zorgen dat alles werkt met veiligheid, traceerbaarheid en efficiëntie.",
       "fat": {
-        "title": "FAT/SAT"
+        "title": "FAT / SAT",
+        "subtitle": "FABRIEK & SITE ACCEPTATIETEST",
+        "description": "Tests uitgevoerd voor en na installatie van apparatuur. Ze zorgen ervoor dat alles projectconform is en correct werkt, van de fabriek tot de definitieve operatielocatie."
       },
       "calibration": {
-        "title": "Kalibratie"
+        "title": "Kalibratie",
+        "subtitle": "INSTRUMENTEN EN ACTUATOREN",
+        "description": "Bestaat uit het aanpassen en certificeren van sensoren, kleppen en meters zodat ze met totale precisie werken. Elk item krijgt identificatie en certificering, wat vertrouwen en traceerbaarheid aan het proces geeft."
       },
       "loopCheck": {
-        "title": "Loop Check"
+        "title": "Loop Check",
+        "subtitle": "SIGNAALVERIFICATIE",
+        "description": "Het is als een \"communicatietest\": test alle signalen tussen instrumenten en besturingssystemen. Dit zorgt ervoor dat alarmen, veiligheidsinterlocken en automatische afsluitingen op het juiste moment werken."
       },
       "preCommissioning": {
-        "title": "Pre-Inbedrijfstelling"
+        "title": "Pre-Inbedrijfstelling",
+        "subtitle": "VOORBEREIDING EN INSPECTIE",
+        "description": "Een voorbereidingsfase voordat de installatie wordt ingeschakeld. Omvat veldinspecties, punch list registratie en koude tests om verrassingen tijdens de opstart te voorkomen."
       },
       "commissioning": {
-        "title": "Inbedrijfstelling"
+        "title": "Inbedrijfstelling",
+        "subtitle": "INSTALLATIE OPSTART",
+        "description": "Hier komt de installatie echt tot leven. Functionele tests en veiligheidsvalidaties worden uitgevoerd, waarbij de opstart wordt begeleid totdat alles stabiel en veilig is voor de exploitatie."
       },
       "documentation": {
-        "title": "Documentatie"
+        "title": "Documentatie",
+        "subtitle": "OPLEVERING & AS-BUILT",
+        "description": "Definitieve levering van rapporten, certificaten en alle \"as-built\" documentatie. Dit biedt transparantie en veiligheid voor de klant om de installatie te exploiteren."
       }
+    },
+    "status": {
+      "heading": "We hebben de ideale tools voor uw behoeften",
+      "subheading": "We bieden gespecialiseerde ondersteuning en betrouwbare oplossingen om ervoor te zorgen dat uw operatie nooit stopt. Onze ervaring en technologie werken in uw voordeel.",
+      "stat1": "Vermindering van operationele kosten",
+      "stat2": "Toename van productiviteit",
+      "stat3": "Precisie in projectoplevering"
+    },
+    "cta": {
+      "heading": "Bel +32 492 84 62 33 of Stuur een Bericht"
+    }
+  },
+  "contact": {
+    "hero": {
+      "mainHeading": "Neem contact met ons op",
+      "subheading": "Ik ben hier om te helpen. Neem contact op en ontdek hoe ik uw ideeën kan omzetten in digitale realiteit.",
+      "phoneNumber": "+32 492 84 62 33",
+      "emailAddress": "contato@maintech.be"
+    },
+    "form": {
+      "fullName": "Volledige naam *",
+      "company": "Bedrijf",
+      "email": "E-mail *",
+      "phone": "Telefoon *",
+      "messagePlaceholder": "Beschrijf uw behoeften of vragen..."
+    },
+    "map": {
+      "addressText": "Heilig-Hartstraat 31 Beerse, 2340 - België"
     }
   }
 }

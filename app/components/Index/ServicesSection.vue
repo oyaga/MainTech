@@ -1,9 +1,9 @@
 <template>
   <section ref="sectionRef" class="bg-[#AF8019] text-white py-20">
     <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
-      <h2 class="text-5xl font-bold mb-6">Our method is your manual for a flawless startup.</h2>
+      <h2 class="text-5xl font-bold mb-6">{{ $t('home.services.mainHeading') }}</h2>
       <p class="text-xl font-light mb-12 max-w-4xl mx-auto">
-        We accompany the client from factory tests to the final handover of the plant, ensuring everything works with safety, traceability, and efficiency.
+        {{ $t('home.services.subheading') }}
       </p>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <!-- Card 1: FAT / SAT -->
@@ -17,13 +17,13 @@
           </div>
 
           <div class="flex-1">
-            <h3 class="text-3xl font-bold mb-4 transition-colors duration-300 group-hover:text-[#B07E09]">FAT / SAT</h3>
-            <p class="text-sm font-semibold text-[#B07E09] mb-3 tracking-wider">FACTORY & SITE ACCEPTANCE TEST</p>
-            <p class="text-base leading-relaxed text-gray-700">Tests performed before and after equipment installation. They ensure everything is project-compliant and works correctly, from the factory to the final operation site.</p>
+            <h3 class="text-3xl font-bold mb-4 transition-colors duration-300 group-hover:text-[#B07E09]">{{ $t('home.services.fat.title') }}</h3>
+            <p class="text-sm font-semibold text-[#B07E09] mb-3 tracking-wider">{{ $t('home.services.fat.subtitle') }}</p>
+            <p class="text-base leading-relaxed text-gray-700">{{ $t('home.services.fat.description') }}</p>
           </div>
 
           <a href="/services#fat-sat" class="bg-[#B07E09] text-white rounded-full py-3 px-8 self-start font-semibold transition-all duration-300 hover:bg-[#8B6007] hover:px-10 flex items-center gap-2 group/btn">
-            Learn More
+            {{ $t('buttons.learnMore') }}
             <svg xmlns="http://www.w3.org/2000/svg" width="6" height="11" viewBox="0 0 6 11" fill="none" class="transition-transform duration-300 group-hover/btn:translate-x-1">
               <path d="M1 1L5 5.5L1 10" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
@@ -43,13 +43,13 @@
           </div>
 
           <div class="flex-1">
-            <h3 class="text-3xl font-bold mb-4 transition-colors duration-300 group-hover:text-[#B07E09]">Calibration</h3>
-            <p class="text-sm font-semibold text-[#B07E09] mb-3 tracking-wider">INSTRUMENTS AND ACTUATORS</p>
-            <p class="text-base leading-relaxed text-gray-700">Consists of adjusting and certifying sensors, valves, and meters so they work with total precision. Each item receives identification and certification, providing confidence and traceability to the process.</p>
+            <h3 class="text-3xl font-bold mb-4 transition-colors duration-300 group-hover:text-[#B07E09]">{{ $t('home.services.calibration.title') }}</h3>
+            <p class="text-sm font-semibold text-[#B07E09] mb-3 tracking-wider">{{ $t('home.services.calibration.subtitle') }}</p>
+            <p class="text-base leading-relaxed text-gray-700">{{ $t('home.services.calibration.description') }}</p>
           </div>
 
           <a href="/services#calibracao" class="bg-[#B07E09] text-white rounded-full py-3 px-8 self-start font-semibold transition-all duration-300 hover:bg-[#8B6007] hover:px-10 flex items-center gap-2 group/btn">
-            Learn More
+            {{ $t('buttons.learnMore') }}
             <svg xmlns="http://www.w3.org/2000/svg" width="6" height="11" viewBox="0 0 6 11" fill="none" class="transition-transform duration-300 group-hover/btn:translate-x-1">
               <path d="M1 1L5 5.5L1 10" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
@@ -69,13 +69,13 @@
           </div>
 
           <div class="flex-1">
-            <h3 class="text-3xl font-bold mb-4 transition-colors duration-300 group-hover:text-[#B07E09]">Loop Check</h3>
-            <p class="text-sm font-semibold text-[#B07E09] mb-3 tracking-wider">SIGNAL VERIFICATION</p>
-            <p class="text-base leading-relaxed text-gray-700">It's like a "communication check": tests all signals between instruments and control systems. This ensures alarms, safety interlocks, and automatic shutdowns work at the right moment.</p>
+            <h3 class="text-3xl font-bold mb-4 transition-colors duration-300 group-hover:text-[#B07E09]">{{ $t('home.services.loopCheck.title') }}</h3>
+            <p class="text-sm font-semibold text-[#B07E09] mb-3 tracking-wider">{{ $t('home.services.loopCheck.subtitle') }}</p>
+            <p class="text-base leading-relaxed text-gray-700">{{ $t('home.services.loopCheck.description') }}</p>
           </div>
 
           <a href="/services#loop-check" class="bg-[#B07E09] text-white rounded-full py-3 px-8 self-start font-semibold transition-all duration-300 hover:bg-[#8B6007] hover:px-10 flex items-center gap-2 group/btn">
-            Learn More
+            {{ $t('buttons.learnMore') }}
             <svg xmlns="http://www.w3.org/2000/svg" width="6" height="11" viewBox="0 0 6 11" fill="none" class="transition-transform duration-300 group-hover/btn:translate-x-1">
               <path d="M1 1L5 5.5L1 10" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
@@ -97,13 +97,13 @@
           </div>
 
           <div class="flex-1">
-            <h3 class="text-3xl font-bold mb-4 transition-colors duration-300 group-hover:text-[#B07E09]">Pre-Commissioning</h3>
-            <p class="text-sm font-semibold text-[#B07E09] mb-3 tracking-wider">PREPARATION AND INSPECTION</p>
-            <p class="text-base leading-relaxed text-gray-700">A preparation stage before turning on the plant. Includes field inspections, punch list registration, and cold tests to avoid surprises during start-up.</p>
+            <h3 class="text-3xl font-bold mb-4 transition-colors duration-300 group-hover:text-[#B07E09]">{{ $t('home.services.preCommissioning.title') }}</h3>
+            <p class="text-sm font-semibold text-[#B07E09] mb-3 tracking-wider">{{ $t('home.services.preCommissioning.subtitle') }}</p>
+            <p class="text-base leading-relaxed text-gray-700">{{ $t('home.services.preCommissioning.description') }}</p>
           </div>
 
           <a href="/services#pre-comissionamento" class="bg-[#B07E09] text-white rounded-full py-3 px-8 self-start font-semibold transition-all duration-300 hover:bg-[#8B6007] hover:px-10 flex items-center gap-2 group/btn">
-            Learn More
+            {{ $t('buttons.learnMore') }}
             <svg xmlns="http://www.w3.org/2000/svg" width="6" height="11" viewBox="0 0 6 11" fill="none" class="transition-transform duration-300 group-hover/btn:translate-x-1">
               <path d="M1 1L5 5.5L1 10" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
@@ -123,13 +123,13 @@
           </div>
 
           <div class="flex-1">
-            <h3 class="text-3xl font-bold mb-4 transition-colors duration-300 group-hover:text-[#B07E09]">Commissioning</h3>
-            <p class="text-sm font-semibold text-[#B07E09] mb-3 tracking-wider">PLANT START-UP</p>
-            <p class="text-base leading-relaxed text-gray-700">Here is where the plant truly comes to life. Functional tests and safety validations are performed, accompanying the start-up until everything is stable and safe for operation.</p>
+            <h3 class="text-3xl font-bold mb-4 transition-colors duration-300 group-hover:text-[#B07E09]">{{ $t('home.services.commissioning.title') }}</h3>
+            <p class="text-sm font-semibold text-[#B07E09] mb-3 tracking-wider">{{ $t('home.services.commissioning.subtitle') }}</p>
+            <p class="text-base leading-relaxed text-gray-700">{{ $t('home.services.commissioning.description') }}</p>
           </div>
 
           <a href="/services#comissionamento" class="bg-[#B07E09] text-white rounded-full py-3 px-8 self-start font-semibold transition-all duration-300 hover:bg-[#8B6007] hover:px-10 flex items-center gap-2 group/btn">
-            Learn More
+            {{ $t('buttons.learnMore') }}
             <svg xmlns="http://www.w3.org/2000/svg" width="6" height="11" viewBox="0 0 6 11" fill="none" class="transition-transform duration-300 group-hover/btn:translate-x-1">
               <path d="M1 1L5 5.5L1 10" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
@@ -149,13 +149,13 @@
           </div>
 
           <div class="flex-1">
-            <h3 class="text-3xl font-bold mb-4 transition-colors duration-300 group-hover:text-[#B07E09]">Documentation</h3>
-            <p class="text-sm font-semibold text-[#B07E09] mb-3 tracking-wider">HANDOVER & AS-BUILT</p>
-            <p class="text-base leading-relaxed text-gray-700">Final delivery of reports, certificates, and all "as-built" documentation. This provides transparency and safety for the client to operate the plant.</p>
+            <h3 class="text-3xl font-bold mb-4 transition-colors duration-300 group-hover:text-[#B07E09]">{{ $t('home.services.documentation.title') }}</h3>
+            <p class="text-sm font-semibold text-[#B07E09] mb-3 tracking-wider">{{ $t('home.services.documentation.subtitle') }}</p>
+            <p class="text-base leading-relaxed text-gray-700">{{ $t('home.services.documentation.description') }}</p>
           </div>
 
           <a href="/services#handover" class="bg-[#B07E09] text-white rounded-full py-3 px-8 self-start font-semibold transition-all duration-300 hover:bg-[#8B6007] hover:px-10 flex items-center gap-2 group/btn">
-            Learn More
+            {{ $t('buttons.learnMore') }}
             <svg xmlns="http://www.w3.org/2000/svg" width="6" height="11" viewBox="0 0 6 11" fill="none" class="transition-transform duration-300 group-hover/btn:translate-x-1">
               <path d="M1 1L5 5.5L1 10" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
