@@ -17,67 +17,484 @@
             <!-- Slide 1: First page of cards -->
             <div class="min-w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-2">
               <!-- Card 1: Energy -->
-              <IndustryCard
-                industry="energy"
-                :isVisible="isVisible"
-                delay="0ms"
-              />
+              <div
+                class="relative bg-gradient-to-br from-[#0D0A05] to-[#1A1201] rounded-2xl p-6 flex flex-col gap-5 border border-[#2A2318] overflow-hidden transition-all duration-500 hover:border-[#FFB300] hover:shadow-2xl hover:shadow-[#FFB300]/20 hover:-translate-y-2 group opacity-0 translate-y-8"
+                :class="{ 'opacity-100 translate-y-0': isVisible }"
+              >
+                <div class="absolute inset-0 bg-gradient-to-br from-[#FFB300]/0 to-[#FFB300]/0 group-hover:from-[#FFB300]/5 group-hover:to-transparent transition-all duration-500"></div>
+                <div class="absolute top-0 left-0 w-16 h-16 border-t-2 border-l-2 border-[#FFB300] rounded-tl-2xl transition-all duration-300 group-hover:w-20 group-hover:h-20"></div>
+                <div class="absolute bottom-0 right-0 w-16 h-16 border-b-2 border-r-2 border-[#FFB300] rounded-br-2xl transition-all duration-300 group-hover:w-20 group-hover:h-20"></div>
+
+                <div class="flex items-center gap-2 z-10">
+                  <div class="relative">
+                    <div class="w-2 h-2 bg-[#00FF00] rounded-full"></div>
+                    <div class="absolute inset-0 w-2 h-2 bg-[#00FF00] rounded-full animate-ping opacity-75"></div>
+                  </div>
+                  <span class="text-[#00FF00] text-xs font-bold tracking-wider">{{ $t('home.industries.statusBadge') }}</span>
+                </div>
+
+                <div class="w-16 h-16 bg-[#2A2318] rounded-2xl flex items-center justify-center p-3 transition-all duration-300 group-hover:bg-[#FFB300] group-hover:scale-110 group-hover:rotate-3 z-10">
+                  <img src="/svg/energy.svg" alt="Energy" class="w-full h-full object-contain brightness-0 invert transition-transform duration-300 group-hover:scale-110">
+                </div>
+
+                <h3 class="text-3xl font-bold tracking-tight z-10 transition-colors duration-300 group-hover:text-[#FFB300]">{{ $t('home.industries.energy.title') }}</h3>
+
+                <p class="text-gray-400 text-sm leading-relaxed z-10 transition-colors duration-300 group-hover:text-gray-300">
+                  {{ $t('home.industries.energy.description') }}
+                </p>
+
+                <ul class="space-y-2 text-sm z-10">
+                  <li
+                    v-for="(item, index) in $t('home.industries.energy.items').split(', ')"
+                    :key="index"
+                    class="flex items-start gap-2 transition-transform duration-300 group-hover:translate-x-1"
+                    :style="{ transitionDelay: `${index * 50}ms` }"
+                  >
+                    <span class="text-[#FFB300] mt-1">•</span>
+                    <span>{{ item }}</span>
+                  </li>
+                </ul>
+
+                <div class="flex flex-wrap gap-2 z-10">
+                  <span
+                    v-for="(tag, index) in $t('home.industries.energy.tags').split(', ')"
+                    :key="index"
+                    class="px-4 py-1 border border-[#FFB300] text-[#FFB300] rounded-full text-xs font-semibold tracking-wider transition-all duration-300 hover:bg-[#FFB300] hover:text-[#1A1201]"
+                  >{{ tag }}</span>
+                </div>
+
+                <div class="mt-auto pt-4 border-t border-[#2A2318] z-10 transition-colors duration-300 group-hover:border-[#FFB300]/30">
+                  <p class="text-[#FFB300] text-xs font-bold mb-1">IDEAL FOR:</p>
+                  <p class="text-gray-400 text-xs italic transition-colors duration-300 group-hover:text-gray-300">{{ $t('home.industries.energy.idealFor') }}</p>
+                </div>
+              </div>
 
               <!-- Card 2: Chemical & Petrochemical -->
-              <IndustryCard
-                industry="chemical"
-                :isVisible="isVisible"
-                delay="150ms"
-              />
+              <div
+                class="relative bg-gradient-to-br from-[#0D0A05] to-[#1A1201] rounded-2xl p-6 flex flex-col gap-5 border border-[#2A2318] overflow-hidden transition-all duration-500 hover:border-[#FFB300] hover:shadow-2xl hover:shadow-[#FFB300]/20 hover:-translate-y-2 group opacity-0 translate-y-8"
+                :class="{ 'opacity-100 translate-y-0': isVisible }"
+                style="transition-delay: 150ms"
+              >
+                <div class="absolute inset-0 bg-gradient-to-br from-[#FFB300]/0 to-[#FFB300]/0 group-hover:from-[#FFB300]/5 group-hover:to-transparent transition-all duration-500"></div>
+                <div class="absolute top-0 left-0 w-16 h-16 border-t-2 border-l-2 border-[#FFB300] rounded-tl-2xl transition-all duration-300 group-hover:w-20 group-hover:h-20"></div>
+                <div class="absolute bottom-0 right-0 w-16 h-16 border-b-2 border-r-2 border-[#FFB300] rounded-br-2xl transition-all duration-300 group-hover:w-20 group-hover:h-20"></div>
+
+                <div class="flex items-center gap-2 z-10">
+                  <div class="relative">
+                    <div class="w-2 h-2 bg-[#00FF00] rounded-full"></div>
+                    <div class="absolute inset-0 w-2 h-2 bg-[#00FF00] rounded-full animate-ping opacity-75"></div>
+                  </div>
+                  <span class="text-[#00FF00] text-xs font-bold tracking-wider">{{ $t('home.industries.statusBadge') }}</span>
+                </div>
+
+                <div class="w-16 h-16 bg-[#2A2318] rounded-2xl flex items-center justify-center p-3 transition-all duration-300 group-hover:bg-[#FFB300] group-hover:scale-110 group-hover:rotate-3 z-10">
+                  <img src="/svg/chemicals.svg" alt="Chemical" class="w-full h-full object-contain brightness-0 invert transition-transform duration-300 group-hover:scale-110">
+                </div>
+
+                <h3 class="text-2xl font-bold tracking-tight z-10 transition-colors duration-300 group-hover:text-[#FFB300]">{{ $t('home.industries.chemical.title') }}</h3>
+
+                <p class="text-gray-400 text-sm leading-relaxed z-10 transition-colors duration-300 group-hover:text-gray-300">
+                  {{ $t('home.industries.chemical.description') }}
+                </p>
+
+                <ul class="space-y-2 text-sm z-10">
+                  <li
+                    v-for="(item, index) in $t('home.industries.chemical.items').split(', ')"
+                    :key="index"
+                    class="flex items-start gap-2 transition-transform duration-300 group-hover:translate-x-1"
+                    :style="{ transitionDelay: `${index * 50}ms` }"
+                  >
+                    <span class="text-[#FFB300] mt-1">•</span>
+                    <span>{{ item }}</span>
+                  </li>
+                </ul>
+
+                <div class="flex flex-wrap gap-2 z-10">
+                  <span
+                    v-for="(tag, index) in $t('home.industries.chemical.tags').split(', ')"
+                    :key="index"
+                    class="px-4 py-1 border border-[#FFB300] text-[#FFB300] rounded-full text-xs font-semibold tracking-wider transition-all duration-300 hover:bg-[#FFB300] hover:text-[#1A1201]"
+                  >{{ tag }}</span>
+                </div>
+
+                <div class="mt-auto pt-4 border-t border-[#2A2318] z-10 transition-colors duration-300 group-hover:border-[#FFB300]/30">
+                  <p class="text-[#FFB300] text-xs font-bold mb-1">IDEAL FOR:</p>
+                  <p class="text-gray-400 text-xs italic transition-colors duration-300 group-hover:text-gray-300">{{ $t('home.industries.chemical.idealFor') }}</p>
+                </div>
+              </div>
 
               <!-- Card 3: Hydrogen -->
-              <IndustryCard
-                industry="hydrogen"
-                :isVisible="isVisible"
-                delay="300ms"
-              />
+              <div
+                class="relative bg-gradient-to-br from-[#0D0A05] to-[#1A1201] rounded-2xl p-6 flex flex-col gap-5 border border-[#2A2318] overflow-hidden transition-all duration-500 hover:border-[#FFB300] hover:shadow-2xl hover:shadow-[#FFB300]/20 hover:-translate-y-2 group opacity-0 translate-y-8"
+                :class="{ 'opacity-100 translate-y-0': isVisible }"
+                style="transition-delay: 300ms"
+              >
+                <div class="absolute inset-0 bg-gradient-to-br from-[#FFB300]/0 to-[#FFB300]/0 group-hover:from-[#FFB300]/5 group-hover:to-transparent transition-all duration-500"></div>
+                <div class="absolute top-0 left-0 w-16 h-16 border-t-2 border-l-2 border-[#FFB300] rounded-tl-2xl transition-all duration-300 group-hover:w-20 group-hover:h-20"></div>
+                <div class="absolute bottom-0 right-0 w-16 h-16 border-b-2 border-r-2 border-[#FFB300] rounded-br-2xl transition-all duration-300 group-hover:w-20 group-hover:h-20"></div>
+
+                <div class="flex items-center gap-2 z-10">
+                  <div class="relative">
+                    <div class="w-2 h-2 bg-[#00FF00] rounded-full"></div>
+                    <div class="absolute inset-0 w-2 h-2 bg-[#00FF00] rounded-full animate-ping opacity-75"></div>
+                  </div>
+                  <span class="text-[#00FF00] text-xs font-bold tracking-wider">{{ $t('home.industries.statusBadge') }}</span>
+                </div>
+
+                <div class="w-16 h-16 bg-[#2A2318] rounded-2xl flex items-center justify-center p-3 transition-all duration-300 group-hover:bg-[#FFB300] group-hover:scale-110 group-hover:rotate-3 z-10">
+                  <img src="/svg/hydrogen.svg" alt="Hydrogen" class="w-full h-full object-contain brightness-0 invert transition-transform duration-300 group-hover:scale-110">
+                </div>
+
+                <h3 class="text-3xl font-bold tracking-tight z-10 transition-colors duration-300 group-hover:text-[#FFB300]">{{ $t('home.industries.hydrogen.title') }}</h3>
+
+                <p class="text-gray-400 text-sm leading-relaxed z-10 transition-colors duration-300 group-hover:text-gray-300">
+                  {{ $t('home.industries.hydrogen.description') }}
+                </p>
+
+                <ul class="space-y-2 text-sm z-10">
+                  <li
+                    v-for="(item, index) in $t('home.industries.hydrogen.items').split(', ')"
+                    :key="index"
+                    class="flex items-start gap-2 transition-transform duration-300 group-hover:translate-x-1"
+                    :style="{ transitionDelay: `${index * 50}ms` }"
+                  >
+                    <span class="text-[#FFB300] mt-1">•</span>
+                    <span>{{ item }}</span>
+                  </li>
+                </ul>
+
+                <div class="flex flex-wrap gap-2 z-10">
+                  <span
+                    v-for="(tag, index) in $t('home.industries.hydrogen.tags').split(', ')"
+                    :key="index"
+                    class="px-4 py-1 border border-[#FFB300] text-[#FFB300] rounded-full text-xs font-semibold tracking-wider transition-all duration-300 hover:bg-[#FFB300] hover:text-[#1A1201]"
+                  >{{ tag }}</span>
+                </div>
+
+                <div class="mt-auto pt-4 border-t border-[#2A2318] z-10 transition-colors duration-300 group-hover:border-[#FFB300]/30">
+                  <p class="text-[#FFB300] text-xs font-bold mb-1">IDEAL FOR:</p>
+                  <p class="text-gray-400 text-xs italic transition-colors duration-300 group-hover:text-gray-300">{{ $t('home.industries.hydrogen.idealFor') }}</p>
+                </div>
+              </div>
+
             </div>
 
             <!-- Slide 2: Second page of cards -->
             <div class="min-w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-2">
               <!-- Card 4: Storage & Terminals -->
-              <IndustryCard
-                industry="storage"
-                :isVisible="true"
-              />
+              <div
+                class="relative bg-gradient-to-br from-[#0D0A05] to-[#1A1201] rounded-2xl p-6 flex flex-col gap-5 border border-[#2A2318] overflow-hidden transition-all duration-500 hover:border-[#FFB300] hover:shadow-2xl hover:shadow-[#FFB300]/20 hover:-translate-y-2 group"
+              >
+                <div class="absolute inset-0 bg-gradient-to-br from-[#FFB300]/0 to-[#FFB300]/0 group-hover:from-[#FFB300]/5 group-hover:to-transparent transition-all duration-500"></div>
+                <div class="absolute top-0 left-0 w-16 h-16 border-t-2 border-l-2 border-[#FFB300] rounded-tl-2xl transition-all duration-300 group-hover:w-20 group-hover:h-20"></div>
+                <div class="absolute bottom-0 right-0 w-16 h-16 border-b-2 border-r-2 border-[#FFB300] rounded-br-2xl transition-all duration-300 group-hover:w-20 group-hover:h-20"></div>
 
+                <div class="flex items-center gap-2 z-10">
+                  <div class="relative">
+                    <div class="w-2 h-2 bg-[#00FF00] rounded-full"></div>
+                    <div class="absolute inset-0 w-2 h-2 bg-[#00FF00] rounded-full animate-ping opacity-75"></div>
+                  </div>
+                  <span class="text-[#00FF00] text-xs font-bold tracking-wider">{{ $t('home.industries.statusBadge') }}</span>
+                </div>
+
+                <div class="w-16 h-16 bg-[#2A2318] rounded-2xl flex items-center justify-center p-3 transition-all duration-300 group-hover:bg-[#FFB300] group-hover:scale-110 group-hover:rotate-3 z-10">
+                  <img src="/svg/Storage.svg" alt="Storage" class="w-full h-full object-contain brightness-0 invert transition-transform duration-300 group-hover:scale-110">
+                </div>
+
+                <h3 class="text-xl font-bold tracking-tight z-10 transition-colors duration-300 group-hover:text-[#FFB300]">{{ $t('home.industries.storage.title') }}</h3>
+
+                <p class="text-gray-400 text-sm leading-relaxed z-10 transition-colors duration-300 group-hover:text-gray-300">
+                  {{ $t('home.industries.storage.description') }}
+                </p>
+
+                <ul class="space-y-2 text-sm z-10">
+                  <li
+                    v-for="(item, index) in $t('home.industries.storage.items').split(', ')"
+                    :key="index"
+                    class="flex items-start gap-2 transition-transform duration-300 group-hover:translate-x-1"
+                    :style="{ transitionDelay: `${index * 50}ms` }"
+                  >
+                    <span class="text-[#FFB300] mt-1">•</span>
+                    <span>{{ item }}</span>
+                  </li>
+                </ul>
+
+                <div class="flex flex-wrap gap-2 z-10">
+                  <span
+                    v-for="(tag, index) in $t('home.industries.storage.tags').split(', ')"
+                    :key="index"
+                    class="px-4 py-1 border border-[#FFB300] text-[#FFB300] rounded-full text-xs font-semibold tracking-wider transition-all duration-300 hover:bg-[#FFB300] hover:text-[#1A1201]"
+                  >{{ tag }}</span>
+                </div>
+
+                <div class="mt-auto pt-4 border-t border-[#2A2318] z-10 transition-colors duration-300 group-hover:border-[#FFB300]/30">
+                  <p class="text-[#FFB300] text-xs font-bold mb-1">IDEAL FOR:</p>
+                  <p class="text-gray-400 text-xs italic transition-colors duration-300 group-hover:text-gray-300">{{ $t('home.industries.storage.idealFor') }}</p>
+                </div>
+              </div>
               <!-- Card 5: Industrial Gases -->
-              <IndustryCard
-                industry="gases"
-                :isVisible="true"
-              />
+              <div
+                class="relative bg-gradient-to-br from-[#0D0A05] to-[#1A1201] rounded-2xl p-6 flex flex-col gap-5 border border-[#2A2318] overflow-hidden transition-all duration-500 hover:border-[#FFB300] hover:shadow-2xl hover:shadow-[#FFB300]/20 hover:-translate-y-2 group"
+              >
+                <div class="absolute inset-0 bg-gradient-to-br from-[#FFB300]/0 to-[#FFB300]/0 group-hover:from-[#FFB300]/5 group-hover:to-transparent transition-all duration-500"></div>
+                <div class="absolute top-0 left-0 w-16 h-16 border-t-2 border-l-2 border-[#FFB300] rounded-tl-2xl transition-all duration-300 group-hover:w-20 group-hover:h-20"></div>
+                <div class="absolute bottom-0 right-0 w-16 h-16 border-b-2 border-r-2 border-[#FFB300] rounded-br-2xl transition-all duration-300 group-hover:w-20 group-hover:h-20"></div>
+
+                <div class="flex items-center gap-2 z-10">
+                  <div class="relative">
+                    <div class="w-2 h-2 bg-[#00FF00] rounded-full"></div>
+                    <div class="absolute inset-0 w-2 h-2 bg-[#00FF00] rounded-full animate-ping opacity-75"></div>
+                  </div>
+                  <span class="text-[#00FF00] text-xs font-bold tracking-wider">{{ $t('home.industries.statusBadge') }}</span>
+                </div>
+
+                <div class="w-16 h-16 bg-[#2A2318] rounded-2xl flex items-center justify-center p-3 transition-all duration-300 group-hover:bg-[#FFB300] group-hover:scale-110 group-hover:rotate-3 z-10">
+                  <img src="/svg/industrial-gases.svg" alt="Industrial Gases" class="w-full h-full object-contain brightness-0 invert transition-transform duration-300 group-hover:scale-110">
+                </div>
+
+                <h3 class="text-3xl font-bold tracking-tight z-10 transition-colors duration-300 group-hover:text-[#FFB300]">{{ $t('home.industries.gases.title') }}</h3>
+
+                <p class="text-gray-400 text-sm leading-relaxed z-10 transition-colors duration-300 group-hover:text-gray-300">
+                  {{ $t('home.industries.gases.description') }}
+                </p>
+
+                <ul class="space-y-2 text-sm z-10">
+                  <li
+                    v-for="(item, index) in $t('home.industries.gases.items').split(', ')"
+                    :key="index"
+                    class="flex items-start gap-2 transition-transform duration-300 group-hover:translate-x-1"
+                    :style="{ transitionDelay: `${index * 50}ms` }"
+                  >
+                    <span class="text-[#FFB300] mt-1">•</span>
+                    <span>{{ item }}</span>
+                  </li>
+                </ul>
+
+                <div class="flex flex-wrap gap-2 z-10">
+                  <span
+                    v-for="(tag, index) in $t('home.industries.gases.tags').split(', ')"
+                    :key="index"
+                    class="px-4 py-1 border border-[#FFB300] text-[#FFB300] rounded-full text-xs font-semibold tracking-wider transition-all duration-300 hover:bg-[#FFB300] hover:text-[#1A1201]"
+                  >{{ tag }}</span>
+                </div>
+
+                <div class="mt-auto pt-4 border-t border-[#2A2318] z-10 transition-colors duration-300 group-hover:border-[#FFB300]/30">
+                  <p class="text-[#FFB300] text-xs font-bold mb-1">IDEAL FOR:</p>
+                  <p class="text-gray-400 text-xs italic transition-colors duration-300 group-hover:text-gray-300">{{ $t('home.industries.gases.idealFor') }}</p>
+                </div>
+              </div>
 
               <!-- Card 6: Automotive -->
-              <IndustryCard
-                industry="automotive"
-                :isVisible="true"
-              />
+              <div
+                class="relative bg-gradient-to-br from-[#0D0A05] to-[#1A1201] rounded-2xl p-6 flex flex-col gap-5 border border-[#2A2318] overflow-hidden transition-all duration-500 hover:border-[#FFB300] hover:shadow-2xl hover:shadow-[#FFB300]/20 hover:-translate-y-2 group"
+              >
+                <div class="absolute inset-0 bg-gradient-to-br from-[#FFB300]/0 to-[#FFB300]/0 group-hover:from-[#FFB300]/5 group-hover:to-transparent transition-all duration-500"></div>
+                <div class="absolute top-0 left-0 w-16 h-16 border-t-2 border-l-2 border-[#FFB300] rounded-tl-2xl transition-all duration-300 group-hover:w-20 group-hover:h-20"></div>
+                <div class="absolute bottom-0 right-0 w-16 h-16 border-b-2 border-r-2 border-[#FFB300] rounded-br-2xl transition-all duration-300 group-hover:w-20 group-hover:h-20"></div>
+
+                <div class="flex items-center gap-2 z-10">
+                  <div class="relative">
+                    <div class="w-2 h-2 bg-[#00FF00] rounded-full"></div>
+                    <div class="absolute inset-0 w-2 h-2 bg-[#00FF00] rounded-full animate-ping opacity-75"></div>
+                  </div>
+                  <span class="text-[#00FF00] text-xs font-bold tracking-wider">{{ $t('home.industries.statusBadge') }}</span>
+                </div>
+
+                <div class="w-16 h-16 bg-[#2A2318] rounded-2xl flex items-center justify-center p-3 transition-all duration-300 group-hover:bg-[#FFB300] group-hover:scale-110 group-hover:rotate-3 z-10">
+                  <img src="/svg/automotive.svg" alt="Automotive" class="w-full h-full object-contain brightness-0 invert transition-transform duration-300 group-hover:scale-110">
+                </div>
+
+                <h3 class="text-3xl font-bold tracking-tight z-10 transition-colors duration-300 group-hover:text-[#FFB300]">{{ $t('home.industries.automotive.title') }}</h3>
+
+                <p class="text-gray-400 text-sm leading-relaxed z-10 transition-colors duration-300 group-hover:text-gray-300">
+                  {{ $t('home.industries.automotive.description') }}
+                </p>
+
+                <ul class="space-y-2 text-sm z-10">
+                  <li
+                    v-for="(item, index) in $t('home.industries.automotive.items').split(', ')"
+                    :key="index"
+                    class="flex items-start gap-2 transition-transform duration-300 group-hover:translate-x-1"
+                    :style="{ transitionDelay: `${index * 50}ms` }"
+                  >
+                    <span class="text-[#FFB300] mt-1">•</span>
+                    <span>{{ item }}</span>
+                  </li>
+                </ul>
+
+                <div class="flex flex-wrap gap-2 z-10">
+                  <span
+                    v-for="(tag, index) in $t('home.industries.automotive.tags').split(', ')"
+                    :key="index"
+                    class="px-4 py-1 border border-[#FFB300] text-[#FFB300] rounded-full text-xs font-semibold tracking-wider transition-all duration-300 hover:bg-[#FFB300] hover:text-[#1A1201]"
+                  >{{ tag }}</span>
+                </div>
+
+                <div class="mt-auto pt-4 border-t border-[#2A2318] z-10 transition-colors duration-300 group-hover:border-[#FFB300]/30">
+                  <p class="text-[#FFB300] text-xs font-bold mb-1">IDEAL FOR:</p>
+                  <p class="text-gray-400 text-xs italic transition-colors duration-300 group-hover:text-gray-300">{{ $t('home.industries.automotive.idealFor') }}</p>
+                </div>
+              </div>
+
             </div>
 
             <!-- Slide 3: Third page of cards -->
             <div class="min-w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-2">
               <!-- Card 7: Utilities & Infrastructure -->
-              <IndustryCard
-                industry="utilities"
-                :isVisible="true"
-              />
+              <div
+                class="relative bg-gradient-to-br from-[#0D0A05] to-[#1A1201] rounded-2xl p-6 flex flex-col gap-5 border border-[#2A2318] overflow-hidden transition-all duration-500 hover:border-[#FFB300] hover:shadow-2xl hover:shadow-[#FFB300]/20 hover:-translate-y-2 group"
+              >
+                <div class="absolute inset-0 bg-gradient-to-br from-[#FFB300]/0 to-[#FFB300]/0 group-hover:from-[#FFB300]/5 group-hover:to-transparent transition-all duration-500"></div>
+                <div class="absolute top-0 left-0 w-16 h-16 border-t-2 border-l-2 border-[#FFB300] rounded-tl-2xl transition-all duration-300 group-hover:w-20 group-hover:h-20"></div>
+                <div class="absolute bottom-0 right-0 w-16 h-16 border-b-2 border-r-2 border-[#FFB300] rounded-br-2xl transition-all duration-300 group-hover:w-20 group-hover:h-20"></div>
+
+                <div class="flex items-center gap-2 z-10">
+                  <div class="relative">
+                    <div class="w-2 h-2 bg-[#00FF00] rounded-full"></div>
+                    <div class="absolute inset-0 w-2 h-2 bg-[#00FF00] rounded-full animate-ping opacity-75"></div>
+                  </div>
+                  <span class="text-[#00FF00] text-xs font-bold tracking-wider">{{ $t('home.industries.statusBadge') }}</span>
+                </div>
+
+                <div class="w-16 h-16 bg-[#2A2318] rounded-2xl flex items-center justify-center p-3 transition-all duration-300 group-hover:bg-[#FFB300] group-hover:scale-110 group-hover:rotate-3 z-10">
+                  <img src="/svg/utilities.svg" alt="Utilities" class="w-full h-full object-contain brightness-0 invert transition-transform duration-300 group-hover:scale-110">
+                </div>
+
+                <h3 class="text-2xl font-bold tracking-tight z-10 transition-colors duration-300 group-hover:text-[#FFB300]">{{ $t('home.industries.utilities.title') }}</h3>
+
+                <p class="text-gray-400 text-sm leading-relaxed z-10 transition-colors duration-300 group-hover:text-gray-300">
+                  {{ $t('home.industries.utilities.description') }}
+                </p>
+
+                <ul class="space-y-2 text-sm z-10">
+                  <li
+                    v-for="(item, index) in $t('home.industries.utilities.items').split(', ')"
+                    :key="index"
+                    class="flex items-start gap-2 transition-transform duration-300 group-hover:translate-x-1"
+                    :style="{ transitionDelay: `${index * 50}ms` }"
+                  >
+                    <span class="text-[#FFB300] mt-1">•</span>
+                    <span>{{ item }}</span>
+                  </li>
+                </ul>
+
+                <div class="flex flex-wrap gap-2 z-10">
+                  <span
+                    v-for="(tag, index) in $t('home.industries.utilities.tags').split(', ')"
+                    :key="index"
+                    class="px-4 py-1 border border-[#FFB300] text-[#FFB300] rounded-full text-xs font-semibold tracking-wider transition-all duration-300 hover:bg-[#FFB300] hover:text-[#1A1201]"
+                  >{{ tag }}</span>
+                </div>
+
+                <div class="mt-auto pt-4 border-t border-[#2A2318] z-10 transition-colors duration-300 group-hover:border-[#FFB300]/30">
+                  <p class="text-[#FFB300] text-xs font-bold mb-1">IDEAL FOR:</p>
+                  <p class="text-gray-400 text-xs italic transition-colors duration-300 group-hover:text-gray-300">{{ $t('home.industries.utilities.idealFor') }}</p>
+                </div>
+              </div>
 
               <!-- Card 8: Energy (copy for infinite loop) -->
-              <IndustryCard
-                industry="energy"
-                :isVisible="true"
-              />
+              <div
+                class="relative bg-gradient-to-br from-[#0D0A05] to-[#1A1201] rounded-2xl p-6 flex flex-col gap-5 border border-[#2A2318] overflow-hidden transition-all duration-500 hover:border-[#FFB300] hover:shadow-2xl hover:shadow-[#FFB300]/20 hover:-translate-y-2 group"
+              >
+                <div class="absolute inset-0 bg-gradient-to-br from-[#FFB300]/0 to-[#FFB300]/0 group-hover:from-[#FFB300]/5 group-hover:to-transparent transition-all duration-500"></div>
+                <div class="absolute top-0 left-0 w-16 h-16 border-t-2 border-l-2 border-[#FFB300] rounded-tl-2xl transition-all duration-300 group-hover:w-20 group-hover:h-20"></div>
+                <div class="absolute bottom-0 right-0 w-16 h-16 border-b-2 border-r-2 border-[#FFB300] rounded-br-2xl transition-all duration-300 group-hover:w-20 group-hover:h-20"></div>
+
+                <div class="flex items-center gap-2 z-10">
+                  <div class="relative">
+                    <div class="w-2 h-2 bg-[#00FF00] rounded-full"></div>
+                    <div class="absolute inset-0 w-2 h-2 bg-[#00FF00] rounded-full animate-ping opacity-75"></div>
+                  </div>
+                  <span class="text-[#00FF00] text-xs font-bold tracking-wider">{{ $t('home.industries.statusBadge') }}</span>
+                </div>
+
+                <div class="w-16 h-16 bg-[#2A2318] rounded-2xl flex items-center justify-center p-3 transition-all duration-300 group-hover:bg-[#FFB300] group-hover:scale-110 group-hover:rotate-3 z-10">
+                  <img src="/svg/energy.svg" alt="Energy" class="w-full h-full object-contain brightness-0 invert transition-transform duration-300 group-hover:scale-110">
+                </div>
+
+                <h3 class="text-3xl font-bold tracking-tight z-10 transition-colors duration-300 group-hover:text-[#FFB300]">{{ $t('home.industries.energy.title') }}</h3>
+
+                <p class="text-gray-400 text-sm leading-relaxed z-10 transition-colors duration-300 group-hover:text-gray-300">
+                  {{ $t('home.industries.energy.description') }}
+                </p>
+
+                <ul class="space-y-2 text-sm z-10">
+                  <li
+                    v-for="(item, index) in $t('home.industries.energy.items').split(', ')"
+                    :key="index"
+                    class="flex items-start gap-2 transition-transform duration-300 group-hover:translate-x-1"
+                    :style="{ transitionDelay: `${index * 50}ms` }"
+                  >
+                    <span class="text-[#FFB300] mt-1">•</span>
+                    <span>{{ item }}</span>
+                  </li>
+                </ul>
+
+                <div class="flex flex-wrap gap-2 z-10">
+                  <span
+                    v-for="(tag, index) in $t('home.industries.energy.tags').split(', ')"
+                    :key="index"
+                    class="px-4 py-1 border border-[#FFB300] text-[#FFB300] rounded-full text-xs font-semibold tracking-wider transition-all duration-300 hover:bg-[#FFB300] hover:text-[#1A1201]"
+                  >{{ tag }}</span>
+                </div>
+
+                <div class="mt-auto pt-4 border-t border-[#2A2318] z-10 transition-colors duration-300 group-hover:border-[#FFB300]/30">
+                  <p class="text-[#FFB300] text-xs font-bold mb-1">IDEAL FOR:</p>
+                  <p class="text-gray-400 text-xs italic transition-colors duration-300 group-hover:text-gray-300">{{ $t('home.industries.energy.idealFor') }}</p>
+                </div>
+              </div>
 
               <!-- Card 9: Chemical & Petrochemical (copy for infinite loop) -->
-              <IndustryCard
-                industry="chemical"
-                :isVisible="true"
-              />
+              <div
+                class="relative bg-gradient-to-br from-[#0D0A05] to-[#1A1201] rounded-2xl p-6 flex flex-col gap-5 border border-[#2A2318] overflow-hidden transition-all duration-500 hover:border-[#FFB300] hover:shadow-2xl hover:shadow-[#FFB300]/20 hover:-translate-y-2 group"
+              >
+                <div class="absolute inset-0 bg-gradient-to-br from-[#FFB300]/0 to-[#FFB300]/0 group-hover:from-[#FFB300]/5 group-hover:to-transparent transition-all duration-500"></div>
+                <div class="absolute top-0 left-0 w-16 h-16 border-t-2 border-l-2 border-[#FFB300] rounded-tl-2xl transition-all duration-300 group-hover:w-20 group-hover:h-20"></div>
+                <div class="absolute bottom-0 right-0 w-16 h-16 border-b-2 border-r-2 border-[#FFB300] rounded-br-2xl transition-all duration-300 group-hover:w-20 group-hover:h-20"></div>
+
+                <div class="flex items-center gap-2 z-10">
+                  <div class="relative">
+                    <div class="w-2 h-2 bg-[#00FF00] rounded-full"></div>
+                    <div class="absolute inset-0 w-2 h-2 bg-[#00FF00] rounded-full animate-ping opacity-75"></div>
+                  </div>
+                  <span class="text-[#00FF00] text-xs font-bold tracking-wider">{{ $t('home.industries.statusBadge') }}</span>
+                </div>
+
+                <div class="w-16 h-16 bg-[#2A2318] rounded-2xl flex items-center justify-center p-3 transition-all duration-300 group-hover:bg-[#FFB300] group-hover:scale-110 group-hover:rotate-3 z-10">
+                  <img src="/svg/chemicals.svg" alt="Chemical" class="w-full h-full object-contain brightness-0 invert transition-transform duration-300 group-hover:scale-110">
+                </div>
+
+                <h3 class="text-2xl font-bold tracking-tight z-10 transition-colors duration-300 group-hover:text-[#FFB300]">{{ $t('home.industries.chemical.title') }}</h3>
+
+                <p class="text-gray-400 text-sm leading-relaxed z-10 transition-colors duration-300 group-hover:text-gray-300">
+                  {{ $t('home.industries.chemical.description') }}
+                </p>
+
+                <ul class="space-y-2 text-sm z-10">
+                  <li
+                    v-for="(item, index) in $t('home.industries.chemical.items').split(', ')"
+                    :key="index"
+                    class="flex items-start gap-2 transition-transform duration-300 group-hover:translate-x-1"
+                    :style="{ transitionDelay: `${index * 50}ms` }"
+                  >
+                    <span class="text-[#FFB300] mt-1">•</span>
+                    <span>{{ item }}</span>
+                  </li>
+                </ul>
+
+                <div class="flex flex-wrap gap-2 z-10">
+                  <span
+                    v-for="(tag, index) in $t('home.industries.chemical.tags').split(', ')"
+                    :key="index"
+                    class="px-4 py-1 border border-[#FFB300] text-[#FFB300] rounded-full text-xs font-semibold tracking-wider transition-all duration-300 hover:bg-[#FFB300] hover:text-[#1A1201]"
+                  >{{ tag }}</span>
+                </div>
+
+                <div class="mt-auto pt-4 border-t border-[#2A2318] z-10 transition-colors duration-300 group-hover:border-[#FFB300]/30">
+                  <p class="text-[#FFB300] text-xs font-bold mb-1">IDEAL FOR:</p>
+                  <p class="text-gray-400 text-xs italic transition-colors duration-300 group-hover:text-gray-300">{{ $t('home.industries.chemical.idealFor') }}</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
